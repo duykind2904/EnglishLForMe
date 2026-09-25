@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Học Tiếng Anh Mỗi Ngày</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="day-select-row">
+      <label for="dayPicker">Chọn ngày học:</label>
+      <input type="date" id="dayPicker">
+    </div>
+    <h1 id="topicTitle">Chủ đề</h1>
+    <div class="date" id="dateLabel"></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="paragraph">Đoạn văn</button>
+    <button class="tab-btn" data-tab="vocab">Từ vựng</button>
+    <button class="tab-btn" data-tab="grammar">Ngữ pháp</button>
+    <button class="tab-btn" data-tab="speaking">Luyện nói</button>
+  </div>
+
+  <div class="panel active" id="panel-paragraph"></div>
+  <div class="panel" id="panel-vocab"></div>
+  <div class="panel" id="panel-grammar"></div>
+  <div class="panel" id="panel-speaking"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
