@@ -2237,7 +2237,9 @@ const SPEAK_LANG_PREFIXES = ["en-us", "en-gb", "en-au", "en"];
 // Giọng đọc tự nhiên hay gặp trên iPhone/Mac, Windows, Android -> ưu tiên.
 const GOOD_VOICE_NAMES = ["samantha", "ava", "allison", "susan", "zoe", "evan", "nathan", "tom", "daniel", "karen", "serena", "jenny", "aria", "guy"];
 // Giọng "vui" của iPhone/Mac (cùng lang en-US nhưng đọc rất khó nghe) -> loại bỏ.
-const NOVELTY_VOICE_NAMES = ["albert", "bad news", "bahh", "bells", "boing", "bubbles", "cellos", "deranged", "good news", "hysterical", "jester", "junior", "kathy", "organ", "pipe organ", "princess", "ralph", "superstar", "trinoids", "whisper", "wobble", "zarvox", "fred", "grandma", "grandpa", "rocko", "shelley", "flo", "eddy", "reed", "sandy"];
+const NOVELTY_VOICE_NAMES = ["albert", "bad news", "bahh", "bells", "boing", "bubbles", "cellos", "deranged", "good news", "hysterical", "jester", "junior", "kathy", "organ", "pipe organ", "princess", "ralph", "superstar", "trinoids", "whisper", "wobble", "zarvox", "fred"];
+// Giọng Eloquence (iOS 17+): đọc được nhưng giọng máy móc -> chỉ dùng khi không còn giọng nào khác.
+const ELOQUENCE_VOICE_NAMES = ["eddy", "flo", "grandma", "grandpa", "reed", "rocko", "sandy", "shelley"];
 const VOICE_STORAGE_KEY = "speakVoice:" + SPEAK_LANG;
 let speakVoice = null;
 
@@ -2260,6 +2262,7 @@ function voiceScore(v){
   if(/siri/.test(name)) score += 30;
   if(/google/.test(name)) score += 30;
   if(GOOD_VOICE_NAMES.some(g => name.includes(g))) score += 20;
+  if(ELOQUENCE_VOICE_NAMES.includes(name.replace(/\s*\(.*$/, "").trim())) score -= 30;
   score -= langRank(v) * 5;
   return score;
 }
