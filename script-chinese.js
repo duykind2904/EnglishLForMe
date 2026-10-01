@@ -2265,16 +2265,47 @@ function speakBtn(text){
 
 let currentSpeakBtn = null;
 
+// Trên điện thoại (nhất là Android), chỉ đặt utter.lang là chưa đủ: trình duyệt
+// vẫn dùng giọng mặc định của máy (tiếng Việt). Phải chọn hẳn 1 giọng tiếng Trung.
+const SPEAK_LANG = "zh-CN";
+const SPEAK_LANG_PREFIXES = ["zh-cn", "cmn-hans", "zh-hans", "zh-tw", "cmn", "zh"];
+let speakVoice = null;
+
+function pickVoice(){
+  const voices = window.speechSynthesis.getVoices();
+  const norm = v => (v.lang || "").toLowerCase().replace(/_/g, "-");
+  for(const p of SPEAK_LANG_PREFIXES){
+    const match = voices.find(v => norm(v) === p || norm(v).startsWith(p + "-"));
+    if(match) return match;
+  }
+  return null;
+}
+
+if("speechSynthesis" in window){
+  speakVoice = pickVoice();
+  window.speechSynthesis.onvoiceschanged = () => { speakVoice = pickVoice(); };
+}
+
 function speak(text, btn){
   if(!("speechSynthesis" in window)){
     alert("Trình duyệt này không hỗ trợ phát âm (Text-to-Speech).");
+    return;
+  }
+  if(!speakVoice) speakVoice = pickVoice();
+  // Máy có danh sách giọng nhưng không có giọng tiếng Trung -> báo cách cài thay vì đọc giọng Việt.
+  if(!speakVoice && window.speechSynthesis.getVoices().length > 0){
+    alert("Máy chưa có giọng đọc tiếng Trung.\n\n" +
+      "• Android: Cài đặt > Quản lý chung / Trợ năng > Chuyển văn bản thành giọng nói > Công cụ của Google > Cài đặt dữ liệu giọng nói > tải Tiếng Trung (Quan thoại).\n" +
+      "• iPhone: Cài đặt > Trợ năng > Nội dung được đọc > Giọng nói > tải giọng Tiếng Trung.\n\n" +
+      "Nếu đang mở trong Zalo/Facebook, hãy mở bằng Chrome hoặc Safari.");
     return;
   }
   window.speechSynthesis.cancel();
   if(currentSpeakBtn) currentSpeakBtn.classList.remove("playing");
 
   const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "zh-CN";
+  utter.lang = speakVoice ? speakVoice.lang : SPEAK_LANG;
+  if(speakVoice) utter.voice = speakVoice;
   utter.rate = 0.9;
   utter.onend = () => btn && btn.classList.remove("playing");
   utter.onerror = () => btn && btn.classList.remove("playing");
