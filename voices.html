@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiểm tra giọng đọc</title>
+<style>
+  body{font-family:system-ui,sans-serif;padding:16px;font-size:14px;line-height:1.5}
+  button{font-size:15px;padding:8px 12px;margin:4px 4px 4px 0;border-radius:8px}
+  pre{background:#f4f4f4;padding:10px;border-radius:8px;white-space:pre-wrap;word-break:break-word}
+</style>
+</head>
+<body>
+<h2>Kiểm tra giọng đọc trên máy</h2>
+<p>Chụp màn hình trang này gửi lại để biết máy có những giọng nào.</p>
+<button id="reload">Tải lại danh sách</button>
+<button data-lang="zh-CN" data-text="你好，我是中文老师。">Thử tiếng Trung (chỉ lang)</button>
+<button data-lang="en-US" data-text="Hello, how are you today?">Thử tiếng Anh (chỉ lang)</button>
+<pre id="out">Đang tải...</pre>
+
+<script>
+const out = document.getElementById("out");
+const supported = "speechSynthesis" in window;
+
+function list(){
+  if(!supported){
+    out.textContent = "Trình duyệt KHÔNG hỗ trợ speechSynthesis.\n\n" + navigator.userAgent;
+    return;
+  }
+  const voices = speechSynthesis.getVoices();
+  const zh = voices.filter(v => /^(zh|cmn|yue)/i.test(v.lang));
+  const en = voices.filter(v => /^en/i.test(v.lang));
+  out.textContent =
+    "Trình duyệt: " + navigator.userAgent + "\n\n" +
+    "Tổng số giọng: " + voices.length + "\n" +
+    "Giọng tiếng Trung: " + zh.length + "\n" +
+    "Giọng tiếng Anh: " + en.length + "\n\n" +
+    "--- Tiếng Trung ---\n" + (zh.map(v => v.name + " | " + v.lang + (v.localService ? "" : " | online")).join("\n") || "(không có)") + "\n\n" +
+    "--- Tiếng Anh ---\n" + (en.map(v => v.name + " | " + v.lang + (v.localService ? "" : " | online")).join("\n") || "(không có)");
+  renderVoiceButtons(zh.concat(en));
+}
+
+function renderVoiceButtons(voices){
+  document.querySelectorAll(".voice-test").forEach(b => b.remove());
+  voices.forEach(v => {
+    const b = document.createElement("button");
+    b.className = "voice-test";
+    b.textContent = "▶ " + v.name + " (" + v.lang + ")";
+    b.onclick = () => {
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(/^en/i.test(v.lang) ? "Hello, how are you today?" : "你好，我是中文老师。");
+      u.voice = v;
+      u.lang = v.lang;
+      speechSynthesis.speak(u);
+    };
+    document.body.appendChild(b);
+  });
+}
+
+document.querySelectorAll("button[data-lang]").forEach(b => {
+  b.onclick = () => {
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(b.dataset.text);
+    u.lang = b.dataset.lang;
+    speechSynthesis.speak(u);
+  };
+});
+document.getElementById("reload").onclick = list;
+
+list();
+if(supported) speechSynthesis.onvoiceschanged = list;
+// Một số trình duyệt trên iPhone tải danh sách giọng rất chậm.
+setTimeout(list, 1000);
+setTimeout(list, 3000);
+</script>
+</body>
+</html>
