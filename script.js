@@ -2233,22 +2233,87 @@ let currentSpeakBtn = null;
 // Trên điện thoại (nhất là Android), chỉ đặt utter.lang là chưa đủ: trình duyệt
 // vẫn dùng giọng mặc định của máy (tiếng Việt). Phải chọn hẳn 1 giọng tiếng Anh.
 const SPEAK_LANG = "en-US";
-const SPEAK_LANG_PREFIXES = ["en-us", "en-gb", "en"];
+const SPEAK_LANG_PREFIXES = ["en-us", "en-gb", "en-au", "en"];
+// Giọng đọc tự nhiên hay gặp trên iPhone/Mac, Windows, Android -> ưu tiên.
+const GOOD_VOICE_NAMES = ["samantha", "ava", "allison", "susan", "zoe", "evan", "nathan", "tom", "daniel", "karen", "serena", "jenny", "aria", "guy"];
+// Giọng "vui" của iPhone/Mac (cùng lang en-US nhưng đọc rất khó nghe) -> loại bỏ.
+const NOVELTY_VOICE_NAMES = ["albert", "bad news", "bahh", "bells", "boing", "bubbles", "cellos", "deranged", "good news", "hysterical", "jester", "junior", "kathy", "organ", "pipe organ", "princess", "ralph", "superstar", "trinoids", "whisper", "wobble", "zarvox", "fred", "grandma", "grandpa", "rocko", "shelley", "flo", "eddy", "reed", "sandy"];
+const VOICE_STORAGE_KEY = "speakVoice:" + SPEAK_LANG;
 let speakVoice = null;
 
+function normLang(v){
+  return (v.lang || "").toLowerCase().replace(/_/g, "-");
+}
+
+function langRank(v){
+  const l = normLang(v);
+  const i = SPEAK_LANG_PREFIXES.findIndex(p => l === p || l.startsWith(p + "-"));
+  return i;
+}
+
+function voiceScore(v){
+  const name = v.name.toLowerCase();
+  let score = 0;
+  if(/premium|cao cấp/.test(name)) score += 50;
+  if(/enhanced|nâng cao/.test(name)) score += 40;
+  if(/natural|online|neural/.test(name)) score += 40;
+  if(/siri/.test(name)) score += 30;
+  if(/google/.test(name)) score += 30;
+  if(GOOD_VOICE_NAMES.some(g => name.includes(g))) score += 20;
+  score -= langRank(v) * 5;
+  return score;
+}
+
+function candidateVoices(){
+  return window.speechSynthesis.getVoices()
+    .filter(v => langRank(v) >= 0)
+    .filter(v => !NOVELTY_VOICE_NAMES.includes(v.name.toLowerCase().replace(/\s*\(.*$/, "").trim()))
+    .sort((a, b) => voiceScore(b) - voiceScore(a));
+}
+
 function pickVoice(){
-  const voices = window.speechSynthesis.getVoices();
-  const norm = v => (v.lang || "").toLowerCase().replace(/_/g, "-");
-  for(const p of SPEAK_LANG_PREFIXES){
-    const match = voices.find(v => norm(v) === p || norm(v).startsWith(p + "-"));
-    if(match) return match;
+  const voices = candidateVoices();
+  const saved = localStorage.getItem(VOICE_STORAGE_KEY);
+  return voices.find(v => v.voiceURI === saved) || voices[0] || null;
+}
+
+// Ô chọn giọng đọc trong header: máy nào giọng tự chọn chưa hay thì chọn tay.
+function renderVoiceSelect(){
+  const header = document.querySelector(".header");
+  if(!header) return;
+  const voices = candidateVoices();
+  let row = document.getElementById("voiceRow");
+  if(voices.length < 2){
+    if(row) row.remove();
+    return;
   }
-  return null;
+  if(!row){
+    row = document.createElement("div");
+    row.id = "voiceRow";
+    row.className = "day-select-row";
+    row.innerHTML = `<label for="voicePicker">Giọng đọc:</label><select id="voicePicker"></select>`;
+    const dayRow = header.querySelector(".day-select-row");
+    dayRow ? dayRow.after(row) : header.prepend(row);
+    row.querySelector("select").addEventListener("change", (e) => {
+      localStorage.setItem(VOICE_STORAGE_KEY, e.target.value);
+      speakVoice = pickVoice();
+    });
+  }
+  const select = row.querySelector("select");
+  select.innerHTML = voices.map(v =>
+    `<option value="${escapeAttr(v.voiceURI)}">${escapeAttr(v.name)} (${v.lang})</option>`
+  ).join("");
+  if(speakVoice) select.value = speakVoice.voiceURI;
+}
+
+function refreshVoices(){
+  speakVoice = pickVoice();
+  renderVoiceSelect();
 }
 
 if("speechSynthesis" in window){
-  speakVoice = pickVoice();
-  window.speechSynthesis.onvoiceschanged = () => { speakVoice = pickVoice(); };
+  refreshVoices();
+  window.speechSynthesis.onvoiceschanged = refreshVoices;
 }
 
 function speak(text, btn){

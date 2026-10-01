@@ -53,7 +53,8 @@
     text-transform:uppercase;
     opacity:0.85;
   }
-  .header #dayPicker{
+  .header #dayPicker,
+  .header #voicePicker{
     font-size:14px;
     font-weight:600;
     padding:6px 10px;
@@ -63,6 +64,9 @@
     color:#fff;
     cursor:pointer;
     color-scheme:dark;
+  }
+  .header #voicePicker{
+    max-width:65vw;
   }
   .header h1{
     margin:6px 0 4px;
