@@ -4,13 +4,19 @@ const LANGUAGES = [
     flag: "🇬🇧",
     name: "Tiếng Anh",
     desc: "Đoạn văn, từ vựng, ngữ pháp và luyện nói mỗi ngày.",
-    href: "english.html"
+    href: "english/english.html"
+  },
+  {
+    flag: "📚",
+    name: "3000 Từ Vựng Tiếng Anh",
+    desc: "Học theo bài 20 từ: danh sách, flashcard và kiểm tra trắc nghiệm.",
+    href: "vocab/vocab.html"
   },
   {
     flag: "🇨🇳",
     name: "Tiếng Trung",
     desc: "Chữ Hán, pinyin, ngữ pháp và luyện nói mỗi ngày.",
-    href: "chinese.html"
+    href: "chinese/chinese.html"
   }
 ];
 

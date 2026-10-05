@@ -54,7 +54,8 @@
     opacity:0.85;
   }
   .header #dayPicker,
-  .header #voicePicker{
+  .header #voicePicker,
+  .header #lessonPicker{
     font-size:14px;
     font-weight:600;
     padding:6px 10px;
@@ -65,8 +66,13 @@
     cursor:pointer;
     color-scheme:dark;
   }
-  .header #voicePicker{
+  .header #voicePicker,
+  .header #lessonPicker{
     max-width:65vw;
+  }
+  .header #lessonPicker option,
+  .header #voicePicker option{
+    color:var(--text);
   }
   .header h1{
     margin:6px 0 4px;
@@ -335,4 +341,211 @@
   .lang-desc{
     font-size:13px;
     color:var(--muted);
+  }
+  /* ---------- Trang 3000 từ vựng (vocab.html) ---------- */
+  .vc-progress{
+    margin-top:10px;
+    height:8px;
+    border-radius:4px;
+    background:rgba(255,255,255,0.25);
+    overflow:hidden;
+  }
+  .vc-progress-bar{
+    height:100%;
+    width:0;
+    background:#fff;
+    transition:width .3s ease;
+  }
+  .vc-toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:12px 18px;
+    padding:12px 16px;
+    font-size:14px;
+  }
+  .vc-toolbar label{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    cursor:pointer;
+  }
+  .vc-toolbar input[type=search]{
+    flex:1 1 240px;
+    font-size:15px;
+    padding:8px 12px;
+    border:1px solid var(--border);
+    border-radius:8px;
+  }
+  .vc-btn,
+  .vc-learned-btn{
+    font-size:14px;
+    font-weight:600;
+    padding:8px 14px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:#fff;
+    color:var(--primary);
+    cursor:pointer;
+  }
+  .vc-btn:hover:not(:disabled),
+  .vc-learned-btn:hover{
+    background:#eef2fc;
+  }
+  .vc-btn:disabled{
+    opacity:0.4;
+    cursor:default;
+  }
+  .vc-btn.primary{
+    background:var(--primary);
+    border-color:var(--primary);
+    color:#fff;
+  }
+  .vc-learned-btn{
+    font-size:12px;
+    padding:5px 10px;
+    color:var(--muted);
+  }
+  .vc-learned-btn.on{
+    background:#e7f6ef;
+    border-color:#b6e2cc;
+    color:var(--green);
+  }
+  .vc-word-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  .vc-no{
+    font-size:12px;
+    color:var(--muted);
+    min-width:32px;
+  }
+  .sentence-block.is-learned .en{
+    color:var(--green);
+  }
+  .vc-type{
+    display:inline-block;
+    font-size:12px;
+    color:var(--primary-dark);
+    background:#eef2fc;
+    border-radius:4px;
+    padding:1px 6px;
+    margin-right:8px;
+  }
+  .vc-missing{
+    font-size:13px;
+    color:var(--muted);
+    font-style:italic;
+  }
+  .vc-examples{
+    margin:8px 0 0;
+    padding-left:18px;
+    font-size:14px;
+  }
+  .vc-examples li{
+    margin:4px 0;
+  }
+  .vc-examples li > span{
+    margin-right:6px;
+  }
+  .vc-examples .speak-btn{
+    display:inline-flex;
+    vertical-align:middle;
+    width:24px;
+    height:24px;
+    font-size:11px;
+  }
+  .vc-note{
+    font-size:13px;
+    color:var(--muted);
+    margin:0 0 8px;
+  }
+  .vc-flashcard{
+    min-height:240px;
+    text-align:center;
+    cursor:pointer;
+    user-select:none;
+    padding:28px 20px;
+  }
+  .vc-flashcard .vc-examples{
+    text-align:left;
+    display:inline-block;
+  }
+  .vc-count{
+    font-size:12px;
+    color:var(--muted);
+    margin-bottom:14px;
+  }
+  .vc-big-word{
+    font-size:32px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+  }
+  .vc-quiz-vi{
+    font-size:24px;
+    color:var(--green);
+  }
+  .vc-flash-hint{
+    margin-top:30px;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .vc-flash-back{
+    margin-top:14px;
+  }
+  .vc-flash-back .vi{
+    font-size:18px;
+  }
+  .vc-nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:14px;
+  }
+  .vc-options{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:10px;
+    margin-top:20px;
+  }
+  .vc-option{
+    font-size:15px;
+    padding:12px 14px;
+    text-align:left;
+    border:1px solid var(--border);
+    border-radius:10px;
+    background:#fff;
+    color:var(--text);
+    cursor:pointer;
+  }
+  .vc-option:hover:not(:disabled){
+    border-color:var(--primary);
+    background:#f7f9ff;
+  }
+  .vc-option:disabled{
+    cursor:default;
+  }
+  .vc-option.correct{
+    background:#e7f6ef;
+    border-color:var(--green);
+    color:var(--green);
+    font-weight:600;
+  }
+  .vc-option.wrong{
+    background:#fdecec;
+    border-color:#d64545;
+    color:#b42323;
+  }
+  .vc-quiz-result{
+    font-size:18px;
+    color:var(--text);
+  }
+  .vc-big-word + .phonetic{
+    text-align:center;
   }

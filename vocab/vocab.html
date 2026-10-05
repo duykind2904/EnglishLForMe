@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3000 Từ Vựng Tiếng Anh</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <a class="back-link" href="../index.html">← Chọn ngôn ngữ khác</a>
+    <div class="day-select-row">
+      <label for="lessonPicker">Chọn bài:</label>
+      <select id="lessonPicker"></select>
+    </div>
+    <h1>3000 Từ Vựng Tiếng Anh</h1>
+    <div class="date" id="progressLabel"></div>
+    <div class="vc-progress"><div class="vc-progress-bar" id="progressBar"></div></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="list">Danh sách</button>
+    <button class="tab-btn" data-tab="flash">Flashcard</button>
+    <button class="tab-btn" data-tab="quiz">Kiểm tra</button>
+  </div>
+
+  <div class="panel active" id="panel-list"></div>
+  <div class="panel" id="panel-flash"></div>
+  <div class="panel" id="panel-quiz"></div>
+
+</div>
+
+<script src="vocab-data.js"></script>
+<script src="vocab.js"></script>
+</body>
+</html>
