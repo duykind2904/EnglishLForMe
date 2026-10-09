@@ -2,7 +2,7 @@
 // Chỉ các ngày từ MIN_DATE (ngày bắt đầu học) trở đi mới được hiển thị/chọn.
 const CHINESE_LESSONS = [
   {
-    date: "2026-09-28",
+    date: "2026-10-05",
     topic: "Giới thiệu bản thân (自我介绍)",
     sentences: [
       {
@@ -168,7 +168,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-09-29",
+    date: "2026-10-06",
     topic: "Gia đình (家庭)",
     sentences: [
       {
@@ -334,7 +334,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-09-30",
+    date: "2026-10-07",
     topic: "Đồ ăn & Nhà hàng (饮食与餐厅)",
     sentences: [
       {
@@ -499,7 +499,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-01",
+    date: "2026-10-08",
     topic: "Thời tiết & Các mùa (天气与季节)",
     sentences: [
       {
@@ -665,7 +665,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-02",
+    date: "2026-10-09",
     topic: "Mua sắm (购物)",
     sentences: [
       {
@@ -830,7 +830,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-03",
+    date: "2026-10-10",
     topic: "Ôn tập tuần 1: Từ vựng & Ngữ pháp (Weekly Review 1 — 词语与语法)",
     sentences: [
       {
@@ -988,7 +988,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-04",
+    date: "2026-10-11",
     topic: "Ôn tập tuần 1: Luyện nói tổng hợp (Weekly Review 2 — 口语综合练习)",
     sentences: [
       {
@@ -1144,7 +1144,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-05",
+    date: "2026-10-12",
     topic: "Du lịch & Phương tiện di chuyển (旅行与交通)",
     sentences: [
       {
@@ -1303,7 +1303,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-06",
+    date: "2026-10-13",
     topic: "Sức khỏe & Tập luyện (健康与锻炼)",
     sentences: [
       {
@@ -1462,7 +1462,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-07",
+    date: "2026-10-14",
     topic: "Sở thích & Thời gian rảnh (爱好与空闲时间)",
     sentences: [
       {
@@ -1622,7 +1622,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-08",
+    date: "2026-10-15",
     topic: "Công việc & Cuộc sống văn phòng (工作与办公室生活)",
     sentences: [
       {
@@ -1782,7 +1782,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-09",
+    date: "2026-10-16",
     topic: "Công nghệ & Mạng xã hội (科技与社交媒体)",
     sentences: [
       {
@@ -1941,7 +1941,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-10",
+    date: "2026-10-17",
     topic: "Ôn tập tuần 2: Từ vựng & Ngữ pháp (Weekly Review 3 — 词语与语法)",
     sentences: [
       {
@@ -2098,7 +2098,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-11",
+    date: "2026-10-18",
     topic: "Ôn tập tuần 2: Luyện nói tổng hợp (Weekly Review 4 — 口语综合练习)",
     sentences: [
       {
@@ -2250,6 +2250,1122 @@ const CHINESE_LESSONS = [
         question: "除非发生什么情况，你才不会去旅行？",
         vi: "Trừ khi xảy ra tình huống gì, bạn mới không đi du lịch?",
         hint: "Dùng <b>除非...否则...</b>."
+      }
+    ]
+  },
+  {
+    date: "2026-10-19",
+    topic: "Họp hành (开会)",
+    sentences: [
+      {
+        zh: "每周一上午十点，我们部门都要开一次例会。",
+        pinyin: "Měi zhōuyī shàngwǔ shí diǎn, wǒmen bùmén dōu yào kāi yí cì lìhuì.",
+        vi: "Mười giờ sáng thứ Hai hằng tuần, phòng chúng tôi đều phải họp giao ban một lần."
+      },
+      {
+        zh: "开会之前，经理会把会议议程发到大家的邮箱里。",
+        pinyin: "Kāihuì zhīqián, jīnglǐ huì bǎ huìyì yìchéng fā dào dàjiā de yóuxiāng lǐ.",
+        vi: "Trước khi họp, quản lý sẽ gửi chương trình cuộc họp vào hộp thư của mọi người."
+      },
+      {
+        zh: "会议一开始，每个人先简单汇报一下上周的工作进度。",
+        pinyin: "Huìyì yì kāishǐ, měi gè rén xiān jiǎndān huìbào yíxià shàng zhōu de gōngzuò jìndù.",
+        vi: "Cuộc họp vừa bắt đầu, mỗi người báo cáo ngắn gọn tiến độ công việc của tuần trước."
+      },
+      {
+        zh: "轮到我发言的时候，我总是有点儿紧张，说话也比较快。",
+        pinyin: "Lúndào wǒ fāyán de shíhou, wǒ zǒngshì yǒudiǎnr jǐnzhāng, shuōhuà yě bǐjiào kuài.",
+        vi: "Khi đến lượt tôi phát biểu, tôi luôn hơi căng thẳng, nói cũng khá nhanh."
+      },
+      {
+        zh: "如果对别人的方案有不同意见，我们可以提出来，大家一起讨论。",
+        pinyin: "Rúguǒ duì biérén de fāng'àn yǒu bùtóng yìjiàn, wǒmen kěyǐ tí chūlai, dàjiā yìqǐ tǎolùn.",
+        vi: "Nếu có ý kiến khác về phương án của người khác, chúng tôi có thể nêu ra để mọi người cùng thảo luận."
+      },
+      {
+        zh: "小王负责做会议记录，会后把记录整理好发给每个人。",
+        pinyin: "Xiǎo Wáng fùzé zuò huìyì jìlù, huì hòu bǎ jìlù zhěnglǐ hǎo fā gěi měi gè rén.",
+        vi: "Tiểu Vương phụ trách ghi biên bản cuộc họp, sau buổi họp sắp xếp lại biên bản rồi gửi cho từng người."
+      },
+      {
+        zh: "上次的会开了整整两个小时，大家都快坐不住了。",
+        pinyin: "Shàng cì de huì kāile zhěngzhěng liǎng gè xiǎoshí, dàjiā dōu kuài zuò bu zhù le.",
+        vi: "Cuộc họp lần trước kéo dài tròn hai tiếng, ai cũng sắp ngồi không yên nữa rồi."
+      },
+      {
+        zh: "所以经理规定，以后每次开会不能超过一个小时。",
+        pinyin: "Suǒyǐ jīnglǐ guīdìng, yǐhòu měi cì kāihuì bù néng chāoguò yí gè xiǎoshí.",
+        vi: "Vì vậy quản lý quy định, từ nay mỗi lần họp không được quá một tiếng."
+      },
+      {
+        zh: "有时候同事在外地出差，我们就开视频会议。",
+        pinyin: "Yǒu shíhou tóngshì zài wàidì chūchāi, wǒmen jiù kāi shìpín huìyì.",
+        vi: "Có lúc đồng nghiệp đi công tác ở tỉnh khác, chúng tôi sẽ họp trực tuyến qua video."
+      },
+      {
+        zh: "会议结束前，经理会确认每个人接下来要完成的任务。",
+        pinyin: "Huìyì jiéshù qián, jīnglǐ huì quèrèn měi gè rén jiēxiàlái yào wánchéng de rènwu.",
+        vi: "Trước khi kết thúc cuộc họp, quản lý sẽ xác nhận nhiệm vụ mà mỗi người cần hoàn thành tiếp theo."
+      }
+    ],
+    vocabulary: [
+      { word: "部门", pinyin: "bùmén", type: "n", meaning: "phòng ban, bộ phận" },
+      { word: "例会", pinyin: "lìhuì", type: "n", meaning: "cuộc họp định kỳ, họp giao ban" },
+      { word: "会议", pinyin: "huìyì", type: "n", meaning: "cuộc họp, hội nghị" },
+      { word: "议程", pinyin: "yìchéng", type: "n", meaning: "chương trình nghị sự" },
+      { word: "汇报", pinyin: "huìbào", type: "v", meaning: "báo cáo (lên cấp trên)" },
+      { word: "进度", pinyin: "jìndù", type: "n", meaning: "tiến độ" },
+      { word: "轮到", pinyin: "lúndào", type: "v", meaning: "đến lượt" },
+      { word: "发言", pinyin: "fāyán", type: "v", meaning: "phát biểu" },
+      { word: "方案", pinyin: "fāng'àn", type: "n", meaning: "phương án, đề án" },
+      { word: "意见", pinyin: "yìjiàn", type: "n", meaning: "ý kiến" },
+      { word: "负责", pinyin: "fùzé", type: "v", meaning: "phụ trách, chịu trách nhiệm" },
+      { word: "会议记录", pinyin: "huìyì jìlù", type: "n", meaning: "biên bản cuộc họp" },
+      { word: "整理", pinyin: "zhěnglǐ", type: "v", meaning: "sắp xếp, chỉnh lý" },
+      { word: "规定", pinyin: "guīdìng", type: "v/n", meaning: "quy định" },
+      { word: "视频会议", pinyin: "shìpín huìyì", type: "n", meaning: "họp trực tuyến (qua video)" },
+      { word: "确认", pinyin: "quèrèn", type: "v", meaning: "xác nhận" }
+    ],
+    grammar: [
+      {
+        sentence: "每周一上午十点，我们部门都要开一次例会。",
+        explain: "Cấu trúc <b>每...都...</b> diễn tả việc lặp lại đều đặn ('mỗi...đều...'). <b>开会</b> là động từ ly hợp nên lượng từ động tác chen vào giữa: <b>开一次会 / 开一次例会</b>."
+      },
+      {
+        sentence: "开会之前，经理会把会议议程发到大家的邮箱里。",
+        explain: "<b>...之前</b> = 'trước khi...' (trang trọng hơn 以前 một chút). Câu chữ 把: <b>把 + tân ngữ + động từ + 到 + nơi chốn</b> diễn tả đưa vật đến đâu."
+      },
+      {
+        sentence: "会议一开始，每个人先简单汇报一下上周的工作进度。",
+        explain: "<b>一 + động từ</b> (一开始) nghĩa 'vừa...thì', nối với hành động ngay sau. <b>先</b> chỉ việc làm trước; <b>汇报一下</b> dùng 一下 làm nhẹ hành động."
+      },
+      {
+        sentence: "轮到我发言的时候，我总是有点儿紧张，说话也比较快。",
+        explain: "<b>轮到 + người + động từ</b> = 'đến lượt ai làm gì'. <b>有点儿 + tính từ</b> diễn tả mức độ nhẹ, thường mang sắc thái không như ý."
+      },
+      {
+        sentence: "如果对别人的方案有不同意见，我们可以提出来，大家一起讨论。",
+        explain: "<b>对 + N + 有意见</b> = 'có ý kiến về...'. Bổ ngữ xu hướng <b>提出来</b> (nêu ra) diễn tả đưa một điều từ trong ra ngoài, từ chưa có thành có."
+      },
+      {
+        sentence: "小王负责做会议记录，会后把记录整理好发给每个人。",
+        explain: "<b>负责 + động từ/danh từ</b> = 'phụ trách việc...'. <b>整理好</b> dùng bổ ngữ kết quả <b>好</b> (làm xong, làm tốt); <b>发给 + người</b> = gửi cho ai."
+      },
+      {
+        sentence: "上次的会开了整整两个小时，大家都快坐不住了。",
+        explain: "<b>động từ + 了 + thời lượng</b> chỉ hành động kéo dài bao lâu; <b>整整</b> nhấn mạnh 'tròn, trọn'. Bổ ngữ khả năng <b>坐不住</b> = không ngồi yên được; <b>快...了</b> = sắp..."
+      },
+      {
+        sentence: "所以经理规定，以后每次开会不能超过一个小时。",
+        explain: "<b>所以</b> nối kết quả với câu trước. <b>不能超过 + số lượng</b> = 'không được vượt quá...'. <b>以后</b> đứng đầu nghĩa 'từ nay về sau'."
+      },
+      {
+        sentence: "有时候同事在外地出差，我们就开视频会议。",
+        explain: "<b>有时候...就...</b>: phó từ <b>就</b> nối kết quả tự nhiên xảy ra trong tình huống đó. <b>在 + nơi chốn + động từ</b> (在外地出差)."
+      },
+      {
+        sentence: "会议结束前，经理会确认每个人接下来要完成的任务。",
+        explain: "<b>...前</b> là dạng rút gọn của 之前/以前. Định ngữ dài <b>每个人接下来要完成的 + 任务</b>: cả cụm chủ–vị đứng trước <b>的</b> để bổ nghĩa cho danh từ."
+      }
+    ],
+    speaking: [
+      {
+        cues: "部门 / 多久 / 开会",
+        question: "你们部门多久开一次会？",
+        vi: "Phòng của bạn bao lâu họp một lần?",
+        hint: "Dùng <b>每...都要开一次...</b>"
+      },
+      {
+        cues: "开会之前 / 准备",
+        question: "开会之前，你一般要准备什么？",
+        vi: "Trước khi họp, bạn thường phải chuẩn bị những gì?",
+        hint: "Dùng <b>开会之前，我会把...</b>"
+      },
+      {
+        cues: "轮到 / 发言 / 紧张",
+        question: "轮到你发言的时候，你会紧张吗？",
+        vi: "Khi đến lượt bạn phát biểu, bạn có căng thẳng không?",
+        hint: "Dùng <b>轮到我...的时候，我...</b>"
+      },
+      {
+        cues: "不同意见 / 方案",
+        question: "如果你对同事的方案有不同意见，你会怎么做？",
+        vi: "Nếu bạn có ý kiến khác về phương án của đồng nghiệp, bạn sẽ làm thế nào?",
+        hint: "Dùng <b>如果...，我会提出来...</b>"
+      },
+      {
+        cues: "会议记录 / 负责",
+        question: "你们开会的时候，谁负责做会议记录？",
+        vi: "Khi các bạn họp, ai phụ trách ghi biên bản?",
+        hint: "Dùng <b>...负责...，会后把...整理好</b>"
+      },
+      {
+        cues: "会议 / 时间 / 超过",
+        question: "你觉得一次会议最好不要超过多长时间？为什么？",
+        vi: "Bạn nghĩ một cuộc họp tốt nhất không nên quá bao lâu? Vì sao?",
+        hint: "Dùng <b>不能超过...，因为...</b>"
+      },
+      {
+        cues: "视频会议 / 面对面",
+        question: "你喜欢开视频会议还是面对面开会？",
+        vi: "Bạn thích họp trực tuyến hay họp trực tiếp?",
+        hint: "Dùng <b>我更喜欢...，因为...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-20",
+    topic: "Email & Giao tiếp công sở (邮件与职场沟通)",
+    sentences: [
+      {
+        zh: "在公司里，我每天要花不少时间回复邮件。",
+        pinyin: "Zài gōngsī lǐ, wǒ měitiān yào huā bù shǎo shíjiān huífù yóujiàn.",
+        vi: "Ở công ty, mỗi ngày tôi phải dành khá nhiều thời gian để trả lời email."
+      },
+      {
+        zh: "写工作邮件的时候，标题一定要写清楚，让对方一看就知道是什么事。",
+        pinyin: "Xiě gōngzuò yóujiàn de shíhou, biāotí yídìng yào xiě qīngchu, ràng duìfāng yí kàn jiù zhīdào shì shénme shì.",
+        vi: "Khi viết email công việc, tiêu đề nhất định phải viết rõ ràng, để người nhận vừa nhìn là biết chuyện gì."
+      },
+      {
+        zh: "邮件开头我一般写“您好”，结尾写“谢谢”和自己的名字。",
+        pinyin: "Yóujiàn kāitóu wǒ yìbān xiě “nín hǎo”, jiéwěi xiě “xièxie” hé zìjǐ de míngzi.",
+        vi: "Phần mở đầu email tôi thường viết “Kính chào”, phần kết viết “Cảm ơn” và tên mình."
+      },
+      {
+        zh: "如果需要发附件，我会在发送之前再检查一遍，免得忘了。",
+        pinyin: "Rúguǒ xūyào fā fùjiàn, wǒ huì zài fāsòng zhīqián zài jiǎnchá yí biàn, miǎnde wàng le.",
+        vi: "Nếu cần gửi tệp đính kèm, tôi sẽ kiểm tra lại một lượt trước khi gửi, để khỏi quên."
+      },
+      {
+        zh: "收到客户的邮件后，最好在二十四小时以内回复。",
+        pinyin: "Shōudào kèhù de yóujiàn hòu, zuìhǎo zài èrshísì xiǎoshí yǐnèi huífù.",
+        vi: "Sau khi nhận được email của khách hàng, tốt nhất nên trả lời trong vòng 24 giờ."
+      },
+      {
+        zh: "不太紧急的事情，我们一般用微信或者公司的聊天软件沟通。",
+        pinyin: "Bú tài jǐnjí de shìqing, wǒmen yìbān yòng Wēixìn huòzhě gōngsī de liáotiān ruǎnjiàn gōutōng.",
+        vi: "Những việc không gấp lắm, chúng tôi thường trao đổi bằng WeChat hoặc phần mềm chat của công ty."
+      },
+      {
+        zh: "跟同事说话可以随便一点儿，但是跟领导说话要客气一些。",
+        pinyin: "Gēn tóngshì shuōhuà kěyǐ suíbiàn yìdiǎnr, dànshì gēn lǐngdǎo shuōhuà yào kèqi yìxiē.",
+        vi: "Nói chuyện với đồng nghiệp có thể thoải mái một chút, nhưng nói chuyện với sếp thì phải lịch sự hơn."
+      },
+      {
+        zh: "如果没听懂别人的意思，一定要及时问清楚，不要自己乱猜。",
+        pinyin: "Rúguǒ méi tīngdǒng biérén de yìsi, yídìng yào jíshí wèn qīngchu, búyào zìjǐ luàn cāi.",
+        vi: "Nếu chưa hiểu ý người khác, nhất định phải hỏi rõ ngay, đừng tự đoán mò."
+      },
+      {
+        zh: "有一次我不小心把邮件发给了别的客户，只好马上打电话道歉。",
+        pinyin: "Yǒu yí cì wǒ bù xiǎoxīn bǎ yóujiàn fā gěile biéde kèhù, zhǐhǎo mǎshàng dǎ diànhuà dàoqiàn.",
+        vi: "Có lần tôi không cẩn thận gửi nhầm email cho khách hàng khác, đành phải gọi điện xin lỗi ngay."
+      },
+      {
+        zh: "从那以后，我每次点“发送”之前，都会先看一眼收件人。",
+        pinyin: "Cóng nà yǐhòu, wǒ měi cì diǎn “fāsòng” zhīqián, dōu huì xiān kàn yì yǎn shōujiànrén.",
+        vi: "Từ đó về sau, mỗi lần trước khi bấm “Gửi”, tôi đều liếc xem người nhận trước."
+      }
+    ],
+    vocabulary: [
+      { word: "邮件", pinyin: "yóujiàn", type: "n", meaning: "email, thư" },
+      { word: "回复", pinyin: "huífù", type: "v", meaning: "trả lời, hồi âm" },
+      { word: "标题", pinyin: "biāotí", type: "n", meaning: "tiêu đề" },
+      { word: "开头", pinyin: "kāitóu", type: "n", meaning: "phần mở đầu" },
+      { word: "结尾", pinyin: "jiéwěi", type: "n", meaning: "phần kết" },
+      { word: "附件", pinyin: "fùjiàn", type: "n", meaning: "tệp đính kèm" },
+      { word: "发送", pinyin: "fāsòng", type: "v", meaning: "gửi (đi)" },
+      { word: "免得", pinyin: "miǎnde", type: "conj", meaning: "để khỏi, để tránh" },
+      { word: "客户", pinyin: "kèhù", type: "n", meaning: "khách hàng" },
+      { word: "紧急", pinyin: "jǐnjí", type: "adj", meaning: "khẩn cấp, gấp" },
+      { word: "沟通", pinyin: "gōutōng", type: "v", meaning: "trao đổi, giao tiếp" },
+      { word: "领导", pinyin: "lǐngdǎo", type: "n", meaning: "lãnh đạo, sếp" },
+      { word: "客气", pinyin: "kèqi", type: "adj", meaning: "lịch sự, khách sáo" },
+      { word: "及时", pinyin: "jíshí", type: "adv", meaning: "kịp thời" },
+      { word: "道歉", pinyin: "dàoqiàn", type: "v", meaning: "xin lỗi" },
+      { word: "收件人", pinyin: "shōujiànrén", type: "n", meaning: "người nhận" }
+    ],
+    grammar: [
+      {
+        sentence: "在公司里，我每天要花不少时间回复邮件。",
+        explain: "Cấu trúc <b>花 + thời gian/tiền + động từ</b> = 'dành (bao nhiêu) để làm gì'. <b>在 + nơi chốn + 里</b> chỉ phạm vi."
+      },
+      {
+        sentence: "写工作邮件的时候，标题一定要写清楚，让对方一看就知道是什么事。",
+        explain: "<b>写清楚</b>: bổ ngữ kết quả 清楚. Câu kiêm ngữ <b>让 + người + động từ</b>. Cấu trúc <b>一...就...</b> = 'vừa...là...'."
+      },
+      {
+        sentence: "邮件开头我一般写“您好”，结尾写“谢谢”和自己的名字。",
+        explain: "Hai vế song song <b>开头...，结尾...</b> đối chiếu đầu và cuối. Chủ đề (邮件开头) đặt đầu câu, rồi mới đến chủ ngữ 我 — kiểu câu chủ đề rất phổ biến trong khẩu ngữ."
+      },
+      {
+        sentence: "如果需要发附件，我会在发送之前再检查一遍，免得忘了。",
+        explain: "<b>再 + động từ + 一遍</b> = làm lại một lượt (遍 nhấn mạnh từ đầu đến cuối). <b>免得...</b> đứng ở vế sau = 'để khỏi/để tránh...'."
+      },
+      {
+        sentence: "收到客户的邮件后，最好在二十四小时以内回复。",
+        explain: "<b>động từ + 后</b> = 'sau khi...'. <b>最好 + động từ</b> đưa lời khuyên ('tốt nhất nên'). <b>在...以内</b> = 'trong vòng...'."
+      },
+      {
+        sentence: "不太紧急的事情，我们一般用微信或者公司的聊天软件沟通。",
+        explain: "<b>不太 + tính từ</b> = 'không...lắm', ở đây làm định ngữ với 的. <b>用 + công cụ + động từ</b> chỉ phương tiện. <b>或者</b> dùng trong câu trần thuật (khác 还是 trong câu hỏi)."
+      },
+      {
+        sentence: "跟同事说话可以随便一点儿，但是跟领导说话要客气一些。",
+        explain: "<b>跟 + người + 说话</b> = nói chuyện với ai. <b>tính từ + 一点儿/一些</b> = '...hơn một chút', dùng khi so sánh hoặc khuyên nhủ."
+      },
+      {
+        sentence: "如果没听懂别人的意思，一定要及时问清楚，不要自己乱猜。",
+        explain: "<b>没听懂</b>: phủ định bổ ngữ kết quả dùng 没. <b>乱 + động từ</b> = làm bừa, làm lung tung (乱猜 = đoán mò)."
+      },
+      {
+        sentence: "有一次我不小心把邮件发给了别的客户，只好马上打电话道歉。",
+        explain: "Câu chữ 把 <b>把 + O + 发给了 + người</b>. <b>只好 + động từ</b> = 'đành phải', diễn tả không còn lựa chọn khác."
+      },
+      {
+        sentence: "从那以后，我每次点“发送”之前，都会先看一眼收件人。",
+        explain: "<b>从那以后</b> = 'từ đó về sau'. <b>每次...都...</b> chỉ thói quen. <b>看一眼</b>: lượng từ động tác 眼 = liếc nhìn một cái."
+      }
+    ],
+    speaking: [
+      {
+        cues: "每天 / 邮件 / 花时间",
+        question: "你每天花多少时间处理邮件？",
+        vi: "Mỗi ngày bạn dành bao nhiêu thời gian xử lý email?",
+        hint: "Dùng <b>我每天花...时间...</b>"
+      },
+      {
+        cues: "工作邮件 / 注意",
+        question: "你觉得写工作邮件要注意什么？",
+        vi: "Bạn nghĩ viết email công việc cần chú ý những gì?",
+        hint: "Dùng <b>...一定要...，让对方一...就...</b>"
+      },
+      {
+        cues: "发送之前 / 检查",
+        question: "发送邮件之前，你会检查什么？",
+        vi: "Trước khi gửi email, bạn sẽ kiểm tra những gì?",
+        hint: "Dùng <b>...之前，我会再...一遍，免得...</b>"
+      },
+      {
+        cues: "不紧急 / 聊天软件",
+        question: "不紧急的事情，你们公司一般用什么沟通？",
+        vi: "Việc không gấp, công ty bạn thường trao đổi bằng gì?",
+        hint: "Dùng <b>我们一般用...沟通</b>"
+      },
+      {
+        cues: "领导 / 同事 / 客气",
+        question: "跟领导说话和跟同事说话有什么不一样？",
+        vi: "Nói chuyện với sếp và với đồng nghiệp khác nhau thế nào?",
+        hint: "Dùng <b>跟...可以...一点儿，但是跟...要...一些</b>"
+      },
+      {
+        cues: "没听懂 / 问清楚",
+        question: "如果没听懂同事的意思，你会怎么做？",
+        vi: "Nếu không hiểu ý đồng nghiệp, bạn sẽ làm gì?",
+        hint: "Dùng <b>如果...，我会及时...</b>"
+      },
+      {
+        cues: "不小心 / 道歉",
+        question: "你在工作中犯过什么小错误吗？后来怎么解决的？",
+        vi: "Bạn từng mắc lỗi nhỏ nào trong công việc chưa? Sau đó giải quyết thế nào?",
+        hint: "Dùng <b>有一次我不小心...，只好...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-21",
+    topic: "Thuyết trình (做报告)",
+    sentences: [
+      {
+        zh: "下个星期五，我要在全公司的大会上做一个报告。",
+        pinyin: "Xià ge xīngqīwǔ, wǒ yào zài quán gōngsī de dàhuì shang zuò yí gè bàogào.",
+        vi: "Thứ Sáu tuần sau, tôi phải thuyết trình trong buổi họp toàn công ty."
+      },
+      {
+        zh: "报告的内容是总结我们团队今年上半年的销售情况。",
+        pinyin: "Bàogào de nèiróng shì zǒngjié wǒmen tuánduì jīnnián shàngbànnián de xiāoshòu qíngkuàng.",
+        vi: "Nội dung bài thuyết trình là tổng kết tình hình bán hàng nửa đầu năm nay của nhóm chúng tôi."
+      },
+      {
+        zh: "为了让大家看得更清楚，我做了一份PPT，里面有很多图表。",
+        pinyin: "Wèile ràng dàjiā kàn de gèng qīngchu, wǒ zuòle yí fèn PPT, lǐmiàn yǒu hěn duō túbiǎo.",
+        vi: "Để mọi người nhìn rõ hơn, tôi đã làm một bản PPT, bên trong có rất nhiều biểu đồ."
+      },
+      {
+        zh: "这是我第一次在这么多人面前讲话，心里特别紧张。",
+        pinyin: "Zhè shì wǒ dì-yī cì zài zhème duō rén miànqián jiǎnghuà, xīnli tèbié jǐnzhāng.",
+        vi: "Đây là lần đầu tiên tôi nói trước nhiều người như vậy, trong lòng cực kỳ hồi hộp."
+      },
+      {
+        zh: "所以这几天下班以后，我都在家对着镜子练习。",
+        pinyin: "Suǒyǐ zhè jǐ tiān xiàbān yǐhòu, wǒ dōu zài jiā duìzhe jìngzi liànxí.",
+        vi: "Vì vậy mấy hôm nay sau giờ làm, tôi đều ở nhà tập trước gương."
+      },
+      {
+        zh: "同事建议我不要照着稿子念，而是用自己的话讲出来。",
+        pinyin: "Tóngshì jiànyì wǒ búyào zhàozhe gǎozi niàn, ér shì yòng zìjǐ de huà jiǎng chūlai.",
+        vi: "Đồng nghiệp khuyên tôi đừng đọc theo bản thảo, mà hãy nói ra bằng lời của chính mình."
+      },
+      {
+        zh: "他还说，讲的时候要多看看观众，语速也不要太快。",
+        pinyin: "Tā hái shuō, jiǎng de shíhou yào duō kànkan guānzhòng, yǔsù yě búyào tài kuài.",
+        vi: "Anh ấy còn nói, lúc trình bày nên nhìn khán giả nhiều hơn, tốc độ nói cũng đừng quá nhanh."
+      },
+      {
+        zh: "报告的最后一部分是明年的计划，这是领导最关心的内容。",
+        pinyin: "Bàogào de zuìhòu yí bùfen shì míngnián de jìhuà, zhè shì lǐngdǎo zuì guānxīn de nèiróng.",
+        vi: "Phần cuối của bài thuyết trình là kế hoạch năm sau, đây là nội dung lãnh đạo quan tâm nhất."
+      },
+      {
+        zh: "讲完以后还有十分钟提问时间，我得提前准备好可能被问到的问题。",
+        pinyin: "Jiǎngwán yǐhòu hái yǒu shí fēnzhōng tíwèn shíjiān, wǒ děi tíqián zhǔnbèi hǎo kěnéng bèi wèn dào de wèntí.",
+        vi: "Trình bày xong còn có mười phút đặt câu hỏi, tôi phải chuẩn bị trước những câu có thể bị hỏi."
+      },
+      {
+        zh: "只要准备得充分，我相信这次报告一定能顺利完成。",
+        pinyin: "Zhǐyào zhǔnbèi de chōngfèn, wǒ xiāngxìn zhè cì bàogào yídìng néng shùnlì wánchéng.",
+        vi: "Chỉ cần chuẩn bị đầy đủ, tôi tin lần thuyết trình này nhất định sẽ hoàn thành suôn sẻ."
+      }
+    ],
+    vocabulary: [
+      { word: "做报告", pinyin: "zuò bàogào", type: "phrase", meaning: "thuyết trình, báo cáo" },
+      { word: "内容", pinyin: "nèiróng", type: "n", meaning: "nội dung" },
+      { word: "总结", pinyin: "zǒngjié", type: "v/n", meaning: "tổng kết" },
+      { word: "团队", pinyin: "tuánduì", type: "n", meaning: "đội nhóm, team" },
+      { word: "销售", pinyin: "xiāoshòu", type: "v/n", meaning: "bán hàng, doanh số" },
+      { word: "图表", pinyin: "túbiǎo", type: "n", meaning: "biểu đồ, bảng biểu" },
+      { word: "面前", pinyin: "miànqián", type: "n", meaning: "trước mặt" },
+      { word: "紧张", pinyin: "jǐnzhāng", type: "adj", meaning: "căng thẳng, hồi hộp" },
+      { word: "建议", pinyin: "jiànyì", type: "v/n", meaning: "khuyên, đề nghị; lời khuyên" },
+      { word: "稿子", pinyin: "gǎozi", type: "n", meaning: "bản thảo, bài viết sẵn" },
+      { word: "观众", pinyin: "guānzhòng", type: "n", meaning: "khán giả, người nghe" },
+      { word: "语速", pinyin: "yǔsù", type: "n", meaning: "tốc độ nói" },
+      { word: "关心", pinyin: "guānxīn", type: "v", meaning: "quan tâm" },
+      { word: "提问", pinyin: "tíwèn", type: "v", meaning: "đặt câu hỏi" },
+      { word: "充分", pinyin: "chōngfèn", type: "adj", meaning: "đầy đủ, kỹ lưỡng" },
+      { word: "顺利", pinyin: "shùnlì", type: "adj", meaning: "suôn sẻ, thuận lợi" }
+    ],
+    grammar: [
+      {
+        sentence: "下个星期五，我要在全公司的大会上做一个报告。",
+        explain: "<b>下个 + thời gian</b> = '...tới/sau'. <b>在...上</b> chỉ bối cảnh một sự kiện (在大会上 = tại cuộc họp lớn). <b>做报告</b> = thuyết trình, báo cáo."
+      },
+      {
+        sentence: "报告的内容是总结我们团队今年上半年的销售情况。",
+        explain: "Câu <b>A 是 + cụm động từ</b> dùng để giải thích nội dung. Định ngữ nhiều tầng: <b>我们团队 + 今年上半年 + 的 + 销售情况</b>."
+      },
+      {
+        sentence: "为了让大家看得更清楚，我做了一份PPT，里面有很多图表。",
+        explain: "<b>为了...</b> chỉ mục đích, đặt ở vế đầu. Bổ ngữ trạng thái <b>động từ + 得 + 更 + tính từ</b>. Lượng từ <b>份</b> dùng cho tài liệu, báo cáo."
+      },
+      {
+        sentence: "这是我第一次在这么多人面前讲话，心里特别紧张。",
+        explain: "<b>第一次 + động từ</b> = lần đầu làm gì. <b>在...面前</b> = 'trước mặt...'. <b>这么 + tính từ</b> nhấn mạnh mức độ ('nhiều như thế này')."
+      },
+      {
+        sentence: "所以这几天下班以后，我都在家对着镜子练习。",
+        explain: "<b>对着 + danh từ + động từ</b>: 着 sau động từ thứ nhất chỉ cách thức/trạng thái đi kèm hành động chính (对着镜子练习 = tập trước gương)."
+      },
+      {
+        sentence: "同事建议我不要照着稿子念，而是用自己的话讲出来。",
+        explain: "<b>建议 + người + động từ</b> = khuyên ai làm gì. Cặp <b>不要/不是...而是...</b> = 'không phải...mà là...'. Bổ ngữ xu hướng <b>讲出来</b> = nói ra."
+      },
+      {
+        sentence: "他还说，讲的时候要多看看观众，语速也不要太快。",
+        explain: "<b>多 + động từ</b> = làm nhiều hơn. Động từ lặp <b>看看</b> làm nhẹ ngữ khí. <b>不要太 + tính từ</b> = 'đừng quá...'."
+      },
+      {
+        sentence: "报告的最后一部分是明年的计划，这是领导最关心的内容。",
+        explain: "<b>最 + động từ tâm lý</b> (最关心) làm định ngữ với 的. <b>这是...的 + danh từ</b> dùng để nhận định, nhấn mạnh."
+      },
+      {
+        sentence: "讲完以后还有十分钟提问时间，我得提前准备好可能被问到的问题。",
+        explain: "<b>động từ + 完</b> = làm xong. <b>得 (děi)</b> = phải (khẩu ngữ). <b>被问到</b> là bị động trong định ngữ: 可能被问到的问题 = câu hỏi có thể bị hỏi đến."
+      },
+      {
+        sentence: "只要准备得充分，我相信这次报告一定能顺利完成。",
+        explain: "<b>只要...（就）...</b> = 'chỉ cần...thì...', ở đây vế sau dùng <b>一定能</b>. Bổ ngữ trạng thái <b>准备得充分</b>."
+      }
+    ],
+    speaking: [
+      {
+        cues: "做报告 / 关于",
+        question: "你在工作或学习中做过报告吗？是关于什么的？",
+        vi: "Bạn đã từng thuyết trình trong công việc hay học tập chưa? Về chủ đề gì?",
+        hint: "Dùng <b>我在...上做过一个关于...的报告</b>"
+      },
+      {
+        cues: "为了 / 清楚 / PPT",
+        question: "为了让听的人更明白，你会怎么准备报告？",
+        vi: "Để người nghe hiểu rõ hơn, bạn sẽ chuẩn bị bài thuyết trình thế nào?",
+        hint: "Dùng <b>为了让大家...，我会...</b>"
+      },
+      {
+        cues: "面前 / 讲话 / 紧张",
+        question: "在很多人面前讲话，你会紧张吗？",
+        vi: "Nói trước nhiều người, bạn có hồi hộp không?",
+        hint: "Dùng <b>在...面前...，我心里...</b>"
+      },
+      {
+        cues: "练习 / 镜子",
+        question: "做报告以前，你一般怎么练习？",
+        vi: "Trước khi thuyết trình, bạn thường luyện tập thế nào?",
+        hint: "Dùng <b>我会对着...练习</b>"
+      },
+      {
+        cues: "稿子 / 自己的话",
+        question: "你觉得做报告的时候应该照着稿子念吗？",
+        vi: "Bạn nghĩ khi thuyết trình có nên đọc theo bản thảo không?",
+        hint: "Dùng <b>不要...，而是...</b>"
+      },
+      {
+        cues: "提问 / 回答不了",
+        question: "如果有人问了一个你回答不了的问题，你会怎么办？",
+        vi: "Nếu có người hỏi một câu bạn không trả lời được, bạn sẽ làm sao?",
+        hint: "Dùng <b>如果被问到...，我会...</b>"
+      },
+      {
+        cues: "充分 / 顺利",
+        question: "你觉得怎样才能让报告顺利完成？",
+        vi: "Bạn nghĩ làm thế nào để bài thuyết trình diễn ra suôn sẻ?",
+        hint: "Dùng <b>只要...，就一定能...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-22",
+    topic: "Làm việc với sếp: Phản hồi & Xin nghỉ phép (和领导沟通：反馈与请假)",
+    sentences: [
+      {
+        zh: "上周我把方案交给经理以后，他约我去办公室谈一谈。",
+        pinyin: "Shàng zhōu wǒ bǎ fāng'àn jiāo gěi jīnglǐ yǐhòu, tā yuē wǒ qù bàngōngshì tán yi tán.",
+        vi: "Tuần trước sau khi tôi nộp phương án cho quản lý, anh ấy hẹn tôi lên văn phòng nói chuyện."
+      },
+      {
+        zh: "他先肯定了我的努力，说方案的思路很清楚。",
+        pinyin: "Tā xiān kěndìngle wǒ de nǔlì, shuō fāng'àn de sīlù hěn qīngchu.",
+        vi: "Anh ấy trước tiên ghi nhận sự cố gắng của tôi, nói rằng hướng đi của phương án rất rõ ràng."
+      },
+      {
+        zh: "不过他也指出了几个问题，比如有些数据不够准确。",
+        pinyin: "Búguò tā yě zhǐchūle jǐ gè wèntí, bǐrú yǒuxiē shùjù bú gòu zhǔnquè.",
+        vi: "Nhưng anh ấy cũng chỉ ra vài vấn đề, chẳng hạn có một số số liệu chưa đủ chính xác."
+      },
+      {
+        zh: "我虚心接受了他的意见，并且答应周三以前改好。",
+        pinyin: "Wǒ xūxīn jiēshòule tā de yìjiàn, bìngqiě dāying zhōusān yǐqián gǎi hǎo.",
+        vi: "Tôi khiêm tốn tiếp thu ý kiến của anh ấy, đồng thời hứa sẽ sửa xong trước thứ Tư."
+      },
+      {
+        zh: "能得到领导的反馈，对我的成长很有帮助。",
+        pinyin: "Néng dédào lǐngdǎo de fǎnkuì, duì wǒ de chéngzhǎng hěn yǒu bāngzhù.",
+        vi: "Nhận được phản hồi từ sếp rất có ích cho sự trưởng thành của tôi."
+      },
+      {
+        zh: "另外，下个月我妹妹结婚，我想请三天假回老家。",
+        pinyin: "Lìngwài, xià ge yuè wǒ mèimei jiéhūn, wǒ xiǎng qǐng sān tiān jià huí lǎojiā.",
+        vi: "Ngoài ra, tháng sau em gái tôi cưới, tôi muốn xin nghỉ ba ngày để về quê."
+      },
+      {
+        zh: "我先在系统里填好了请假申请，然后当面跟经理说明了情况。",
+        pinyin: "Wǒ xiān zài xìtǒng lǐ tián hǎole qǐngjià shēnqǐng, ránhòu dāngmiàn gēn jīnglǐ shuōmíngle qíngkuàng.",
+        vi: "Tôi điền đơn xin nghỉ trên hệ thống trước, sau đó trực tiếp trình bày tình hình với quản lý."
+      },
+      {
+        zh: "我说：“经理，不好意思，我想请几天假，手上的工作我会提前安排好。”",
+        pinyin: "Wǒ shuō: “Jīnglǐ, bù hǎoyìsi, wǒ xiǎng qǐng jǐ tiān jià, shǒu shang de gōngzuò wǒ huì tíqián ānpái hǎo.”",
+        vi: "Tôi nói: “Anh ơi, phiền anh chút, em muốn xin nghỉ vài ngày, công việc đang làm em sẽ sắp xếp ổn thỏa trước.”"
+      },
+      {
+        zh: "经理很爽快地批准了，还让我请假期间把工作交接给小李。",
+        pinyin: "Jīnglǐ hěn shuǎngkuai de pīzhǔn le, hái ràng wǒ qǐngjià qījiān bǎ gōngzuò jiāojiē gěi Xiǎo Lǐ.",
+        vi: "Quản lý vui vẻ duyệt ngay, còn bảo tôi bàn giao công việc cho Tiểu Lý trong thời gian nghỉ."
+      },
+      {
+        zh: "我觉得跟领导沟通，最重要的是态度诚恳，有事提前说。",
+        pinyin: "Wǒ juéde gēn lǐngdǎo gōutōng, zuì zhòngyào de shì tàidu chéngkěn, yǒu shì tíqián shuō.",
+        vi: "Tôi thấy giao tiếp với sếp, quan trọng nhất là thái độ chân thành, có việc thì báo trước."
+      }
+    ],
+    vocabulary: [
+      { word: "约", pinyin: "yuē", type: "v", meaning: "hẹn" },
+      { word: "肯定", pinyin: "kěndìng", type: "v", meaning: "ghi nhận, khẳng định" },
+      { word: "思路", pinyin: "sīlù", type: "n", meaning: "hướng suy nghĩ, ý tưởng" },
+      { word: "指出", pinyin: "zhǐchū", type: "v", meaning: "chỉ ra" },
+      { word: "准确", pinyin: "zhǔnquè", type: "adj", meaning: "chính xác" },
+      { word: "虚心", pinyin: "xūxīn", type: "adj", meaning: "khiêm tốn, cầu thị" },
+      { word: "接受", pinyin: "jiēshòu", type: "v", meaning: "tiếp thu, chấp nhận" },
+      { word: "答应", pinyin: "dāying", type: "v", meaning: "đồng ý, hứa" },
+      { word: "反馈", pinyin: "fǎnkuì", type: "n/v", meaning: "phản hồi, góp ý" },
+      { word: "成长", pinyin: "chéngzhǎng", type: "n/v", meaning: "sự trưởng thành; trưởng thành" },
+      { word: "请假", pinyin: "qǐngjià", type: "v", meaning: "xin nghỉ phép" },
+      { word: "申请", pinyin: "shēnqǐng", type: "n/v", meaning: "đơn xin; xin, đăng ký" },
+      { word: "当面", pinyin: "dāngmiàn", type: "adv", meaning: "trực tiếp, trước mặt" },
+      { word: "批准", pinyin: "pīzhǔn", type: "v", meaning: "phê duyệt" },
+      { word: "交接", pinyin: "jiāojiē", type: "v", meaning: "bàn giao" },
+      { word: "诚恳", pinyin: "chéngkěn", type: "adj", meaning: "chân thành, thành khẩn" }
+    ],
+    grammar: [
+      {
+        sentence: "上周我把方案交给经理以后，他约我去办公室谈一谈。",
+        explain: "Câu chữ 把 <b>把 + O + 交给 + người</b> = nộp/giao cái gì cho ai. Dạng lặp <b>V一V</b> (谈一谈) làm nhẹ hành động, nghe mềm mại hơn."
+      },
+      {
+        sentence: "他先肯定了我的努力，说方案的思路很清楚。",
+        explain: "<b>先</b> báo hiệu thứ tự (trước khen, sau góp ý). <b>động từ + 了 + tân ngữ</b> chỉ hành động đã hoàn thành. <b>说 + mệnh đề</b> thuật lại lời gián tiếp."
+      },
+      {
+        sentence: "不过他也指出了几个问题，比如有些数据不够准确。",
+        explain: "<b>不过</b> chuyển ý nhẹ nhàng hơn 但是. <b>比如</b> dẫn ví dụ. <b>不够 + tính từ</b> = 'chưa đủ...'."
+      },
+      {
+        sentence: "我虚心接受了他的意见，并且答应周三以前改好。",
+        explain: "Tính từ <b>虚心</b> đứng trước động từ làm trạng ngữ. <b>并且</b> nối hai vị ngữ ('đồng thời'). <b>改好</b> bổ ngữ kết quả; <b>...以前</b> chỉ hạn chót."
+      },
+      {
+        sentence: "能得到领导的反馈，对我的成长很有帮助。",
+        explain: "Cụm động từ (能得到领导的反馈) có thể làm chủ ngữ. Cấu trúc <b>对 + N + 很有帮助</b> = 'rất có ích cho...'."
+      },
+      {
+        sentence: "另外，下个月我妹妹结婚，我想请三天假回老家。",
+        explain: "<b>另外</b> mở ra ý mới ('ngoài ra'). <b>请假</b> là động từ ly hợp: số ngày chen giữa → <b>请 + 三天 + 假</b>. Liên động: 请假 + 回老家."
+      },
+      {
+        sentence: "我先在系统里填好了请假申请，然后当面跟经理说明了情况。",
+        explain: "Cặp <b>先...然后...</b> chỉ trình tự. <b>填好</b> bổ ngữ kết quả. <b>当面跟 + người + 说明</b> = trực tiếp giải thích với ai."
+      },
+      {
+        sentence: "我说：“经理，不好意思，我想请几天假，手上的工作我会提前安排好。”",
+        explain: "<b>不好意思</b> là cách mở lời lịch sự khi nhờ vả. Tân ngữ được đưa lên đầu làm chủ đề: <b>手上的工作 + 我会...安排好</b>, nhấn mạnh việc được nói đến."
+      },
+      {
+        sentence: "经理很爽快地批准了，还让我请假期间把工作交接给小李。",
+        explain: "<b>tính từ + 地 + động từ</b> (爽快地批准) làm trạng ngữ cách thức. <b>让 + người + động từ</b> = bảo ai làm gì. <b>...期间</b> = 'trong thời gian...'."
+      },
+      {
+        sentence: "我觉得跟领导沟通，最重要的是态度诚恳，有事提前说。",
+        explain: "Cấu trúc <b>最重要的是...</b> = 'điều quan trọng nhất là...'. <b>有事提前说</b>: câu ngắn hàm ý điều kiện ('có việc thì nói trước')."
+      }
+    ],
+    speaking: [
+      {
+        cues: "领导 / 反馈 / 方式",
+        question: "你的领导一般怎么给你反馈？",
+        vi: "Sếp của bạn thường phản hồi cho bạn như thế nào?",
+        hint: "Dùng <b>他先...，不过也...</b>"
+      },
+      {
+        cues: "指出问题 / 接受",
+        question: "领导指出你的问题时，你会怎么做？",
+        vi: "Khi sếp chỉ ra vấn đề của bạn, bạn sẽ làm gì?",
+        hint: "Dùng <b>我会虚心接受...，并且...</b>"
+      },
+      {
+        cues: "反馈 / 成长 / 帮助",
+        question: "你觉得别人的反馈对你有帮助吗？",
+        vi: "Bạn có thấy phản hồi của người khác giúp ích cho bạn không?",
+        hint: "Dùng <b>...对我的...很有帮助</b>"
+      },
+      {
+        cues: "上次 / 请假 / 原因",
+        question: "你上次请假是因为什么事？",
+        vi: "Lần trước bạn xin nghỉ là vì việc gì?",
+        hint: "Dùng <b>我请了...天假，因为...</b>"
+      },
+      {
+        cues: "请假 / 申请 / 步骤",
+        question: "在你们公司，请假需要做什么？",
+        vi: "Ở công ty bạn, xin nghỉ phép cần làm những gì?",
+        hint: "Dùng <b>先...，然后...</b>"
+      },
+      {
+        cues: "请假以前 / 交接",
+        question: "请假以前，你会怎么安排手上的工作？",
+        vi: "Trước khi nghỉ phép, bạn sẽ sắp xếp công việc đang làm thế nào?",
+        hint: "Dùng <b>我会把...交接给...</b>"
+      },
+      {
+        cues: "沟通 / 最重要",
+        question: "你觉得跟领导沟通最重要的是什么？",
+        vi: "Bạn nghĩ điều quan trọng nhất khi giao tiếp với sếp là gì?",
+        hint: "Dùng <b>最重要的是...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-23",
+    topic: "Gặp khách hàng & Đàm phán (见客户与谈判)",
+    sentences: [
+      {
+        zh: "今天下午，我和经理一起去见一位很重要的客户。",
+        pinyin: "Jīntiān xiàwǔ, wǒ hé jīnglǐ yìqǐ qù jiàn yí wèi hěn zhòngyào de kèhù.",
+        vi: "Chiều nay, tôi cùng quản lý đi gặp một vị khách hàng rất quan trọng."
+      },
+      {
+        zh: "见面的时候，我们先握手、交换名片，然后简单寒暄了几句。",
+        pinyin: "Jiànmiàn de shíhou, wǒmen xiān wòshǒu, jiāohuàn míngpiàn, ránhòu jiǎndān hánxuānle jǐ jù.",
+        vi: "Khi gặp mặt, chúng tôi bắt tay, trao đổi danh thiếp trước, rồi hỏi han xã giao vài câu."
+      },
+      {
+        zh: "客户对我们的产品很感兴趣，但是觉得价格有点儿高。",
+        pinyin: "Kèhù duì wǒmen de chǎnpǐn hěn gǎn xìngqù, dànshì juéde jiàgé yǒudiǎnr gāo.",
+        vi: "Khách hàng rất quan tâm đến sản phẩm của chúng tôi, nhưng thấy giá hơi cao."
+      },
+      {
+        zh: "他希望我们能打九折，而且三个月以内交货。",
+        pinyin: "Tā xīwàng wǒmen néng dǎ jiǔ zhé, érqiě sān gè yuè yǐnèi jiāohuò.",
+        vi: "Ông ấy mong chúng tôi giảm giá 10%, hơn nữa giao hàng trong vòng ba tháng."
+      },
+      {
+        zh: "经理说价格可以商量，但是质量我们绝对有保证。",
+        pinyin: "Jīnglǐ shuō jiàgé kěyǐ shāngliang, dànshì zhìliàng wǒmen juéduì yǒu bǎozhèng.",
+        vi: "Quản lý nói giá cả có thể thương lượng, nhưng chất lượng thì chúng tôi tuyệt đối đảm bảo."
+      },
+      {
+        zh: "双方谈了一个多小时，谁也不愿意先让步。",
+        pinyin: "Shuāngfāng tánle yí gè duō xiǎoshí, shéi yě bú yuànyì xiān ràngbù.",
+        vi: "Hai bên bàn bạc hơn một tiếng, không ai chịu nhượng bộ trước."
+      },
+      {
+        zh: "最后我们提出，如果他们订货的数量更大，就可以给更低的价格。",
+        pinyin: "Zuìhòu wǒmen tíchū, rúguǒ tāmen dìnghuò de shùliàng gèng dà, jiù kěyǐ gěi gèng dī de jiàgé.",
+        vi: "Cuối cùng chúng tôi đề xuất, nếu họ đặt hàng số lượng lớn hơn thì có thể cho giá thấp hơn."
+      },
+      {
+        zh: "客户考虑了一下，终于同意了这个条件。",
+        pinyin: "Kèhù kǎolǜle yíxià, zhōngyú tóngyìle zhège tiáojiàn.",
+        vi: "Khách hàng cân nhắc một lúc, cuối cùng đã đồng ý điều kiện này."
+      },
+      {
+        zh: "我们约好下周签合同，大家都松了一口气。",
+        pinyin: "Wǒmen yuē hǎo xià zhōu qiān hétong, dàjiā dōu sōngle yì kǒu qì.",
+        vi: "Chúng tôi hẹn tuần sau ký hợp đồng, mọi người đều thở phào nhẹ nhõm."
+      },
+      {
+        zh: "通过这次谈判，我学到了要站在对方的角度想问题，才能达到双赢。",
+        pinyin: "Tōngguò zhè cì tánpàn, wǒ xuédàole yào zhàn zài duìfāng de jiǎodù xiǎng wèntí, cái néng dádào shuāngyíng.",
+        vi: "Qua lần đàm phán này, tôi học được rằng phải đứng ở góc độ của đối phương để suy nghĩ thì mới đạt được đôi bên cùng có lợi."
+      }
+    ],
+    vocabulary: [
+      { word: "握手", pinyin: "wòshǒu", type: "v", meaning: "bắt tay" },
+      { word: "名片", pinyin: "míngpiàn", type: "n", meaning: "danh thiếp" },
+      { word: "寒暄", pinyin: "hánxuān", type: "v", meaning: "hỏi han xã giao" },
+      { word: "产品", pinyin: "chǎnpǐn", type: "n", meaning: "sản phẩm" },
+      { word: "感兴趣", pinyin: "gǎn xìngqù", type: "phrase", meaning: "có hứng thú, quan tâm" },
+      { word: "打折", pinyin: "dǎzhé", type: "v", meaning: "giảm giá (打九折 = giảm 10%)" },
+      { word: "交货", pinyin: "jiāohuò", type: "v", meaning: "giao hàng" },
+      { word: "商量", pinyin: "shāngliang", type: "v", meaning: "thương lượng, bàn bạc" },
+      { word: "质量", pinyin: "zhìliàng", type: "n", meaning: "chất lượng" },
+      { word: "保证", pinyin: "bǎozhèng", type: "n/v", meaning: "đảm bảo, cam kết" },
+      { word: "让步", pinyin: "ràngbù", type: "v", meaning: "nhượng bộ" },
+      { word: "订货", pinyin: "dìnghuò", type: "v", meaning: "đặt hàng" },
+      { word: "条件", pinyin: "tiáojiàn", type: "n", meaning: "điều kiện" },
+      { word: "签合同", pinyin: "qiān hétong", type: "phrase", meaning: "ký hợp đồng" },
+      { word: "谈判", pinyin: "tánpàn", type: "n/v", meaning: "đàm phán" },
+      { word: "双赢", pinyin: "shuāngyíng", type: "n", meaning: "đôi bên cùng có lợi (win-win)" }
+    ],
+    grammar: [
+      {
+        sentence: "今天下午，我和经理一起去见一位很重要的客户。",
+        explain: "<b>和...一起 + động từ</b> = cùng ai làm gì. Lượng từ <b>位</b> dùng cho người với sắc thái tôn trọng (thay cho 个)."
+      },
+      {
+        sentence: "见面的时候，我们先握手、交换名片，然后简单寒暄了几句。",
+        explain: "<b>先...然后...</b> chỉ trình tự. Dấu <b>、</b> dùng để liệt kê các hành động/sự vật ngang hàng. <b>động từ + 了 + 几句</b>: lượng từ 句 đếm số câu nói."
+      },
+      {
+        sentence: "客户对我们的产品很感兴趣，但是觉得价格有点儿高。",
+        explain: "Cấu trúc <b>对 + N + 感兴趣</b> = 'có hứng thú với...'. <b>有点儿 + tính từ</b> thể hiện sự không hài lòng nhẹ."
+      },
+      {
+        sentence: "他希望我们能打九折，而且三个月以内交货。",
+        explain: "<b>希望 + mệnh đề</b> = mong rằng... Chú ý <b>打九折</b> = trả 90% giá (giảm 10%), cách nói ngược với tiếng Việt. <b>而且</b> bổ sung yêu cầu thêm."
+      },
+      {
+        sentence: "经理说价格可以商量，但是质量我们绝对有保证。",
+        explain: "Đưa tân ngữ lên đầu làm chủ đề: <b>质量 + 我们 + 绝对有保证</b>, tạo đối lập rõ với 价格. <b>绝对</b> = tuyệt đối, nhấn mạnh cam kết."
+      },
+      {
+        sentence: "双方谈了一个多小时，谁也不愿意先让步。",
+        explain: "<b>一个多小时</b>: <b>多</b> đặt sau lượng từ nghĩa 'hơn' (hơn một tiếng). <b>谁也不 + động từ</b> = không ai... (đại từ nghi vấn + 也/都 + phủ định mang nghĩa toàn thể)."
+      },
+      {
+        sentence: "最后我们提出，如果他们订货的数量更大，就可以给更低的价格。",
+        explain: "Câu điều kiện <b>如果...就...</b>. <b>更 + tính từ</b> = '...hơn' (so sánh ngầm). <b>提出 + mệnh đề</b> = đề xuất rằng..."
+      },
+      {
+        sentence: "客户考虑了一下，终于同意了这个条件。",
+        explain: "<b>động từ + 了一下</b> = làm thử/một lúc (đã xảy ra). <b>终于</b> = cuối cùng thì (kết quả mong đợi sau một quá trình)."
+      },
+      {
+        sentence: "我们约好下周签合同，大家都松了一口气。",
+        explain: "<b>约好</b>: bổ ngữ kết quả 好 = đã hẹn xong, chốt được. Thành ngữ <b>松了一口气</b> = thở phào nhẹ nhõm."
+      },
+      {
+        sentence: "通过这次谈判，我学到了要站在对方的角度想问题，才能达到双赢。",
+        explain: "<b>通过 + N</b> = 'thông qua...'. <b>站在...的角度 + 想问题</b> = đặt mình vào vị trí của ai để nghĩ. <b>...才能...</b> = 'mới có thể...', chỉ điều kiện cần."
+      }
+    ],
+    speaking: [
+      {
+        cues: "第一次 / 见客户 / 先",
+        question: "第一次见客户的时候，你们一般先做什么？",
+        vi: "Lần đầu gặp khách hàng, các bạn thường làm gì trước?",
+        hint: "Dùng <b>我们先...，然后...</b>"
+      },
+      {
+        cues: "产品 / 感兴趣",
+        question: "你们公司的客户对什么产品最感兴趣？",
+        vi: "Khách hàng của công ty bạn quan tâm nhất đến sản phẩm nào?",
+        hint: "Dùng <b>客户对...很感兴趣</b>"
+      },
+      {
+        cues: "价格 / 太高 / 商量",
+        question: "如果客户觉得价格太高，你会怎么回答？",
+        vi: "Nếu khách hàng thấy giá quá cao, bạn sẽ trả lời thế nào?",
+        hint: "Dùng <b>...可以商量，但是...</b>"
+      },
+      {
+        cues: "谈判 / 让步",
+        question: "你觉得谈判的时候应该先让步吗？为什么？",
+        vi: "Bạn nghĩ khi đàm phán có nên nhượng bộ trước không? Vì sao?",
+        hint: "Dùng <b>我觉得...，因为...</b>"
+      },
+      {
+        cues: "条件 / 如果 / 就",
+        question: "跟别人谈条件的时候，你会怎么说服对方？",
+        vi: "Khi thương lượng điều kiện với người khác, bạn sẽ thuyết phục đối phương thế nào?",
+        hint: "Dùng <b>如果...，就可以...</b>"
+      },
+      {
+        cues: "松一口气 / 工作",
+        question: "工作中什么事情让你松了一口气？",
+        vi: "Trong công việc, chuyện gì khiến bạn thở phào nhẹ nhõm?",
+        hint: "Dùng <b>...以后，大家都松了一口气</b>"
+      },
+      {
+        cues: "角度 / 双赢",
+        question: "你觉得怎样才能达到双赢？",
+        vi: "Bạn nghĩ làm thế nào mới đạt được đôi bên cùng có lợi?",
+        hint: "Dùng <b>要站在...的角度...，才能...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-24",
+    topic: "Ôn tập tuần 3: Từ vựng & Ngữ pháp (Weekly Review 5 — 词语与语法)",
+    sentences: [
+      {
+        zh: "在开会这一课，我学会了“轮到...”，比如“轮到我发言了”。",
+        pinyin: "Zài kāihuì zhè yí kè, wǒ xuéhuìle “lúndào...”, bǐrú “lúndào wǒ fāyán le”.",
+        vi: "Trong bài họp hành, tôi đã học “đến lượt...”, ví dụ “đến lượt tôi phát biểu rồi”."
+      },
+      {
+        zh: "我还记得“次”要放在“开会”中间，比如“我们每周开一次会”。",
+        pinyin: "Wǒ hái jìde “cì” yào fàng zài “kāihuì” zhōngjiān, bǐrú “wǒmen měi zhōu kāi yí cì huì”.",
+        vi: "Tôi còn nhớ “次” phải đặt giữa “开会”, ví dụ “mỗi tuần chúng tôi họp một lần”."
+      },
+      {
+        zh: "写邮件的时候，我会用“免得”，比如“发送之前再检查一遍，免得忘了附件”。",
+        pinyin: "Xiě yóujiàn de shíhou, wǒ huì yòng “miǎnde”, bǐrú “fāsòng zhīqián zài jiǎnchá yí biàn, miǎnde wàngle fùjiàn”.",
+        vi: "Khi viết email, tôi sẽ dùng “để khỏi”, ví dụ “trước khi gửi kiểm tra lại một lượt, để khỏi quên tệp đính kèm”."
+      },
+      {
+        zh: "我也复习了“只好”，比如“我把邮件发错了，只好马上道歉”。",
+        pinyin: "Wǒ yě fùxíle “zhǐhǎo”, bǐrú “wǒ bǎ yóujiàn fācuò le, zhǐhǎo mǎshàng dàoqiàn”.",
+        vi: "Tôi cũng ôn lại “đành phải”, ví dụ “tôi gửi nhầm email, đành phải xin lỗi ngay”."
+      },
+      {
+        zh: "关于做报告，我学会了“不是...而是...”，比如“不是照着稿子念，而是用自己的话讲”。",
+        pinyin: "Guānyú zuò bàogào, wǒ xuéhuìle “bú shì...ér shì...”, bǐrú “bú shì zhàozhe gǎozi niàn, ér shì yòng zìjǐ de huà jiǎng”.",
+        vi: "Về thuyết trình, tôi đã học “không phải...mà là...”, ví dụ “không phải đọc theo bản thảo, mà là nói bằng lời của mình”."
+      },
+      {
+        zh: "我还记得“在...面前”，比如“在很多人面前讲话，我会紧张”。",
+        pinyin: "Wǒ hái jìde “zài...miànqián”, bǐrú “zài hěn duō rén miànqián jiǎnghuà, wǒ huì jǐnzhāng”.",
+        vi: "Tôi còn nhớ “trước mặt...”, ví dụ “nói trước nhiều người, tôi sẽ hồi hộp”."
+      },
+      {
+        zh: "在和领导沟通这一课，我学了“请假”的用法，比如“我想请三天假”。",
+        pinyin: "Zài hé lǐngdǎo gōutōng zhè yí kè, wǒ xuéle “qǐngjià” de yòngfǎ, bǐrú “wǒ xiǎng qǐng sān tiān jià”.",
+        vi: "Trong bài giao tiếp với sếp, tôi đã học cách dùng “xin nghỉ”, ví dụ “tôi muốn xin nghỉ ba ngày”."
+      },
+      {
+        zh: "我也复习了“把...交接给...”，比如“请假以前，我把工作交接给同事”。",
+        pinyin: "Wǒ yě fùxíle “bǎ...jiāojiē gěi...”, bǐrú “qǐngjià yǐqián, wǒ bǎ gōngzuò jiāojiē gěi tóngshì”.",
+        vi: "Tôi cũng ôn lại “bàn giao...cho...”, ví dụ “trước khi nghỉ phép, tôi bàn giao công việc cho đồng nghiệp”."
+      },
+      {
+        zh: "说到谈判，我记住了“谁也不...”，比如“双方谁也不愿意先让步”。",
+        pinyin: "Shuōdào tánpàn, wǒ jìzhùle “shéi yě bù...”, bǐrú “shuāngfāng shéi yě bú yuànyì xiān ràngbù”.",
+        vi: "Nói đến đàm phán, tôi đã nhớ “không ai...”, ví dụ “hai bên không ai chịu nhượng bộ trước”."
+      },
+      {
+        zh: "总的来说，这一周我学到了很多开会、写邮件、做报告、跟领导沟通和谈判的实用表达。",
+        pinyin: "Zǒngdeláishuō, zhè yì zhōu wǒ xuédàole hěn duō kāihuì, xiě yóujiàn, zuò bàogào, gēn lǐngdǎo gōutōng hé tánpàn de shíyòng biǎodá.",
+        vi: "Nhìn chung, tuần này tôi đã học được nhiều cách diễn đạt thực dụng về họp hành, viết email, thuyết trình, giao tiếp với sếp và đàm phán."
+      }
+    ],
+    vocabulary: [
+      { word: "轮到", pinyin: "lúndào", type: "v", meaning: "đến lượt (Ngày 15)" },
+      { word: "发言", pinyin: "fāyán", type: "v", meaning: "phát biểu (Ngày 15)" },
+      { word: "议程", pinyin: "yìchéng", type: "n", meaning: "chương trình nghị sự (Ngày 15)" },
+      { word: "附件", pinyin: "fùjiàn", type: "n", meaning: "tệp đính kèm (Ngày 16)" },
+      { word: "免得", pinyin: "miǎnde", type: "conj", meaning: "để khỏi, để tránh (Ngày 16)" },
+      { word: "只好", pinyin: "zhǐhǎo", type: "adv", meaning: "đành phải (Ngày 16)" },
+      { word: "不是...而是...", pinyin: "bú shì...ér shì...", type: "conj", meaning: "không phải...mà là... (Ngày 17)" },
+      { word: "面前", pinyin: "miànqián", type: "n", meaning: "trước mặt (Ngày 17)" },
+      { word: "提问", pinyin: "tíwèn", type: "v", meaning: "đặt câu hỏi (Ngày 17)" },
+      { word: "请假", pinyin: "qǐngjià", type: "v", meaning: "xin nghỉ phép (Ngày 18)" },
+      { word: "交接", pinyin: "jiāojiē", type: "v", meaning: "bàn giao (Ngày 18)" },
+      { word: "反馈", pinyin: "fǎnkuì", type: "n/v", meaning: "phản hồi (Ngày 18)" },
+      { word: "谁也不...", pinyin: "shéi yě bù...", type: "phrase", meaning: "không ai... (Ngày 19)" },
+      { word: "让步", pinyin: "ràngbù", type: "v", meaning: "nhượng bộ (Ngày 19)" },
+      { word: "双赢", pinyin: "shuāngyíng", type: "n", meaning: "đôi bên cùng có lợi (Ngày 19)" }
+    ],
+    grammar: [
+      {
+        sentence: "在开会这一课，我学会了“轮到...”，比如“轮到我发言了”。",
+        explain: "Ôn lại cấu trúc <b>轮到 + người + động từ</b> = 'đến lượt ai làm gì' (Ngày 15 – Họp hành)."
+      },
+      {
+        sentence: "我还记得“次”要放在“开会”中间，比如“我们每周开一次会”。",
+        explain: "Ôn lại động từ ly hợp <b>开会</b>: lượng từ động tác chen giữa → <b>开一次会</b>; kết hợp <b>每...</b> chỉ tần suất (Ngày 15 – Họp hành)."
+      },
+      {
+        sentence: "写邮件的时候，我会用“免得”，比如“发送之前再检查一遍，免得忘了附件”。",
+        explain: "Ôn lại <b>再 + V + 一遍</b> và liên từ <b>免得</b> ở vế sau = 'để khỏi...' (Ngày 16 – Email & Giao tiếp công sở)."
+      },
+      {
+        sentence: "我也复习了“只好”，比如“我把邮件发错了，只好马上道歉”。",
+        explain: "Ôn lại phó từ <b>只好</b> = 'đành phải', kết hợp câu chữ 把 với bổ ngữ kết quả <b>发错</b> (Ngày 16 – Email & Giao tiếp công sở)."
+      },
+      {
+        sentence: "关于做报告，我学会了“不是...而是...”，比如“不是照着稿子念，而是用自己的话讲”。",
+        explain: "Ôn lại cặp <b>不是...而是...</b> phủ định ý trước, khẳng định ý sau; <b>照着 + N + V</b> chỉ cách thức (Ngày 17 – Thuyết trình)."
+      },
+      {
+        sentence: "我还记得“在...面前”，比如“在很多人面前讲话，我会紧张”。",
+        explain: "Ôn lại cụm giới từ <b>在...面前</b> = 'trước mặt...' (Ngày 17 – Thuyết trình)."
+      },
+      {
+        sentence: "在和领导沟通这一课，我学了“请假”的用法，比如“我想请三天假”。",
+        explain: "Ôn lại động từ ly hợp <b>请假</b>: số ngày chen giữa → <b>请 + 三天 + 假</b> (Ngày 18 – Làm việc với sếp)."
+      },
+      {
+        sentence: "我也复习了“把...交接给...”，比如“请假以前，我把工作交接给同事”。",
+        explain: "Ôn lại câu chữ 把 <b>把 + O + 交接给 + người</b> = bàn giao cái gì cho ai (Ngày 18 – Làm việc với sếp)."
+      },
+      {
+        sentence: "说到谈判，我记住了“谁也不...”，比如“双方谁也不愿意先让步”。",
+        explain: "Ôn lại <b>谁也不 + V</b>: đại từ nghi vấn + 也 + phủ định mang nghĩa 'không ai cả' (Ngày 19 – Gặp khách hàng & Đàm phán)."
+      },
+      {
+        sentence: "总的来说，这一周我学到了很多开会、写邮件、做报告、跟领导沟通和谈判的实用表达。",
+        explain: "<b>总的来说</b> mở đầu câu tổng kết; liệt kê các chủ đề trong tuần bằng dấu <b>、</b> và <b>和</b> ở cuối, cả cụm làm định ngữ cho <b>实用表达</b>."
+      }
+    ],
+    speaking: [
+      {
+        cues: "开会 / 轮到 / 发言",
+        question: "开会的时候，轮到你发言，你一般先说什么？",
+        vi: "Khi họp, đến lượt bạn phát biểu, bạn thường nói gì trước?",
+        hint: "Dùng <b>轮到我...的时候，我先...</b> (Ngày 15)."
+      },
+      {
+        cues: "邮件 / 检查 / 免得",
+        question: "发邮件以前，你会做什么来避免出错？",
+        vi: "Trước khi gửi email, bạn làm gì để tránh sai sót?",
+        hint: "Dùng <b>...再检查一遍，免得...</b> (Ngày 16)."
+      },
+      {
+        cues: "面前 / 报告 / 紧张",
+        question: "在领导面前做报告，你会紧张吗？",
+        vi: "Thuyết trình trước mặt sếp, bạn có hồi hộp không?",
+        hint: "Dùng <b>在...面前...</b> (Ngày 17)."
+      },
+      {
+        cues: "请假 / 交接",
+        question: "如果你要请一个星期的假，你会怎么安排工作？",
+        vi: "Nếu bạn muốn xin nghỉ một tuần, bạn sẽ sắp xếp công việc thế nào?",
+        hint: "Dùng <b>请...假</b> và <b>把...交接给...</b> (Ngày 18)."
+      },
+      {
+        cues: "客户 / 谁也不 / 让步",
+        question: "如果你和客户谁也不愿意让步，你会怎么办？",
+        vi: "Nếu bạn và khách hàng không ai chịu nhượng bộ, bạn sẽ làm sao?",
+        hint: "Dùng <b>如果...，就...</b> (Ngày 19)."
+      },
+      {
+        cues: "开会 / 做报告 / 紧张",
+        question: "你觉得开会发言和做报告，哪个更让你紧张？",
+        vi: "Bạn thấy phát biểu trong cuộc họp và thuyết trình, cái nào khiến bạn hồi hộp hơn?",
+        hint: "Kết hợp Ngày 15 và Ngày 17."
+      },
+      {
+        cues: "客户 / 邮件 / 回复",
+        question: "收到客户的邮件以后，你一般多久回复？",
+        vi: "Sau khi nhận email của khách hàng, bạn thường bao lâu thì trả lời?",
+        hint: "Kết hợp Ngày 16 và Ngày 19."
+      }
+    ]
+  },
+  {
+    date: "2026-10-25",
+    topic: "Ôn tập tuần 3: Luyện nói tổng hợp (Weekly Review 6 — 口语综合练习)",
+    sentences: [
+      {
+        zh: "因为这周要见一位重要客户，所以周一的例会上，经理让我们好好准备。",
+        pinyin: "Yīnwèi zhè zhōu yào jiàn yí wèi zhòngyào kèhù, suǒyǐ zhōuyī de lìhuì shang, jīnglǐ ràng wǒmen hǎohǎo zhǔnbèi.",
+        vi: "Vì tuần này phải gặp một khách hàng quan trọng, nên trong buổi họp giao ban thứ Hai, quản lý bảo chúng tôi chuẩn bị thật kỹ."
+      },
+      {
+        zh: "虽然我第一次在会上做报告很紧张，但是同事的建议帮了我很大的忙。",
+        pinyin: "Suīrán wǒ dì-yī cì zài huì shang zuò bàogào hěn jǐnzhāng, dànshì tóngshì de jiànyì bāngle wǒ hěn dà de máng.",
+        vi: "Mặc dù lần đầu thuyết trình trong cuộc họp tôi rất hồi hộp, nhưng lời khuyên của đồng nghiệp đã giúp tôi rất nhiều."
+      },
+      {
+        zh: "报告结束以后，我不但把PPT发给了大家，而且在邮件里写清楚了下一步的计划。",
+        pinyin: "Bàogào jiéshù yǐhòu, wǒ búdàn bǎ PPT fā gěile dàjiā, érqiě zài yóujiàn lǐ xiě qīngchule xià yí bù de jìhuà.",
+        vi: "Sau khi thuyết trình xong, tôi không những gửi PPT cho mọi người, mà còn viết rõ kế hoạch bước tiếp theo trong email."
+      },
+      {
+        zh: "经理肯定了我的报告，不过他也提醒我，数据一定要准确。",
+        pinyin: "Jīnglǐ kěndìngle wǒ de bàogào, búguò tā yě tíxǐng wǒ, shùjù yídìng yào zhǔnquè.",
+        vi: "Quản lý ghi nhận bài thuyết trình của tôi, nhưng anh ấy cũng nhắc tôi rằng số liệu nhất định phải chính xác."
+      },
+      {
+        zh: "不管是给领导还是给客户发邮件，我都会先看一眼收件人，免得发错人。",
+        pinyin: "Bùguǎn shì gěi lǐngdǎo háishi gěi kèhù fā yóujiàn, wǒ dōu huì xiān kàn yì yǎn shōujiànrén, miǎnde fācuò rén.",
+        vi: "Bất kể gửi email cho sếp hay cho khách hàng, tôi đều liếc xem người nhận trước, để khỏi gửi nhầm người."
+      },
+      {
+        zh: "跟客户谈判的时候，虽然对方一直要求打折，但是因为开会时已经商量好了底价，所以我们没有让步。",
+        pinyin: "Gēn kèhù tánpàn de shíhou, suīrán duìfāng yìzhí yāoqiú dǎzhé, dànshì yīnwèi kāihuì shí yǐjīng shāngliang hǎole dǐjià, suǒyǐ wǒmen méiyǒu ràngbù.",
+        vi: "Khi đàm phán với khách hàng, mặc dù đối phương liên tục đòi giảm giá, nhưng vì lúc họp đã thống nhất giá sàn rồi, nên chúng tôi không nhượng bộ."
+      },
+      {
+        zh: "谈判结束以后，我马上给经理发了一封邮件，而且当面汇报了结果。",
+        pinyin: "Tánpàn jiéshù yǐhòu, wǒ mǎshàng gěi jīnglǐ fāle yì fēng yóujiàn, érqiě dāngmiàn huìbàole jiéguǒ.",
+        vi: "Đàm phán xong, tôi lập tức gửi một email cho quản lý, hơn nữa còn trực tiếp báo cáo kết quả."
+      },
+      {
+        zh: "因为下个月要请假回老家，所以我提前把手上的客户交接给了小李。",
+        pinyin: "Yīnwèi xià ge yuè yào qǐngjià huí lǎojiā, suǒyǐ wǒ tíqián bǎ shǒu shang de kèhù jiāojiē gěile Xiǎo Lǐ.",
+        vi: "Vì tháng sau phải xin nghỉ về quê, nên tôi đã bàn giao trước các khách hàng mình đang phụ trách cho Tiểu Lý."
+      },
+      {
+        zh: "不管是开会、做报告还是见客户，最重要的都是提前准备好。",
+        pinyin: "Bùguǎn shì kāihuì, zuò bàogào háishi jiàn kèhù, zuì zhòngyào de dōu shì tíqián zhǔnbèi hǎo.",
+        vi: "Bất kể là họp, thuyết trình hay gặp khách hàng, điều quan trọng nhất đều là chuẩn bị kỹ từ trước."
+      },
+      {
+        zh: "虽然这个星期工作特别忙，但是我觉得自己在职场沟通方面进步了很多。",
+        pinyin: "Suīrán zhège xīngqī gōngzuò tèbié máng, dànshì wǒ juéde zìjǐ zài zhíchǎng gōutōng fāngmiàn jìnbùle hěn duō.",
+        vi: "Mặc dù tuần này công việc đặc biệt bận, nhưng tôi thấy mình đã tiến bộ rất nhiều về mặt giao tiếp nơi công sở."
+      }
+    ],
+    vocabulary: [
+      { word: "因为...所以...", pinyin: "yīnwèi...suǒyǐ...", type: "conj", meaning: "vì...nên..." },
+      { word: "虽然...但是...", pinyin: "suīrán...dànshì...", type: "conj", meaning: "mặc dù...nhưng..." },
+      { word: "不但...而且...", pinyin: "búdàn...érqiě...", type: "conj", meaning: "không những...mà còn..." },
+      { word: "不管...都...", pinyin: "bùguǎn...dōu...", type: "phrase", meaning: "bất kể...đều..." },
+      { word: "不过", pinyin: "búguò", type: "conj", meaning: "nhưng, có điều" },
+      { word: "帮忙", pinyin: "bāngmáng", type: "v", meaning: "giúp đỡ (帮了我很大的忙 = giúp tôi rất nhiều)" },
+      { word: "提醒", pinyin: "tíxǐng", type: "v", meaning: "nhắc nhở" },
+      { word: "要求", pinyin: "yāoqiú", type: "v/n", meaning: "yêu cầu, đòi hỏi" },
+      { word: "底价", pinyin: "dǐjià", type: "n", meaning: "giá sàn, giá thấp nhất" },
+      { word: "封", pinyin: "fēng", type: "mw", meaning: "lượng từ cho thư, email" },
+      { word: "职场", pinyin: "zhíchǎng", type: "n", meaning: "nơi công sở, môi trường làm việc" },
+      { word: "方面", pinyin: "fāngmiàn", type: "n", meaning: "phương diện, mặt" },
+      { word: "进步", pinyin: "jìnbù", type: "v/n", meaning: "tiến bộ" }
+    ],
+    grammar: [
+      {
+        sentence: "因为这周要见一位重要客户，所以周一的例会上，经理让我们好好准备。",
+        explain: "Cặp liên từ nhân quả <b>因为...所以...</b> nối Ngày 19 (gặp khách hàng) với Ngày 15 (họp giao ban). <b>好好 + V</b> = làm cho thật kỹ, thật tốt."
+      },
+      {
+        sentence: "虽然我第一次在会上做报告很紧张，但是同事的建议帮了我很大的忙。",
+        explain: "Cặp nhượng bộ <b>虽然...但是...</b>. <b>帮忙</b> là động từ ly hợp: <b>帮了 + 我 + 很大的 + 忙</b> (tân ngữ và định ngữ chen giữa)."
+      },
+      {
+        sentence: "报告结束以后，我不但把PPT发给了大家，而且在邮件里写清楚了下一步的计划。",
+        explain: "Cặp tăng tiến <b>不但...而且...</b> nối hai hành động; kết hợp câu chữ 把 và bổ ngữ kết quả <b>写清楚</b> (Ngày 16 + Ngày 17)."
+      },
+      {
+        sentence: "经理肯定了我的报告，不过他也提醒我，数据一定要准确。",
+        explain: "<b>不过</b> chuyển ý nhẹ: khen trước, góp ý sau (Ngày 17 + Ngày 18). <b>提醒 + người + mệnh đề</b> = nhắc ai rằng..."
+      },
+      {
+        sentence: "不管是给领导还是给客户发邮件，我都会先看一眼收件人，免得发错人。",
+        explain: "<b>不管是A还是B，都...</b> = 'bất kể A hay B đều...'. Vế cuối dùng <b>免得</b> chỉ điều muốn tránh (Ngày 16 + Ngày 18 + Ngày 19)."
+      },
+      {
+        sentence: "跟客户谈判的时候，虽然对方一直要求打折，但是因为开会时已经商量好了底价，所以我们没有让步。",
+        explain: "Câu phức lồng hai cặp liên từ: <b>虽然...但是...</b> bao ngoài, bên trong vế 但是 là <b>因为...所以...</b>. <b>商量好</b> = bàn xong, thống nhất (Ngày 15 + Ngày 19)."
+      },
+      {
+        sentence: "谈判结束以后，我马上给经理发了一封邮件，而且当面汇报了结果。",
+        explain: "<b>给 + người + 发 + 邮件</b> = gửi email cho ai; lượng từ <b>封</b> cho thư/email. <b>而且</b> bổ sung hành động thứ hai (Ngày 16 + Ngày 18 + Ngày 19)."
+      },
+      {
+        sentence: "因为下个月要请假回老家，所以我提前把手上的客户交接给了小李。",
+        explain: "<b>因为...所以...</b> nối lý do (请假) với hành động (交接). Câu chữ 把 <b>把 + O + 交接给了 + người</b> (Ngày 18 + Ngày 19)."
+      },
+      {
+        sentence: "不管是开会、做报告还是见客户，最重要的都是提前准备好。",
+        explain: "<b>不管是A、B还是C，...都...</b> liệt kê nhiều tình huống; <b>最重要的都是...</b> nêu điểm chung (Ngày 15 + Ngày 17 + Ngày 19)."
+      },
+      {
+        sentence: "虽然这个星期工作特别忙，但是我觉得自己在职场沟通方面进步了很多。",
+        explain: "Câu tổng kết với <b>虽然...但是...</b>. Cấu trúc <b>在...方面</b> = 'về mặt...'; <b>进步了很多</b> = tiến bộ nhiều (bổ ngữ mức độ sau động từ + 了)."
+      }
+    ],
+    speaking: [
+      {
+        cues: "客户 / 开会 / 准备",
+        question: "见重要客户以前，你们会不会先开会准备？为什么？",
+        vi: "Trước khi gặp khách hàng quan trọng, các bạn có họp chuẩn bị trước không? Vì sao?",
+        hint: "Dùng <b>因为...所以...</b>. Kết hợp Ngày 15 và Ngày 19."
+      },
+      {
+        cues: "会上 / 报告 / 紧张",
+        question: "第一次在会上做报告的时候，你是怎么克服紧张的？",
+        vi: "Lần đầu thuyết trình trong cuộc họp, bạn đã vượt qua sự hồi hộp thế nào?",
+        hint: "Dùng <b>虽然...但是...</b>. Kết hợp Ngày 15 và Ngày 17."
+      },
+      {
+        cues: "报告以后 / 邮件",
+        question: "做完报告以后，你会给大家发邮件吗？会写些什么？",
+        vi: "Thuyết trình xong, bạn có gửi email cho mọi người không? Sẽ viết những gì?",
+        hint: "Dùng <b>不但...而且...</b>. Kết hợp Ngày 16 và Ngày 17."
+      },
+      {
+        cues: "领导 / 报告 / 意见",
+        question: "领导对你的报告提意见的时候，你会怎么回应？",
+        vi: "Khi sếp góp ý về bài thuyết trình của bạn, bạn sẽ phản hồi thế nào?",
+        hint: "Dùng <b>...，不过...</b>. Kết hợp Ngày 17 và Ngày 18."
+      },
+      {
+        cues: "请假 / 客户 / 交接",
+        question: "如果你要请假，手上的客户怎么办？",
+        vi: "Nếu bạn xin nghỉ phép, các khách hàng bạn đang phụ trách thì sao?",
+        hint: "Dùng <b>因为...所以...把...交接给...</b>. Kết hợp Ngày 18 và Ngày 19."
+      },
+      {
+        cues: "谈判 / 打折 / 开会",
+        question: "谈判时客户一直要求打折，你们会怎么做？",
+        vi: "Khi đàm phán mà khách hàng liên tục đòi giảm giá, các bạn sẽ làm gì?",
+        hint: "Dùng <b>虽然...但是因为...所以...</b>. Kết hợp Ngày 15 và Ngày 19."
+      },
+      {
+        cues: "开会 / 做报告 / 见客户 / 最重要",
+        question: "不管是开会、做报告还是见客户，你觉得最重要的是什么？",
+        vi: "Bất kể là họp, thuyết trình hay gặp khách hàng, bạn nghĩ điều quan trọng nhất là gì?",
+        hint: "Dùng <b>不管...都...</b>. Kết hợp Ngày 15, Ngày 17 và Ngày 19."
       }
     ]
   }

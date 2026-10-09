@@ -2,7 +2,7 @@
 // Chỉ các ngày từ MIN_DATE (ngày bắt đầu học) trở đi mới được hiển thị/chọn.
 const LESSONS = [
   {
-    date: "2026-09-28",
+    date: "2026-10-05",
     topic: "Giới thiệu bản thân (Self-Introduction)",
     sentences: [
       {
@@ -167,7 +167,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-09-29",
+    date: "2026-10-06",
     topic: "Gia đình (Family)",
     sentences: [
       {
@@ -326,7 +326,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-09-30",
+    date: "2026-10-07",
     topic: "Đồ ăn & Nhà hàng (Food & Dining)",
     sentences: [
       {
@@ -485,7 +485,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-01",
+    date: "2026-10-08",
     topic: "Thời tiết & Các mùa (Weather & Seasons)",
     sentences: [
       {
@@ -644,7 +644,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-02",
+    date: "2026-10-09",
     topic: "Mua sắm (Shopping)",
     sentences: [
       {
@@ -803,7 +803,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-03",
+    date: "2026-10-10",
     topic: "Ôn tập tuần 1: Từ vựng & Ngữ pháp (Weekly Review 1 — Vocabulary & Grammar)",
     sentences: [
       {
@@ -960,7 +960,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-04",
+    date: "2026-10-11",
     topic: "Ôn tập tuần 1: Luyện nói tổng hợp (Weekly Review 2 — Speaking Synthesis)",
     sentences: [
       {
@@ -1116,7 +1116,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-05",
+    date: "2026-10-12",
     topic: "Du lịch & Phương tiện di chuyển (Travel & Transportation)",
     sentences: [
       {
@@ -1275,7 +1275,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-06",
+    date: "2026-10-13",
     topic: "Sức khỏe & Tập luyện (Health & Exercise)",
     sentences: [
       {
@@ -1433,7 +1433,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-07",
+    date: "2026-10-14",
     topic: "Sở thích & Thời gian rảnh (Hobbies & Free Time)",
     sentences: [
       {
@@ -1590,7 +1590,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-08",
+    date: "2026-10-15",
     topic: "Công việc & Cuộc sống văn phòng (Work & Office Life)",
     sentences: [
       {
@@ -1748,7 +1748,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-09",
+    date: "2026-10-16",
     topic: "Công nghệ & Mạng xã hội (Technology & Social Media)",
     sentences: [
       {
@@ -1906,7 +1906,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-10",
+    date: "2026-10-17",
     topic: "Ôn tập tuần 2: Từ vựng & Ngữ pháp (Weekly Review 3 — Vocabulary & Grammar)",
     sentences: [
       {
@@ -2063,7 +2063,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-11",
+    date: "2026-10-18",
     topic: "Ôn tập tuần 2: Luyện nói tổng hợp (Weekly Review 4 — Speaking Synthesis)",
     sentences: [
       {
@@ -2215,6 +2215,1121 @@ const LESSONS = [
         question: "How do you balance work, health, hobbies, travel, and technology in your life?",
         vi: "Bạn cân bằng công việc, sức khỏe, sở thích, du lịch và công nghệ trong cuộc sống như thế nào?",
         hint: "Dùng danh động từ làm chủ ngữ <b>Balancing... has taught me...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-19",
+    topic: "Họp hành (Meetings)",
+    sentences: [
+      {
+        en: "Every Monday morning, our team holds a short meeting to go over the plan for the week.",
+        ipa: "/ˈɛvri ˈmʌndeɪ ˈmɔːrnɪŋ, ˈaʊər tiːm hoʊldz ə ʃɔːrt ˈmiːtɪŋ tu ɡoʊ ˈoʊvər ðə plæn fɔːr ðə wiːk/",
+        vi: "Mỗi sáng thứ Hai, nhóm chúng tôi tổ chức một cuộc họp ngắn để điểm qua kế hoạch trong tuần."
+      },
+      {
+        en: "Before the meeting, the organizer sends out an agenda so that everyone can prepare in advance.",
+        ipa: "/bɪˈfɔːr ðə ˈmiːtɪŋ, ði ˈɔːrɡənaɪzər sɛndz aʊt ən əˈdʒɛndə soʊ ðæt ˈɛvriwʌn kæn prɪˈpɛr ɪn ədˈvæns/",
+        vi: "Trước cuộc họp, người tổ chức gửi chương trình họp để mọi người có thể chuẩn bị trước."
+      },
+      {
+        en: "During the meeting, I take notes and write down the action items assigned to me.",
+        ipa: "/ˈdʊrɪŋ ðə ˈmiːtɪŋ, aɪ teɪk noʊts ənd raɪt daʊn ði ˈækʃən ˈaɪtəmz əˈsaɪnd tu mi/",
+        vi: "Trong lúc họp, tôi ghi chép và viết lại những đầu việc được giao cho mình."
+      },
+      {
+        en: "If I can't attend, I let my team leader know and ask a colleague to fill me in afterward.",
+        ipa: "/ɪf aɪ kænt əˈtɛnd, aɪ lɛt maɪ tiːm ˈliːdər noʊ ənd æsk ə ˈkɑːliːɡ tu fɪl mi ɪn ˈæftərwərd/",
+        vi: "Nếu không thể tham dự, tôi báo cho trưởng nhóm biết và nhờ một đồng nghiệp cập nhật lại cho tôi sau đó."
+      },
+      {
+        en: "When I want to share an idea, I politely say, 'Could I add something here?'",
+        ipa: "/wɛn aɪ wɑːnt tu ʃɛr ən aɪˈdiə, aɪ pəˈlaɪtli seɪ, kʊd aɪ æd ˈsʌmθɪŋ hɪr/",
+        vi: "Khi muốn chia sẻ một ý tưởng, tôi lịch sự nói: 'Tôi có thể bổ sung một chút được không?'"
+      },
+      {
+        en: "If someone is speaking too fast, it's perfectly fine to ask them to clarify their point.",
+        ipa: "/ɪf ˈsʌmwʌn ɪz ˈspiːkɪŋ tu fæst, ɪts ˈpɜːrfɪktli faɪn tu æsk ðɛm tu ˈklɛrəfaɪ ðɛr pɔɪnt/",
+        vi: "Nếu ai đó nói quá nhanh, hoàn toàn bình thường khi đề nghị họ làm rõ ý của mình."
+      },
+      {
+        en: "Our manager keeps the discussion on track and makes sure we don't run over time.",
+        ipa: "/ˈaʊər ˈmænɪdʒər kiːps ðə dɪˈskʌʃən ɑːn træk ənd meɪks ʃʊr wi doʊnt rʌn ˈoʊvər taɪm/",
+        vi: "Quản lý của chúng tôi giữ cho cuộc thảo luận đi đúng hướng và đảm bảo chúng tôi không họp quá giờ."
+      },
+      {
+        en: "Last week, we had to postpone a meeting because two key people were out sick.",
+        ipa: "/læst wiːk, wi hæd tu poʊstˈpoʊn ə ˈmiːtɪŋ bɪˈkɔːz tu kiː ˈpiːpəl wɜːr aʊt sɪk/",
+        vi: "Tuần trước, chúng tôi phải hoãn một cuộc họp vì hai người chủ chốt bị ốm phải nghỉ."
+      },
+      {
+        en: "Online meetings save travel time, but it is harder to read people's reactions on a screen.",
+        ipa: "/ˈɑːnlaɪn ˈmiːtɪŋz seɪv ˈtrævəl taɪm, bʌt ɪt ɪz ˈhɑːrdər tu riːd ˈpiːpəlz riˈækʃənz ɑːn ə skriːn/",
+        vi: "Họp trực tuyến tiết kiệm thời gian di chuyển, nhưng khó đọc được phản ứng của mọi người qua màn hình hơn."
+      },
+      {
+        en: "At the end, someone always sums up the key decisions so that nobody leaves confused.",
+        ipa: "/æt ði ɛnd, ˈsʌmwʌn ˈɔːlweɪz sʌmz ʌp ðə kiː dɪˈsɪʒənz soʊ ðæt ˈnoʊbɑːdi liːvz kənˈfjuzd/",
+        vi: "Cuối buổi, luôn có người tóm tắt lại các quyết định chính để không ai ra về mà còn mơ hồ."
+      }
+    ],
+    vocabulary: [
+      { word: "hold a meeting", ipa: "/hoʊld ə ˈmiːtɪŋ/", type: "phrase", meaning: "tổ chức cuộc họp" },
+      { word: "go over", ipa: "/ɡoʊ ˈoʊvər/", type: "phrasal verb", meaning: "xem lại, điểm qua" },
+      { word: "organizer", ipa: "/ˈɔːrɡənaɪzər/", type: "n", meaning: "người tổ chức" },
+      { word: "agenda", ipa: "/əˈdʒɛndə/", type: "n", meaning: "chương trình họp, nội dung họp" },
+      { word: "in advance", ipa: "/ɪn ədˈvæns/", type: "phrase", meaning: "trước, sớm" },
+      { word: "take notes", ipa: "/teɪk noʊts/", type: "phrase", meaning: "ghi chép" },
+      { word: "action item", ipa: "/ˈækʃən ˈaɪtəm/", type: "n", meaning: "đầu việc cần làm (sau cuộc họp)" },
+      { word: "fill someone in", ipa: "/fɪl ˈsʌmwʌn ɪn/", type: "phrasal verb", meaning: "cập nhật thông tin cho ai" },
+      { word: "clarify", ipa: "/ˈklɛrəfaɪ/", type: "v", meaning: "làm rõ" },
+      { word: "keep on track", ipa: "/kiːp ɑːn træk/", type: "phrase", meaning: "giữ đúng hướng, đúng tiến độ" },
+      { word: "run over time", ipa: "/rʌn ˈoʊvər taɪm/", type: "phrase", meaning: "kéo dài quá giờ" },
+      { word: "postpone", ipa: "/poʊstˈpoʊn/", type: "v", meaning: "hoãn lại" },
+      { word: "sum up", ipa: "/sʌm ʌp/", type: "phrasal verb", meaning: "tóm tắt" },
+      { word: "decision", ipa: "/dɪˈsɪʒən/", type: "n", meaning: "quyết định" }
+    ],
+    grammar: [
+      {
+        sentence: "Every Monday morning, our team holds a short meeting to go over the plan for the week.",
+        explain: "Thì <b>hiện tại đơn</b> (<b>holds</b>) cho thói quen lặp lại, đi với <b>every + thời gian</b>. Cụm <b>to go over</b> chỉ mục đích."
+      },
+      {
+        sentence: "Before the meeting, the organizer sends out an agenda so that everyone can prepare in advance.",
+        explain: "Cấu trúc <b>so that + S + can + V</b> chỉ mục đích (để ai có thể làm gì). Phrasal verb <b>send out</b> = gửi đi (cho nhiều người)."
+      },
+      {
+        sentence: "During the meeting, I take notes and write down the action items assigned to me.",
+        explain: "Giới từ <b>during + danh từ</b> = trong suốt. Phân từ II <b>assigned to me</b> là mệnh đề quan hệ rút gọn bị động (= <b>which are assigned to me</b>)."
+      },
+      {
+        sentence: "If I can't attend, I let my team leader know and ask a colleague to fill me in afterward.",
+        explain: "Câu điều kiện loại 0 (<b>If + hiện tại, hiện tại</b>) cho việc luôn làm. Cấu trúc <b>let + O + V nguyên mẫu</b> và <b>ask + O + to V</b>."
+      },
+      {
+        sentence: "When I want to share an idea, I politely say, 'Could I add something here?'",
+        explain: "<b>Could I + V...?</b> là cách xin phép lịch sự, nhẹ nhàng hơn <b>Can I</b>. Trạng từ <b>politely</b> đứng trước động từ."
+      },
+      {
+        sentence: "If someone is speaking too fast, it's perfectly fine to ask them to clarify their point.",
+        explain: "Cấu trúc <b>It's + adj + to V</b> (chủ ngữ giả <b>it</b>). <b>too + adj/adv</b> = quá mức. <b>ask + O + to V</b>."
+      },
+      {
+        sentence: "Our manager keeps the discussion on track and makes sure we don't run over time.",
+        explain: "Cấu trúc <b>keep + O + trạng thái</b> (giữ cái gì ở trạng thái nào). <b>make sure (that) + mệnh đề</b> = đảm bảo rằng."
+      },
+      {
+        sentence: "Last week, we had to postpone a meeting because two key people were out sick.",
+        explain: "<b>had to + V</b> là quá khứ của <b>have to</b> (đã phải). <b>because + mệnh đề</b> chỉ lý do. <b>be out sick</b> = nghỉ ốm."
+      },
+      {
+        sentence: "Online meetings save travel time, but it is harder to read people's reactions on a screen.",
+        explain: "So sánh hơn <b>harder</b> với tính từ ngắn. Cấu trúc <b>it is + adj + to V</b>. Liên từ <b>but</b> nối hai ý tương phản."
+      },
+      {
+        sentence: "At the end, someone always sums up the key decisions so that nobody leaves confused.",
+        explain: "Phrasal verb <b>sum up</b>. <b>so that</b> chỉ mục đích/kết quả. <b>leave + adj</b> (<b>leaves confused</b>) = ra về trong trạng thái..."
+      }
+    ],
+    speaking: [
+      {
+        cues: "how often / team / meetings",
+        question: "How often does your team hold meetings, and what are they usually about?",
+        vi: "Nhóm của bạn họp bao lâu một lần, và thường họp về nội dung gì?",
+        hint: "Dùng <b>Every + thời gian, our team holds... to + V</b>"
+      },
+      {
+        cues: "prepare / before / meeting",
+        question: "How do you prepare before an important meeting?",
+        vi: "Bạn chuẩn bị như thế nào trước một cuộc họp quan trọng?",
+        hint: "Dùng <b>Before the meeting, I... so that I can...</b>"
+      },
+      {
+        cues: "can't attend / what / do",
+        question: "What do you do if you can't attend a meeting?",
+        vi: "Bạn làm gì nếu không thể tham dự một cuộc họp?",
+        hint: "Dùng <b>If I can't..., I let... know and ask... to fill me in</b>"
+      },
+      {
+        cues: "share idea / interrupt / politely",
+        question: "How do you politely share your idea or interrupt someone in a meeting?",
+        vi: "Bạn chia sẻ ý kiến hoặc ngắt lời ai đó một cách lịch sự trong cuộc họp như thế nào?",
+        hint: "Dùng <b>I usually say, 'Could I...?'</b>"
+      },
+      {
+        cues: "meeting / run over time / why",
+        question: "Do your meetings often run over time? Why do you think that happens?",
+        vi: "Các cuộc họp của bạn có hay bị kéo dài quá giờ không? Bạn nghĩ tại sao lại như vậy?",
+        hint: "Dùng <b>... because + mệnh đề</b> và <b>make sure (that)...</b>"
+      },
+      {
+        cues: "online meetings / in-person / prefer",
+        question: "Do you prefer online meetings or in-person meetings? Why?",
+        vi: "Bạn thích họp trực tuyến hay họp trực tiếp hơn? Tại sao?",
+        hint: "Dùng so sánh hơn <b>It is easier/harder to + V...</b>"
+      },
+      {
+        cues: "end of meeting / decisions / clear",
+        question: "How does your team make sure everyone understands the decisions at the end of a meeting?",
+        vi: "Nhóm của bạn đảm bảo mọi người hiểu các quyết định vào cuối buổi họp bằng cách nào?",
+        hint: "Dùng <b>someone sums up... so that nobody...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-20",
+    topic: "Email & Giao tiếp công sở (Emails & Workplace Communication)",
+    sentences: [
+      {
+        en: "Most of my communication at work happens through email and our team chat app.",
+        ipa: "/moʊst ʌv maɪ kəˌmjunɪˈkeɪʃən æt wɜːrk ˈhæpənz θru ˈiːmeɪl ənd ˈaʊər tiːm tʃæt æp/",
+        vi: "Phần lớn việc giao tiếp trong công việc của tôi diễn ra qua email và ứng dụng chat của nhóm."
+      },
+      {
+        en: "When I write a formal email, I start with 'Dear' followed by the person's name.",
+        ipa: "/wɛn aɪ raɪt ə ˈfɔːrməl ˈiːmeɪl, aɪ stɑːrt wɪð dɪr ˈfɑːloʊd baɪ ðə ˈpɜːrsənz neɪm/",
+        vi: "Khi viết email trang trọng, tôi mở đầu bằng 'Dear' rồi đến tên người nhận."
+      },
+      {
+        en: "A clear subject line helps the reader understand what the message is about at a glance.",
+        ipa: "/ə klɪr ˈsʌbdʒɪkt laɪn hɛlps ðə ˈriːdər ˌʌndərˈstænd wʌt ðə ˈmɛsɪdʒ ɪz əˈbaʊt æt ə ɡlæns/",
+        vi: "Một dòng tiêu đề rõ ràng giúp người đọc hiểu ngay email nói về điều gì chỉ qua một cái nhìn."
+      },
+      {
+        en: "I always try to keep my emails short and get straight to the point.",
+        ipa: "/aɪ ˈɔːlweɪz traɪ tu kiːp maɪ ˈiːmeɪlz ʃɔːrt ənd ɡɛt streɪt tu ðə pɔɪnt/",
+        vi: "Tôi luôn cố giữ email ngắn gọn và đi thẳng vào vấn đề."
+      },
+      {
+        en: "If I need something from a colleague, I write, 'Could you please send me the file by Thursday?'",
+        ipa: "/ɪf aɪ niːd ˈsʌmθɪŋ frʌm ə ˈkɑːliːɡ, aɪ raɪt, kʊd ju pliːz sɛnd mi ðə faɪl baɪ ˈθɜːrzdeɪ/",
+        vi: "Nếu cần gì từ đồng nghiệp, tôi viết: 'Bạn vui lòng gửi tôi tập tin trước thứ Năm được không?'"
+      },
+      {
+        en: "I attach any relevant documents and copy my manager when the topic is important.",
+        ipa: "/aɪ əˈtætʃ ˈɛni ˈrɛləvənt ˈdɑːkjəmənts ənd ˈkɑːpi maɪ ˈmænɪdʒər wɛn ðə ˈtɑːpɪk ɪz ɪmˈpɔːrtənt/",
+        vi: "Tôi đính kèm các tài liệu liên quan và CC cho quản lý khi vấn đề quan trọng."
+      },
+      {
+        en: "It is polite to reply within twenty-four hours, even if it is just to say you received the message.",
+        ipa: "/ɪt ɪz pəˈlaɪt tu rɪˈplaɪ wɪˈðɪn ˈtwɛnti fɔːr ˈaʊərz, ˈiːvən ɪf ɪt ɪz dʒʌst tu seɪ ju rɪˈsiːvd ðə ˈmɛsɪdʒ/",
+        vi: "Trả lời trong vòng hai mươi bốn giờ là lịch sự, kể cả khi chỉ để báo rằng bạn đã nhận được thư."
+      },
+      {
+        en: "If I haven't heard back after a few days, I send a friendly follow-up.",
+        ipa: "/ɪf aɪ ˈhævənt hɜːrd bæk ˈæftər ə fju deɪz, aɪ sɛnd ə ˈfrɛndli ˈfɑːloʊ ʌp/",
+        vi: "Nếu sau vài ngày vẫn chưa nhận được phản hồi, tôi gửi một email nhắc lại thân thiện."
+      },
+      {
+        en: "Before clicking 'Send,' I always proofread my email to avoid embarrassing typos.",
+        ipa: "/bɪˈfɔːr ˈklɪkɪŋ sɛnd, aɪ ˈɔːlweɪz ˈpruːfriːd maɪ ˈiːmeɪl tu əˈvɔɪd ɪmˈbærəsɪŋ ˈtaɪpoʊz/",
+        vi: "Trước khi bấm 'Gửi', tôi luôn đọc soát lại email để tránh những lỗi chính tả đáng xấu hổ."
+      },
+      {
+        en: "I usually end with 'Best regards' and my name, which sounds professional but not too stiff.",
+        ipa: "/aɪ ˈjuʒuəli ɛnd wɪð bɛst rɪˈɡɑːrdz ənd maɪ neɪm, wɪtʃ saʊndz prəˈfɛʃənəl bʌt nɑːt tu stɪf/",
+        vi: "Tôi thường kết thúc bằng 'Best regards' và tên mình, nghe vừa chuyên nghiệp vừa không quá cứng nhắc."
+      }
+    ],
+    vocabulary: [
+      { word: "communication", ipa: "/kəˌmjunɪˈkeɪʃən/", type: "n", meaning: "sự giao tiếp, trao đổi" },
+      { word: "formal", ipa: "/ˈfɔːrməl/", type: "adj", meaning: "trang trọng" },
+      { word: "subject line", ipa: "/ˈsʌbdʒɪkt laɪn/", type: "n", meaning: "dòng tiêu đề email" },
+      { word: "at a glance", ipa: "/æt ə ɡlæns/", type: "phrase", meaning: "chỉ cần nhìn qua" },
+      { word: "get straight to the point", ipa: "/ɡɛt streɪt tu ðə pɔɪnt/", type: "phrase", meaning: "đi thẳng vào vấn đề" },
+      { word: "attach", ipa: "/əˈtætʃ/", type: "v", meaning: "đính kèm" },
+      { word: "relevant", ipa: "/ˈrɛləvənt/", type: "adj", meaning: "liên quan" },
+      { word: "copy (cc)", ipa: "/ˈkɑːpi/", type: "v", meaning: "gửi kèm một bản (CC) cho ai" },
+      { word: "reply", ipa: "/rɪˈplaɪ/", type: "v", meaning: "trả lời, phản hồi" },
+      { word: "hear back", ipa: "/hɪr bæk/", type: "phrasal verb", meaning: "nhận được hồi âm" },
+      { word: "follow-up", ipa: "/ˈfɑːloʊ ʌp/", type: "n", meaning: "email/tin nhắn nhắc lại, theo dõi tiếp" },
+      { word: "proofread", ipa: "/ˈpruːfriːd/", type: "v", meaning: "đọc soát lỗi" },
+      { word: "typo", ipa: "/ˈtaɪpoʊ/", type: "n", meaning: "lỗi đánh máy" },
+      { word: "Best regards", ipa: "/bɛst rɪˈɡɑːrdz/", type: "phrase", meaning: "Trân trọng (câu kết email)" },
+      { word: "stiff", ipa: "/stɪf/", type: "adj", meaning: "cứng nhắc, khách sáo" }
+    ],
+    grammar: [
+      {
+        sentence: "Most of my communication at work happens through email and our team chat app.",
+        explain: "<b>Most of + my/the + danh từ</b> = phần lớn. Danh từ không đếm được <b>communication</b> đi với động từ số ít <b>happens</b>. Giới từ <b>through</b> = thông qua."
+      },
+      {
+        sentence: "When I write a formal email, I start with 'Dear' followed by the person's name.",
+        explain: "Mệnh đề thời gian <b>When + hiện tại đơn</b>. <b>followed by</b> = theo sau là. Sở hữu cách <b>the person's name</b>."
+      },
+      {
+        sentence: "A clear subject line helps the reader understand what the message is about at a glance.",
+        explain: "Cấu trúc <b>help + O + V nguyên mẫu</b>. Câu hỏi gián tiếp <b>what the message is about</b> (chủ ngữ đứng trước động từ, không đảo)."
+      },
+      {
+        sentence: "I always try to keep my emails short and get straight to the point.",
+        explain: "<b>try to + V</b> = cố gắng làm gì. <b>keep + O + adj</b> (<b>keep my emails short</b>) = giữ cho cái gì như thế nào."
+      },
+      {
+        sentence: "If I need something from a colleague, I write, 'Could you please send me the file by Thursday?'",
+        explain: "<b>Could you please + V...?</b> là lời đề nghị lịch sự. Giới từ <b>by + thời điểm</b> = trước/muộn nhất là."
+      },
+      {
+        sentence: "I attach any relevant documents and copy my manager when the topic is important.",
+        explain: "<b>any + danh từ số nhiều</b> trong câu khẳng định = bất kỳ ... nào. Mệnh đề <b>when</b> chỉ điều kiện/thời điểm."
+      },
+      {
+        sentence: "It is polite to reply within twenty-four hours, even if it is just to say you received the message.",
+        explain: "Cấu trúc <b>It is + adj + to V</b>. <b>within + khoảng thời gian</b> = trong vòng. <b>even if</b> = kể cả khi."
+      },
+      {
+        sentence: "If I haven't heard back after a few days, I send a friendly follow-up.",
+        explain: "Mệnh đề <b>If</b> dùng <b>hiện tại hoàn thành</b> (<b>haven't heard back</b>) để nhấn mạnh việc chưa xảy ra tính đến lúc đó. <b>a few + danh từ số nhiều</b> = một vài."
+      },
+      {
+        sentence: "Before clicking 'Send,' I always proofread my email to avoid embarrassing typos.",
+        explain: "<b>Before + V-ing</b> (rút gọn khi cùng chủ ngữ). <b>avoid + danh từ/V-ing</b>. Tính từ đuôi <b>-ing</b> (<b>embarrassing</b>) mô tả tính chất của sự vật."
+      },
+      {
+        sentence: "I usually end with 'Best regards' and my name, which sounds professional but not too stiff.",
+        explain: "Mệnh đề quan hệ không xác định <b>, which...</b> bổ nghĩa cho cả cụm phía trước. <b>sound + adj</b> = nghe có vẻ. <b>not too + adj</b> = không quá."
+      }
+    ],
+    speaking: [
+      {
+        cues: "communicate / colleagues / mostly",
+        question: "How do you mostly communicate with your colleagues: email, chat, or face to face?",
+        vi: "Bạn chủ yếu giao tiếp với đồng nghiệp bằng cách nào: email, chat hay gặp trực tiếp?",
+        hint: "Dùng <b>Most of my communication happens through...</b>"
+      },
+      {
+        cues: "formal email / start / end",
+        question: "How do you usually start and end a formal email?",
+        vi: "Bạn thường mở đầu và kết thúc một email trang trọng như thế nào?",
+        hint: "Dùng <b>I start with... followed by...</b> và <b>I end with...</b>"
+      },
+      {
+        cues: "good email / qualities",
+        question: "In your opinion, what makes a work email clear and effective?",
+        vi: "Theo bạn, điều gì làm cho một email công việc rõ ràng và hiệu quả?",
+        hint: "Dùng <b>help + O + V</b> và <b>keep + O + adj</b>"
+      },
+      {
+        cues: "ask colleague / favor / politely",
+        question: "How do you politely ask a colleague to do something for you in writing?",
+        vi: "Bạn nhờ đồng nghiệp làm việc gì đó bằng văn bản một cách lịch sự như thế nào?",
+        hint: "Dùng <b>Could you please + V... by + thời điểm?</b>"
+      },
+      {
+        cues: "how quickly / reply / emails",
+        question: "How quickly do you usually reply to work emails?",
+        vi: "Bạn thường trả lời email công việc nhanh đến mức nào?",
+        hint: "Dùng <b>I try to reply within...</b> và <b>even if...</b>"
+      },
+      {
+        cues: "no reply / what / do",
+        question: "What do you do if someone doesn't reply to your email?",
+        vi: "Bạn làm gì nếu ai đó không trả lời email của bạn?",
+        hint: "Dùng <b>If I haven't heard back after..., I...</b>"
+      },
+      {
+        cues: "mistake / email / ever",
+        question: "Have you ever sent an email with an embarrassing mistake? What happened?",
+        vi: "Bạn đã bao giờ gửi một email có lỗi đáng xấu hổ chưa? Chuyện gì đã xảy ra?",
+        hint: "Dùng <b>Once, I sent... Since then, I always + V before + V-ing</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-21",
+    topic: "Thuyết trình (Giving Presentations)",
+    sentences: [
+      {
+        en: "Next Wednesday, I have to give a presentation on our quarterly sales results.",
+        ipa: "/nɛkst ˈwɛnzdeɪ, aɪ hæv tu ɡɪv ə ˌprɛzənˈteɪʃən ɑːn ˈaʊər ˈkwɔːrtərli seɪlz rɪˈzʌlts/",
+        vi: "Thứ Tư tới, tôi phải thuyết trình về kết quả kinh doanh quý của chúng tôi."
+      },
+      {
+        en: "I'm preparing about fifteen slides, and each one will have only a few key points.",
+        ipa: "/aɪm prɪˈpɛrɪŋ əˈbaʊt ˌfɪfˈtiːn slaɪdz, ənd iːtʃ wʌn wɪl hæv ˈoʊnli ə fju kiː pɔɪnts/",
+        vi: "Tôi đang chuẩn bị khoảng mười lăm trang chiếu, và mỗi trang chỉ có vài ý chính."
+      },
+      {
+        en: "To make the numbers easier to understand, I'm going to use simple charts and graphs.",
+        ipa: "/tu meɪk ðə ˈnʌmbərz ˈiːziər tu ˌʌndərˈstænd, aɪm ˈɡoʊɪŋ tu juz ˈsɪmpəl tʃɑːrts ənd ɡræfs/",
+        vi: "Để các con số dễ hiểu hơn, tôi sẽ dùng các biểu đồ đơn giản."
+      },
+      {
+        en: "I will open with a short story to grab the audience's attention.",
+        ipa: "/aɪ wɪl ˈoʊpən wɪð ə ʃɔːrt ˈstɔːri tu ɡræb ði ˈɔːdiənsɪz əˈtɛnʃən/",
+        vi: "Tôi sẽ mở đầu bằng một câu chuyện ngắn để thu hút sự chú ý của khán giả."
+      },
+      {
+        en: "After the introduction, I'll say, 'Let's move on to the main results.'",
+        ipa: "/ˈæftər ði ˌɪntrəˈdʌkʃən, aɪl seɪ, lɛts muv ɑːn tu ðə meɪn rɪˈzʌlts/",
+        vi: "Sau phần giới thiệu, tôi sẽ nói: 'Bây giờ chúng ta chuyển sang các kết quả chính.'"
+      },
+      {
+        en: "I have rehearsed my talk several times in front of a mirror to build my confidence.",
+        ipa: "/aɪ hæv rɪˈhɜːrst maɪ tɔːk ˈsɛvrəl taɪmz ɪn frʌnt ʌv ə ˈmɪrər tu bɪld maɪ ˈkɑːnfɪdəns/",
+        vi: "Tôi đã tập dượt bài nói vài lần trước gương để tăng sự tự tin."
+      },
+      {
+        en: "Even though I still get nervous, I try to speak slowly and make eye contact.",
+        ipa: "/ˈiːvən ðoʊ aɪ stɪl ɡɛt ˈnɜːrvəs, aɪ traɪ tu spiːk ˈsloʊli ənd meɪk aɪ ˈkɑːntækt/",
+        vi: "Dù vẫn còn hồi hộp, tôi cố nói chậm và giao tiếp bằng mắt."
+      },
+      {
+        en: "If the projector stops working, I will have a printed handout as a backup.",
+        ipa: "/ɪf ðə prəˈdʒɛktər stɑːps ˈwɜːrkɪŋ, aɪ wɪl hæv ə ˈprɪntɪd ˈhændaʊt æz ə ˈbækʌp/",
+        vi: "Nếu máy chiếu ngừng hoạt động, tôi sẽ có tài liệu in sẵn để dự phòng."
+      },
+      {
+        en: "At the end, I'll invite questions, and if I don't know an answer, I'll promise to get back to them.",
+        ipa: "/æt ði ɛnd, aɪl ɪnˈvaɪt ˈkwɛstʃənz, ənd ɪf aɪ doʊnt noʊ ən ˈænsər, aɪl ˈprɑːmɪs tu ɡɛt bæk tu ðɛm/",
+        vi: "Cuối buổi, tôi sẽ mời mọi người đặt câu hỏi, và nếu không biết câu trả lời, tôi sẽ hứa phản hồi họ sau."
+      },
+      {
+        en: "A good presentation is not about showing everything you know, but about delivering a clear message.",
+        ipa: "/ə ɡʊd ˌprɛzənˈteɪʃən ɪz nɑːt əˈbaʊt ˈʃoʊɪŋ ˈɛvriθɪŋ ju noʊ, bʌt əˈbaʊt dɪˈlɪvərɪŋ ə klɪr ˈmɛsɪdʒ/",
+        vi: "Một bài thuyết trình hay không phải là khoe hết những gì bạn biết, mà là truyền tải một thông điệp rõ ràng."
+      }
+    ],
+    vocabulary: [
+      { word: "give a presentation", ipa: "/ɡɪv ə ˌprɛzənˈteɪʃən/", type: "phrase", meaning: "thuyết trình" },
+      { word: "quarterly", ipa: "/ˈkwɔːrtərli/", type: "adj", meaning: "hàng quý" },
+      { word: "slide", ipa: "/slaɪd/", type: "n", meaning: "trang chiếu (slide)" },
+      { word: "key point", ipa: "/kiː pɔɪnt/", type: "n", meaning: "ý chính" },
+      { word: "chart", ipa: "/tʃɑːrt/", type: "n", meaning: "biểu đồ" },
+      { word: "grab attention", ipa: "/ɡræb əˈtɛnʃən/", type: "phrase", meaning: "thu hút sự chú ý" },
+      { word: "audience", ipa: "/ˈɔːdiəns/", type: "n", meaning: "khán giả, người nghe" },
+      { word: "move on to", ipa: "/muv ɑːn tu/", type: "phrasal verb", meaning: "chuyển sang (phần tiếp theo)" },
+      { word: "rehearse", ipa: "/rɪˈhɜːrs/", type: "v", meaning: "tập dượt" },
+      { word: "confidence", ipa: "/ˈkɑːnfɪdəns/", type: "n", meaning: "sự tự tin" },
+      { word: "make eye contact", ipa: "/meɪk aɪ ˈkɑːntækt/", type: "phrase", meaning: "giao tiếp bằng mắt" },
+      { word: "projector", ipa: "/prəˈdʒɛktər/", type: "n", meaning: "máy chiếu" },
+      { word: "handout", ipa: "/ˈhændaʊt/", type: "n", meaning: "tài liệu phát tay" },
+      { word: "backup", ipa: "/ˈbækʌp/", type: "n", meaning: "phương án dự phòng" },
+      { word: "get back to someone", ipa: "/ɡɛt bæk tu ˈsʌmwʌn/", type: "phrasal verb", meaning: "phản hồi lại ai sau" }
+    ],
+    grammar: [
+      {
+        sentence: "Next Wednesday, I have to give a presentation on our quarterly sales results.",
+        explain: "<b>have to + V</b> diễn tả nghĩa vụ trong tương lai gần (đi với <b>next Wednesday</b>). Giới từ <b>on</b> = về (chủ đề)."
+      },
+      {
+        sentence: "I'm preparing about fifteen slides, and each one will have only a few key points.",
+        explain: "<b>Hiện tại tiếp diễn</b> (<b>I'm preparing</b>) cho việc đang làm dạo này. <b>each + danh từ số ít</b>; <b>one</b> thay cho <b>slide</b>. <b>only a few</b> = chỉ một vài."
+      },
+      {
+        sentence: "To make the numbers easier to understand, I'm going to use simple charts and graphs.",
+        explain: "<b>To + V</b> đặt đầu câu chỉ mục đích. <b>make + O + adj</b> (so sánh hơn <b>easier</b>) + <b>to V</b>. <b>be going to + V</b> cho dự định đã lên kế hoạch."
+      },
+      {
+        sentence: "I will open with a short story to grab the audience's attention.",
+        explain: "<b>open with + danh từ</b> = mở đầu bằng. Sở hữu cách của danh từ tập hợp <b>the audience's</b>. <b>to grab</b> chỉ mục đích."
+      },
+      {
+        sentence: "After the introduction, I'll say, 'Let's move on to the main results.'",
+        explain: "<b>Let's + V</b> = chúng ta hãy (đề nghị). <b>move on to</b> là cụm chuyển ý rất hay dùng khi thuyết trình."
+      },
+      {
+        sentence: "I have rehearsed my talk several times in front of a mirror to build my confidence.",
+        explain: "<b>Hiện tại hoàn thành</b> (<b>have rehearsed</b>) + <b>several times</b> diễn tả việc đã làm nhiều lần tính đến nay. <b>in front of</b> = phía trước."
+      },
+      {
+        sentence: "Even though I still get nervous, I try to speak slowly and make eye contact.",
+        explain: "<b>Even though + mệnh đề</b> = mặc dù (nhấn mạnh hơn <b>although</b>). <b>get + adj</b> (<b>get nervous</b>) = trở nên. Trạng từ <b>slowly</b> bổ nghĩa cho <b>speak</b>."
+      },
+      {
+        sentence: "If the projector stops working, I will have a printed handout as a backup.",
+        explain: "Câu điều kiện loại 1: <b>If + hiện tại đơn, will + V</b>. <b>stop + V-ing</b> = ngừng làm gì. <b>as</b> = với vai trò là."
+      },
+      {
+        sentence: "At the end, I'll invite questions, and if I don't know an answer, I'll promise to get back to them.",
+        explain: "Câu điều kiện loại 1 lồng trong câu ghép. <b>promise + to V</b> = hứa làm gì. <b>get back to + người</b> = phản hồi lại ai."
+      },
+      {
+        sentence: "A good presentation is not about showing everything you know, but about delivering a clear message.",
+        explain: "Cấu trúc <b>not about A, but about B</b> (không phải là A mà là B), A và B đều là <b>V-ing</b>. Mệnh đề quan hệ rút gọn <b>everything (that) you know</b>."
+      }
+    ],
+    speaking: [
+      {
+        cues: "last time / give / presentation",
+        question: "When was the last time you gave a presentation, and what was it about?",
+        vi: "Lần gần nhất bạn thuyết trình là khi nào, và nó nói về điều gì?",
+        hint: "Dùng quá khứ đơn <b>I gave a presentation on...</b>"
+      },
+      {
+        cues: "prepare / slides / how",
+        question: "How do you usually prepare your slides for a presentation?",
+        vi: "Bạn thường chuẩn bị các trang chiếu cho bài thuyết trình như thế nào?",
+        hint: "Dùng <b>To make..., I use...</b> và <b>each slide has...</b>"
+      },
+      {
+        cues: "start / presentation / attention",
+        question: "How do you like to start a presentation to get people's attention?",
+        vi: "Bạn thích mở đầu bài thuyết trình như thế nào để thu hút sự chú ý của mọi người?",
+        hint: "Dùng <b>I open with... to grab...</b>"
+      },
+      {
+        cues: "nervous / speaking / audience",
+        question: "Do you get nervous when you speak in front of an audience? How do you deal with it?",
+        vi: "Bạn có hồi hộp khi nói trước khán giả không? Bạn xử lý điều đó thế nào?",
+        hint: "Dùng <b>Even though I get nervous, I try to...</b>"
+      },
+      {
+        cues: "rehearse / how many times",
+        question: "How many times do you usually rehearse before an important presentation?",
+        vi: "Bạn thường tập dượt bao nhiêu lần trước một bài thuyết trình quan trọng?",
+        hint: "Dùng <b>I have rehearsed... several times</b>"
+      },
+      {
+        cues: "technical problem / what / do",
+        question: "What would you do if something went wrong with the technology during your talk?",
+        vi: "Bạn sẽ làm gì nếu thiết bị gặp sự cố trong lúc bạn đang trình bày?",
+        hint: "Dùng <b>If + S + V..., I will have/use... as a backup</b>"
+      },
+      {
+        cues: "difficult question / answer / don't know",
+        question: "How do you respond when someone asks a question you can't answer?",
+        vi: "Bạn phản ứng thế nào khi ai đó hỏi một câu bạn không trả lời được?",
+        hint: "Dùng <b>I promise to get back to them...</b>"
+      },
+      {
+        cues: "good presentation / most important",
+        question: "In your opinion, what is the most important thing in a good presentation?",
+        vi: "Theo bạn, điều quan trọng nhất trong một bài thuyết trình hay là gì?",
+        hint: "Dùng <b>It is not about + V-ing, but about + V-ing</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-22",
+    topic: "Làm việc với sếp: Phản hồi & Xin nghỉ phép (Working with Your Manager: Feedback & Time Off)",
+    sentences: [
+      {
+        en: "Every month, I have a one-on-one meeting with my manager to discuss my performance.",
+        ipa: "/ˈɛvri mʌnθ, aɪ hæv ə ˈwʌn ɑːn ˈwʌn ˈmiːtɪŋ wɪð maɪ ˈmænɪdʒər tu dɪˈskʌs maɪ pərˈfɔːrməns/",
+        vi: "Mỗi tháng, tôi có một buổi gặp riêng với quản lý để trao đổi về hiệu quả công việc của mình."
+      },
+      {
+        en: "She usually starts by pointing out what I have done well recently.",
+        ipa: "/ʃi ˈjuʒuəli stɑːrts baɪ ˈpɔɪntɪŋ aʊt wʌt aɪ hæv dʌn wɛl ˈriːsəntli/",
+        vi: "Chị ấy thường bắt đầu bằng việc chỉ ra những gì tôi đã làm tốt gần đây."
+      },
+      {
+        en: "Then she gives me some constructive feedback on areas where I could improve.",
+        ipa: "/ðɛn ʃi ɡɪvz mi sʌm kənˈstrʌktɪv ˈfiːdbæk ɑːn ˈɛriəz wɛr aɪ kʊd ɪmˈpruv/",
+        vi: "Sau đó chị ấy đưa ra một số góp ý mang tính xây dựng về những mặt tôi có thể cải thiện."
+      },
+      {
+        en: "At first, criticism made me feel defensive, but now I see it as a chance to grow.",
+        ipa: "/æt fɜːrst, ˈkrɪtɪsɪzəm meɪd mi fiːl dɪˈfɛnsɪv, bʌt naʊ aɪ siː ɪt æz ə tʃæns tu ɡroʊ/",
+        vi: "Lúc đầu, lời phê bình khiến tôi muốn phòng thủ, nhưng giờ tôi xem đó là cơ hội để phát triển."
+      },
+      {
+        en: "Last time, she suggested that I delegate more tasks instead of doing everything myself.",
+        ipa: "/læst taɪm, ʃi səɡˈdʒɛstɪd ðæt aɪ ˈdɛlɪɡeɪt mɔːr tæsks ɪnˈstɛd ʌv ˈduɪŋ ˈɛvriθɪŋ maɪˈsɛlf/",
+        vi: "Lần trước, chị ấy gợi ý tôi nên giao bớt việc cho người khác thay vì tự làm mọi thứ."
+      },
+      {
+        en: "I also asked her whether I could take on more responsibility next quarter.",
+        ipa: "/aɪ ˈɔːlsoʊ æskt hɜːr ˈwɛðər aɪ kʊd teɪk ɑːn mɔːr rɪˌspɑːnsəˈbɪləti nɛkst ˈkwɔːrtər/",
+        vi: "Tôi cũng hỏi chị ấy liệu tôi có thể đảm nhận thêm trách nhiệm vào quý tới không."
+      },
+      {
+        en: "Next month, I'm planning to take three days off to attend my cousin's wedding.",
+        ipa: "/nɛkst mʌnθ, aɪm ˈplænɪŋ tu teɪk θriː deɪz ɔːf tu əˈtɛnd maɪ ˈkʌzənz ˈwɛdɪŋ/",
+        vi: "Tháng sau, tôi dự định nghỉ ba ngày để đi dự đám cưới của anh họ."
+      },
+      {
+        en: "To request leave, I need to fill out a form at least two weeks ahead of time.",
+        ipa: "/tu rɪˈkwɛst liːv, aɪ niːd tu fɪl aʊt ə fɔːrm æt liːst tu wiːks əˈhɛd ʌv taɪm/",
+        vi: "Để xin nghỉ phép, tôi cần điền đơn trước ít nhất hai tuần."
+      },
+      {
+        en: "Before I leave, I will hand over my urgent tasks to a teammate so nothing falls through the cracks.",
+        ipa: "/bɪˈfɔːr aɪ liːv, aɪ wɪl hænd ˈoʊvər maɪ ˈɜːrdʒənt tæsks tu ə ˈtiːmmeɪt soʊ ˈnʌθɪŋ fɔːlz θru ðə kræks/",
+        vi: "Trước khi nghỉ, tôi sẽ bàn giao các việc gấp cho một đồng đội để không việc gì bị bỏ sót."
+      },
+      {
+        en: "If I ever get sick suddenly, I call my manager first thing in the morning to let her know.",
+        ipa: "/ɪf aɪ ˈɛvər ɡɛt sɪk ˈsʌdənli, aɪ kɔːl maɪ ˈmænɪdʒər fɜːrst θɪŋ ɪn ðə ˈmɔːrnɪŋ tu lɛt hɜːr noʊ/",
+        vi: "Nếu chẳng may ốm đột ngột, tôi gọi cho quản lý ngay đầu buổi sáng để báo cho chị ấy biết."
+      }
+    ],
+    vocabulary: [
+      { word: "one-on-one meeting", ipa: "/ˈwʌn ɑːn ˈwʌn ˈmiːtɪŋ/", type: "n", meaning: "buổi gặp riêng (giữa sếp và nhân viên)" },
+      { word: "performance", ipa: "/pərˈfɔːrməns/", type: "n", meaning: "hiệu quả công việc, thành tích" },
+      { word: "point out", ipa: "/pɔɪnt aʊt/", type: "phrasal verb", meaning: "chỉ ra" },
+      { word: "constructive feedback", ipa: "/kənˈstrʌktɪv ˈfiːdbæk/", type: "n", meaning: "góp ý mang tính xây dựng" },
+      { word: "improve", ipa: "/ɪmˈpruv/", type: "v", meaning: "cải thiện" },
+      { word: "criticism", ipa: "/ˈkrɪtɪsɪzəm/", type: "n", meaning: "lời phê bình, chỉ trích" },
+      { word: "defensive", ipa: "/dɪˈfɛnsɪv/", type: "adj", meaning: "phòng thủ, dễ tự ái" },
+      { word: "delegate", ipa: "/ˈdɛlɪɡeɪt/", type: "v", meaning: "giao việc, ủy quyền" },
+      { word: "take on", ipa: "/teɪk ɑːn/", type: "phrasal verb", meaning: "đảm nhận" },
+      { word: "responsibility", ipa: "/rɪˌspɑːnsəˈbɪləti/", type: "n", meaning: "trách nhiệm" },
+      { word: "take a day off", ipa: "/teɪk ə deɪ ɔːf/", type: "phrase", meaning: "nghỉ một ngày" },
+      { word: "request leave", ipa: "/rɪˈkwɛst liːv/", type: "phrase", meaning: "xin nghỉ phép" },
+      { word: "fill out", ipa: "/fɪl aʊt/", type: "phrasal verb", meaning: "điền (đơn, mẫu)" },
+      { word: "hand over", ipa: "/hænd ˈoʊvər/", type: "phrasal verb", meaning: "bàn giao" },
+      { word: "fall through the cracks", ipa: "/fɔːl θru ðə kræks/", type: "phrase", meaning: "bị bỏ sót, bị lãng quên" }
+    ],
+    grammar: [
+      {
+        sentence: "Every month, I have a one-on-one meeting with my manager to discuss my performance.",
+        explain: "Hiện tại đơn cho việc định kỳ. <b>discuss + danh từ</b> (không có <b>about</b>). <b>to discuss</b> chỉ mục đích."
+      },
+      {
+        sentence: "She usually starts by pointing out what I have done well recently.",
+        explain: "<b>start by + V-ing</b> = bắt đầu bằng việc. Mệnh đề danh từ <b>what I have done</b> làm tân ngữ. Hiện tại hoàn thành đi với <b>recently</b>."
+      },
+      {
+        sentence: "Then she gives me some constructive feedback on areas where I could improve.",
+        explain: "<b>feedback</b> là danh từ không đếm được (dùng <b>some</b>, không thêm -s). Trạng từ quan hệ <b>where</b> bổ nghĩa cho <b>areas</b>. <b>could</b> chỉ khả năng."
+      },
+      {
+        sentence: "At first, criticism made me feel defensive, but now I see it as a chance to grow.",
+        explain: "Cấu trúc <b>make + O + V nguyên mẫu</b> (khiến ai làm/cảm thấy gì). <b>see A as B</b> = xem A là B. <b>a chance to + V</b>."
+      },
+      {
+        sentence: "Last time, she suggested that I delegate more tasks instead of doing everything myself.",
+        explain: "<b>suggest that + S + V nguyên mẫu</b> (thể giả định, không chia <b>delegates</b>). <b>instead of + V-ing</b> = thay vì. Đại từ phản thân <b>myself</b>."
+      },
+      {
+        sentence: "I also asked her whether I could take on more responsibility next quarter.",
+        explain: "Câu hỏi gián tiếp với <b>whether</b> (= liệu có... không), lùi thì <b>can → could</b>. Phrasal verb <b>take on</b>."
+      },
+      {
+        sentence: "Next month, I'm planning to take three days off to attend my cousin's wedding.",
+        explain: "<b>be planning to + V</b> diễn tả kế hoạch tương lai. <b>take + số ngày + off</b> = nghỉ bao nhiêu ngày."
+      },
+      {
+        sentence: "To request leave, I need to fill out a form at least two weeks ahead of time.",
+        explain: "<b>To + V</b> đầu câu chỉ mục đích. <b>need to + V</b>. <b>at least</b> = ít nhất; <b>ahead of time</b> = trước (thời hạn)."
+      },
+      {
+        sentence: "Before I leave, I will hand over my urgent tasks to a teammate so nothing falls through the cracks.",
+        explain: "Mệnh đề thời gian tương lai: <b>Before + hiện tại đơn, will + V</b> (không dùng <b>will</b> sau <b>before</b>). <b>hand over A to B</b>. <b>so</b> chỉ mục đích/kết quả."
+      },
+      {
+        sentence: "If I ever get sick suddenly, I call my manager first thing in the morning to let her know.",
+        explain: "<b>If + S + ever + V</b> = nếu chẳng may. Cụm <b>first thing in the morning</b> = ngay việc đầu tiên buổi sáng. <b>let + O + know</b> = báo cho ai biết."
+      }
+    ],
+    speaking: [
+      {
+        cues: "how often / talk / manager",
+        question: "How often do you talk with your manager about your work?",
+        vi: "Bạn trao đổi với quản lý về công việc của mình bao lâu một lần?",
+        hint: "Dùng <b>Every + thời gian, I have... to discuss...</b>"
+      },
+      {
+        cues: "feedback / recently / receive",
+        question: "What feedback have you received recently, and how did you feel about it?",
+        vi: "Gần đây bạn đã nhận được góp ý gì, và bạn cảm thấy thế nào về nó?",
+        hint: "Dùng <b>My manager pointed out...</b> và <b>It made me feel...</b>"
+      },
+      {
+        cues: "criticism / react",
+        question: "How do you usually react to criticism at work?",
+        vi: "Bạn thường phản ứng thế nào trước lời phê bình trong công việc?",
+        hint: "Dùng <b>At first..., but now I see it as...</b>"
+      },
+      {
+        cues: "manager / suggest / improve",
+        question: "What has your manager suggested you do to improve?",
+        vi: "Quản lý đã gợi ý bạn làm gì để cải thiện?",
+        hint: "Dùng <b>She/He suggested that I + V nguyên mẫu... instead of + V-ing</b>"
+      },
+      {
+        cues: "more responsibility / ask",
+        question: "Would you like to take on more responsibility at work? How would you ask for it?",
+        vi: "Bạn có muốn đảm nhận thêm trách nhiệm trong công việc không? Bạn sẽ đề nghị điều đó như thế nào?",
+        hint: "Dùng câu hỏi gián tiếp <b>I would ask whether I could...</b>"
+      },
+      {
+        cues: "time off / process / company",
+        question: "What is the process for requesting time off at your company?",
+        vi: "Quy trình xin nghỉ phép ở công ty bạn như thế nào?",
+        hint: "Dùng <b>To request leave, I need to... at least... ahead of time</b>"
+      },
+      {
+        cues: "before vacation / prepare / tasks",
+        question: "What do you do with your work before you go on leave?",
+        vi: "Bạn làm gì với công việc của mình trước khi nghỉ phép?",
+        hint: "Dùng <b>Before I leave, I will hand over... so (that)...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-23",
+    topic: "Gặp khách hàng & Đàm phán (Meeting Clients & Negotiating)",
+    sentences: [
+      {
+        en: "This afternoon, my boss and I are meeting a potential client who wants to buy our software.",
+        ipa: "/ðɪs ˌæftərˈnuːn, maɪ bɔːs ənd aɪ ɑːr ˈmiːtɪŋ ə pəˈtɛnʃəl ˈklaɪənt hu wɑːnts tu baɪ ˈaʊər ˈsɔːftwɛr/",
+        vi: "Chiều nay, sếp và tôi sẽ gặp một khách hàng tiềm năng muốn mua phần mềm của chúng tôi."
+      },
+      {
+        en: "When they arrive, I'll greet them with a firm handshake and offer them something to drink.",
+        ipa: "/wɛn ðeɪ əˈraɪv, aɪl ɡriːt ðɛm wɪð ə fɜːrm ˈhændʃeɪk ənd ˈɔːfər ðɛm ˈsʌmθɪŋ tu drɪŋk/",
+        vi: "Khi họ đến, tôi sẽ chào họ bằng một cái bắt tay chắc chắn và mời họ đồ uống."
+      },
+      {
+        en: "We'll begin with some small talk to build rapport before getting down to business.",
+        ipa: "/wil bɪˈɡɪn wɪð sʌm smɔːl tɔːk tu bɪld ræˈpɔːr bɪˈfɔːr ˈɡɛtɪŋ daʊn tu ˈbɪznəs/",
+        vi: "Chúng tôi sẽ bắt đầu bằng vài câu chuyện xã giao để tạo thiện cảm trước khi vào việc chính."
+      },
+      {
+        en: "First, we need to listen carefully to find out what the client really needs.",
+        ipa: "/fɜːrst, wi niːd tu ˈlɪsən ˈkɛrfəli tu faɪnd aʊt wʌt ðə ˈklaɪənt ˈrɪli niːdz/",
+        vi: "Trước tiên, chúng tôi cần lắng nghe kỹ để tìm hiểu khách hàng thực sự cần gì."
+      },
+      {
+        en: "They have already told us that our price is a little higher than their budget.",
+        ipa: "/ðeɪ hæv ɔːlˈrɛdi toʊld ʌs ðæt ˈaʊər praɪs ɪz ə ˈlɪtəl ˈhaɪər ðæn ðɛr ˈbʌdʒɪt/",
+        vi: "Họ đã cho chúng tôi biết rằng giá của chúng tôi hơi cao hơn ngân sách của họ."
+      },
+      {
+        en: "Instead of simply lowering the price, we could offer a longer contract with a small discount.",
+        ipa: "/ɪnˈstɛd ʌv ˈsɪmpli ˈloʊərɪŋ ðə praɪs, wi kʊd ˈɔːfər ə ˈlɔːŋɡər ˈkɑːntrækt wɪð ə smɔːl ˈdɪskaʊnt/",
+        vi: "Thay vì chỉ đơn giản hạ giá, chúng tôi có thể đề xuất một hợp đồng dài hơn kèm mức giảm giá nhỏ."
+      },
+      {
+        en: "If they agree to sign for two years, we will include free training for their staff.",
+        ipa: "/ɪf ðeɪ əˈɡriː tu saɪn fɔːr tu jɪrz, wi wɪl ɪnˈkluːd friː ˈtreɪnɪŋ fɔːr ðɛr stæf/",
+        vi: "Nếu họ đồng ý ký hai năm, chúng tôi sẽ tặng kèm khóa đào tạo miễn phí cho nhân viên của họ."
+      },
+      {
+        en: "A good negotiation should end in a win-win deal where both sides feel satisfied.",
+        ipa: "/ə ɡʊd nɪˌɡoʊʃiˈeɪʃən ʃʊd ɛnd ɪn ə ˈwɪn ˈwɪn diːl wɛr boʊθ saɪdz fiːl ˈsætɪsfaɪd/",
+        vi: "Một cuộc đàm phán tốt nên kết thúc bằng một thỏa thuận đôi bên cùng có lợi, nơi cả hai bên đều hài lòng."
+      },
+      {
+        en: "If we can't reach an agreement today, we'll ask for some time to think it over.",
+        ipa: "/ɪf wi kænt riːtʃ ən əˈɡriːmənt təˈdeɪ, wil æsk fɔːr sʌm taɪm tu θɪŋk ɪt ˈoʊvər/",
+        vi: "Nếu hôm nay không đạt được thỏa thuận, chúng tôi sẽ xin thêm thời gian để cân nhắc."
+      },
+      {
+        en: "After the meeting, I will send a summary email to confirm everything we have agreed on.",
+        ipa: "/ˈæftər ðə ˈmiːtɪŋ, aɪ wɪl sɛnd ə ˈsʌməri ˈiːmeɪl tu kənˈfɜːrm ˈɛvriθɪŋ wi hæv əˈɡriːd ɑːn/",
+        vi: "Sau cuộc gặp, tôi sẽ gửi email tóm tắt để xác nhận mọi điều chúng tôi đã thống nhất."
+      }
+    ],
+    vocabulary: [
+      { word: "potential client", ipa: "/pəˈtɛnʃəl ˈklaɪənt/", type: "n", meaning: "khách hàng tiềm năng" },
+      { word: "firm handshake", ipa: "/fɜːrm ˈhændʃeɪk/", type: "n", meaning: "cái bắt tay chắc chắn" },
+      { word: "small talk", ipa: "/smɔːl tɔːk/", type: "n", meaning: "chuyện xã giao" },
+      { word: "build rapport", ipa: "/bɪld ræˈpɔːr/", type: "phrase", meaning: "tạo thiện cảm, xây dựng mối quan hệ" },
+      { word: "get down to business", ipa: "/ɡɛt daʊn tu ˈbɪznəs/", type: "phrase", meaning: "bắt tay vào việc chính" },
+      { word: "find out", ipa: "/faɪnd aʊt/", type: "phrasal verb", meaning: "tìm hiểu, phát hiện ra" },
+      { word: "budget", ipa: "/ˈbʌdʒɪt/", type: "n", meaning: "ngân sách" },
+      { word: "lower the price", ipa: "/ˈloʊər ðə praɪs/", type: "phrase", meaning: "hạ giá" },
+      { word: "contract", ipa: "/ˈkɑːntrækt/", type: "n", meaning: "hợp đồng" },
+      { word: "discount", ipa: "/ˈdɪskaʊnt/", type: "n", meaning: "giảm giá, chiết khấu" },
+      { word: "sign", ipa: "/saɪn/", type: "v", meaning: "ký (hợp đồng)" },
+      { word: "negotiation", ipa: "/nɪˌɡoʊʃiˈeɪʃən/", type: "n", meaning: "cuộc đàm phán" },
+      { word: "win-win", ipa: "/ˈwɪn ˈwɪn/", type: "adj", meaning: "đôi bên cùng có lợi" },
+      { word: "reach an agreement", ipa: "/riːtʃ ən əˈɡriːmənt/", type: "phrase", meaning: "đạt được thỏa thuận" },
+      { word: "think it over", ipa: "/θɪŋk ɪt ˈoʊvər/", type: "phrasal verb", meaning: "cân nhắc kỹ" }
+    ],
+    grammar: [
+      {
+        sentence: "This afternoon, my boss and I are meeting a potential client who wants to buy our software.",
+        explain: "<b>Hiện tại tiếp diễn</b> (<b>are meeting</b>) cho lịch hẹn đã sắp xếp trong tương lai gần. Mệnh đề quan hệ <b>who</b> bổ nghĩa cho người (<b>client</b>)."
+      },
+      {
+        sentence: "When they arrive, I'll greet them with a firm handshake and offer them something to drink.",
+        explain: "Mệnh đề thời gian <b>When + hiện tại đơn, will + V</b>. <b>offer + người + vật</b> = mời ai cái gì. <b>something to drink</b> = <b>to V</b> bổ nghĩa cho đại từ."
+      },
+      {
+        sentence: "We'll begin with some small talk to build rapport before getting down to business.",
+        explain: "<b>begin with + danh từ</b>. <b>before + V-ing</b> (cùng chủ ngữ). <b>to build</b> chỉ mục đích."
+      },
+      {
+        sentence: "First, we need to listen carefully to find out what the client really needs.",
+        explain: "Trạng từ <b>carefully</b> bổ nghĩa cho <b>listen</b>. Câu hỏi gián tiếp <b>what the client really needs</b> (không dùng trợ động từ <b>does</b>)."
+      },
+      {
+        sentence: "They have already told us that our price is a little higher than their budget.",
+        explain: "<b>Hiện tại hoàn thành</b> + <b>already</b>. <b>tell + O + that...</b>. So sánh hơn <b>a little higher than</b> (<b>a little</b> làm giảm nhẹ mức độ)."
+      },
+      {
+        sentence: "Instead of simply lowering the price, we could offer a longer contract with a small discount.",
+        explain: "<b>Instead of + V-ing</b> = thay vì. <b>could + V</b> dùng để đưa ra gợi ý/khả năng một cách mềm mỏng."
+      },
+      {
+        sentence: "If they agree to sign for two years, we will include free training for their staff.",
+        explain: "Câu điều kiện loại 1 <b>If + hiện tại đơn, will + V</b> — rất hay dùng khi đưa ra điều kiện đàm phán. <b>agree to + V</b>."
+      },
+      {
+        sentence: "A good negotiation should end in a win-win deal where both sides feel satisfied.",
+        explain: "<b>should + V</b> diễn tả điều nên có. <b>end in + danh từ</b> = kết thúc bằng. <b>where</b> mở mệnh đề quan hệ bổ nghĩa cho <b>deal</b>."
+      },
+      {
+        sentence: "If we can't reach an agreement today, we'll ask for some time to think it over.",
+        explain: "Điều kiện loại 1 với <b>can't</b> trong mệnh đề If. Phrasal verb tách được <b>think it over</b> (đại từ <b>it</b> phải đứng giữa)."
+      },
+      {
+        sentence: "After the meeting, I will send a summary email to confirm everything we have agreed on.",
+        explain: "Mệnh đề quan hệ rút gọn <b>everything (that) we have agreed on</b>, giới từ <b>on</b> đứng cuối. Hiện tại hoàn thành <b>have agreed</b>."
+      }
+    ],
+    speaking: [
+      {
+        cues: "meet clients / often / job",
+        question: "Do you often meet clients or customers in your job?",
+        vi: "Trong công việc, bạn có thường gặp khách hàng không?",
+        hint: "Dùng <b>I am meeting... who...</b> hoặc hiện tại đơn <b>I often/rarely meet...</b>"
+      },
+      {
+        cues: "first meeting / client / impression",
+        question: "How do you make a good first impression when you meet a new client?",
+        vi: "Bạn tạo ấn tượng tốt ban đầu như thế nào khi gặp một khách hàng mới?",
+        hint: "Dùng <b>When they arrive, I'll... and...</b>"
+      },
+      {
+        cues: "small talk / topics",
+        question: "What topics do you usually choose for small talk with clients?",
+        vi: "Bạn thường chọn chủ đề gì để nói chuyện xã giao với khách hàng?",
+        hint: "Dùng <b>I begin with... to build rapport before + V-ing</b>"
+      },
+      {
+        cues: "client / price / too high",
+        question: "What would you say if a client told you your price was too high?",
+        vi: "Bạn sẽ nói gì nếu khách hàng bảo giá của bạn quá cao?",
+        hint: "Dùng <b>Instead of + V-ing, we could...</b>"
+      },
+      {
+        cues: "offer / condition / deal",
+        question: "What kind of offer could you make to help close a deal?",
+        vi: "Bạn có thể đưa ra đề xuất gì để giúp chốt được thỏa thuận?",
+        hint: "Dùng điều kiện loại 1 <b>If you + V..., we will...</b>"
+      },
+      {
+        cues: "win-win / negotiation / example",
+        question: "Can you describe a negotiation that ended in a win-win result?",
+        vi: "Bạn có thể kể về một cuộc đàm phán đã kết thúc với kết quả đôi bên cùng có lợi không?",
+        hint: "Dùng <b>... ended in a deal where both sides...</b>"
+      },
+      {
+        cues: "after meeting / follow up / client",
+        question: "What do you do after a meeting with a client?",
+        vi: "Bạn làm gì sau một buổi gặp khách hàng?",
+        hint: "Dùng <b>After the meeting, I will... to confirm everything (that) we...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-24",
+    topic: "Ôn tập tuần 3: Từ vựng & Ngữ pháp (Weekly Review 5 — Vocabulary & Grammar)",
+    sentences: [
+      {
+        en: "This week was all about office life, from running meetings to negotiating with clients.",
+        ipa: "/ðɪs wiːk wəz ɔːl əˈbaʊt ˈɔːfɪs laɪf, frʌm ˈrʌnɪŋ ˈmiːtɪŋz tu nɪˈɡoʊʃieɪtɪŋ wɪð ˈklaɪənts/",
+        vi: "Tuần này xoay quanh cuộc sống văn phòng, từ việc điều hành cuộc họp đến đàm phán với khách hàng."
+      },
+      {
+        en: "In the meetings lesson, I learned phrases like 'go over the agenda', 'take notes', and 'sum up'.",
+        ipa: "/ɪn ðə ˈmiːtɪŋz ˈlɛsən, aɪ lɜːrnd ˈfreɪzɪz laɪk ɡoʊ ˈoʊvər ði əˈdʒɛndə, teɪk noʊts, ənd sʌm ʌp/",
+        vi: "Trong bài về họp hành, tôi đã học các cụm như 'go over the agenda', 'take notes', và 'sum up'."
+      },
+      {
+        en: "I also remember that 'so that + S + can + V' explains the purpose of an action.",
+        ipa: "/aɪ ˈɔːlsoʊ rɪˈmɛmbər ðæt soʊ ðæt ɛs kæn viː ɪkˈspleɪnz ðə ˈpɜːrpəs ʌv ən ˈækʃən/",
+        vi: "Tôi cũng nhớ rằng 'so that + S + can + V' dùng để giải thích mục đích của một hành động."
+      },
+      {
+        en: "From the email lesson, I picked up useful words such as 'subject line', 'attach', and 'follow-up'.",
+        ipa: "/frʌm ði ˈiːmeɪl ˈlɛsən, aɪ pɪkt ʌp ˈjusfəl wɜːrdz sʌtʃ æz ˈsʌbdʒɪkt laɪn, əˈtætʃ, ənd ˈfɑːloʊ ʌp/",
+        vi: "Từ bài về email, tôi học được những từ hữu ích như 'subject line', 'attach', và 'follow-up'."
+      },
+      {
+        en: "The polite request 'Could you please + V...?' is something I now use in almost every email.",
+        ipa: "/ðə pəˈlaɪt rɪˈkwɛst kʊd ju pliːz viː ɪz ˈsʌmθɪŋ aɪ naʊ juz ɪn ˈɔːlmoʊst ˈɛvri ˈiːmeɪl/",
+        vi: "Lời đề nghị lịch sự 'Could you please + V...?' giờ là thứ tôi dùng trong gần như mọi email."
+      },
+      {
+        en: "For presentations, I practiced the transition 'Let's move on to...' and words like 'rehearse' and 'handout'.",
+        ipa: "/fɔːr ˌprɛzənˈteɪʃənz, aɪ ˈpræktɪst ðə trænˈzɪʃən lɛts muv ɑːn tu ənd wɜːrdz laɪk rɪˈhɜːrs ənd ˈhændaʊt/",
+        vi: "Về thuyết trình, tôi đã luyện câu chuyển ý 'Let's move on to...' và các từ như 'rehearse' và 'handout'."
+      },
+      {
+        en: "I reviewed the first conditional, 'If + present simple, will + V', which is perfect for planning ahead.",
+        ipa: "/aɪ rɪˈvjud ðə fɜːrst kənˈdɪʃənəl, ɪf ˈprɛzənt ˈsɪmpəl, wɪl viː, wɪtʃ ɪz ˈpɜːrfɪkt fɔːr ˈplænɪŋ əˈhɛd/",
+        vi: "Tôi đã ôn câu điều kiện loại 1, 'If + hiện tại đơn, will + V', rất phù hợp để lên kế hoạch trước."
+      },
+      {
+        en: "In the lesson about my manager, I learned 'constructive feedback', 'delegate', and 'hand over'.",
+        ipa: "/ɪn ðə ˈlɛsən əˈbaʊt maɪ ˈmænɪdʒər, aɪ lɜːrnd kənˈstrʌktɪv ˈfiːdbæk, ˈdɛlɪɡeɪt, ənd hænd ˈoʊvər/",
+        vi: "Trong bài về làm việc với sếp, tôi đã học 'constructive feedback', 'delegate', và 'hand over'."
+      },
+      {
+        en: "I must remember that 'feedback' is uncountable, so I should never say 'feedbacks'.",
+        ipa: "/aɪ mʌst rɪˈmɛmbər ðæt ˈfiːdbæk ɪz ʌnˈkaʊntəbəl, soʊ aɪ ʃʊd ˈnɛvər seɪ ˈfiːdbæks/",
+        vi: "Tôi phải nhớ rằng 'feedback' là danh từ không đếm được, nên không bao giờ nói 'feedbacks'."
+      },
+      {
+        en: "Finally, the client lesson taught me how to build rapport, negotiate a discount, and reach an agreement.",
+        ipa: "/ˈfaɪnəli, ðə ˈklaɪənt ˈlɛsən tɔːt mi haʊ tu bɪld ræˈpɔːr, nɪˈɡoʊʃieɪt ə ˈdɪskaʊnt, ənd riːtʃ ən əˈɡriːmənt/",
+        vi: "Cuối cùng, bài về khách hàng đã dạy tôi cách tạo thiện cảm, đàm phán giảm giá, và đạt được thỏa thuận."
+      }
+    ],
+    vocabulary: [
+      { word: "agenda", ipa: "/əˈdʒɛndə/", type: "n", meaning: "chương trình họp (Ngày 15)" },
+      { word: "take notes", ipa: "/teɪk noʊts/", type: "phrase", meaning: "ghi chép (Ngày 15)" },
+      { word: "sum up", ipa: "/sʌm ʌp/", type: "phrasal verb", meaning: "tóm tắt (Ngày 15)" },
+      { word: "postpone", ipa: "/poʊstˈpoʊn/", type: "v", meaning: "hoãn lại (Ngày 15)" },
+      { word: "subject line", ipa: "/ˈsʌbdʒɪkt laɪn/", type: "n", meaning: "dòng tiêu đề email (Ngày 16)" },
+      { word: "attach", ipa: "/əˈtætʃ/", type: "v", meaning: "đính kèm (Ngày 16)" },
+      { word: "follow-up", ipa: "/ˈfɑːloʊ ʌp/", type: "n", meaning: "email nhắc lại, theo dõi tiếp (Ngày 16)" },
+      { word: "proofread", ipa: "/ˈpruːfriːd/", type: "v", meaning: "đọc soát lỗi (Ngày 16)" },
+      { word: "rehearse", ipa: "/rɪˈhɜːrs/", type: "v", meaning: "tập dượt (Ngày 17)" },
+      { word: "handout", ipa: "/ˈhændaʊt/", type: "n", meaning: "tài liệu phát tay (Ngày 17)" },
+      { word: "make eye contact", ipa: "/meɪk aɪ ˈkɑːntækt/", type: "phrase", meaning: "giao tiếp bằng mắt (Ngày 17)" },
+      { word: "constructive feedback", ipa: "/kənˈstrʌktɪv ˈfiːdbæk/", type: "n", meaning: "góp ý mang tính xây dựng (Ngày 18)" },
+      { word: "delegate", ipa: "/ˈdɛlɪɡeɪt/", type: "v", meaning: "giao việc, ủy quyền (Ngày 18)" },
+      { word: "hand over", ipa: "/hænd ˈoʊvər/", type: "phrasal verb", meaning: "bàn giao (Ngày 18)" },
+      { word: "build rapport", ipa: "/bɪld ræˈpɔːr/", type: "phrase", meaning: "tạo thiện cảm (Ngày 19)" }
+    ],
+    grammar: [
+      {
+        sentence: "This week was all about office life, from running meetings to negotiating with clients.",
+        explain: "Cụm <b>be all about + N</b> = xoay quanh. Cấu trúc <b>from + V-ing to + V-ing</b> để nêu phạm vi. Tổng quan cả tuần (Ngày 15–19)."
+      },
+      {
+        sentence: "In the meetings lesson, I learned phrases like 'go over the agenda', 'take notes', and 'sum up'.",
+        explain: "Ôn phrasal verb <b>go over</b>, <b>sum up</b> và cụm <b>take notes</b> (Ngày 15 – Họp hành). <b>like + ví dụ</b> để liệt kê."
+      },
+      {
+        sentence: "I also remember that 'so that + S + can + V' explains the purpose of an action.",
+        explain: "Ôn cấu trúc chỉ mục đích <b>so that + S + can/could + V</b> (Ngày 15 – Họp hành). <b>remember that + mệnh đề</b>."
+      },
+      {
+        sentence: "From the email lesson, I picked up useful words such as 'subject line', 'attach', and 'follow-up'.",
+        explain: "Phrasal verb <b>pick up</b> = học được (một cách tự nhiên). <b>such as</b> = ví dụ như. Ôn từ vựng Ngày 16 – Email."
+      },
+      {
+        sentence: "The polite request 'Could you please + V...?' is something I now use in almost every email.",
+        explain: "Ôn lời đề nghị lịch sự <b>Could you please + V?</b> (Ngày 16 – Email). Mệnh đề quan hệ rút gọn <b>something (that) I now use</b>."
+      },
+      {
+        sentence: "For presentations, I practiced the transition 'Let's move on to...' and words like 'rehearse' and 'handout'.",
+        explain: "Ôn câu chuyển ý <b>Let's move on to + N</b> và từ vựng Ngày 17 – Thuyết trình. <b>practice + N/V-ing</b>."
+      },
+      {
+        sentence: "I reviewed the first conditional, 'If + present simple, will + V', which is perfect for planning ahead.",
+        explain: "Ôn câu điều kiện loại 1 <b>If + hiện tại đơn, will + V</b> (Ngày 17 – Thuyết trình, Ngày 19 – Đàm phán). Mệnh đề quan hệ không xác định <b>, which...</b>."
+      },
+      {
+        sentence: "In the lesson about my manager, I learned 'constructive feedback', 'delegate', and 'hand over'.",
+        explain: "Ôn từ vựng Ngày 18 – Làm việc với sếp. Nhớ cấu trúc đi kèm: <b>suggest that + S + V nguyên mẫu</b> và <b>hand over A to B</b>."
+      },
+      {
+        sentence: "I must remember that 'feedback' is uncountable, so I should never say 'feedbacks'.",
+        explain: "Ôn danh từ không đếm được <b>feedback</b> (Ngày 18): dùng <b>some feedback / a piece of feedback</b>. <b>must</b> (tự nhắc mình) và <b>should never</b> (lời khuyên)."
+      },
+      {
+        sentence: "Finally, the client lesson taught me how to build rapport, negotiate a discount, and reach an agreement.",
+        explain: "Cấu trúc <b>teach + O + how to + V</b> với ba động từ song song. Ôn cụm <b>build rapport</b>, <b>reach an agreement</b> (Ngày 19 – Gặp khách hàng & Đàm phán)."
+      }
+    ],
+    speaking: [
+      {
+        cues: "meeting + email / after",
+        question: "What do you usually do after a meeting to make sure everyone remembers the decisions?",
+        vi: "Sau cuộc họp bạn thường làm gì để đảm bảo mọi người nhớ các quyết định?",
+        hint: "Kết hợp họp hành (Ngày 15) và email (Ngày 16), dùng <b>so that + S + can + V</b>."
+      },
+      {
+        cues: "presentation + meeting / nervous",
+        question: "Is it harder for you to speak up in a meeting or to give a presentation?",
+        vi: "Với bạn, phát biểu trong cuộc họp hay thuyết trình thì khó hơn?",
+        hint: "Kết hợp họp hành (Ngày 15) và thuyết trình (Ngày 17), dùng so sánh hơn <b>It is harder to + V...</b>"
+      },
+      {
+        cues: "feedback / presentation / manager",
+        question: "What feedback has your manager given you about your presentations or reports?",
+        vi: "Quản lý đã góp ý gì cho bạn về các bài thuyết trình hoặc báo cáo của bạn?",
+        hint: "Kết hợp Ngày 17 và Ngày 18, dùng <b>She/He suggested that I + V nguyên mẫu</b>."
+      },
+      {
+        cues: "email / client / polite",
+        question: "How do you write a polite email to a client after a negotiation?",
+        vi: "Bạn viết một email lịch sự cho khách hàng sau buổi đàm phán như thế nào?",
+        hint: "Kết hợp email (Ngày 16) và đàm phán (Ngày 19), dùng <b>Could you please...?</b>"
+      },
+      {
+        cues: "time off / hand over / clients",
+        question: "If you took a week off, how would you make sure your clients were still taken care of?",
+        vi: "Nếu bạn nghỉ một tuần, bạn sẽ đảm bảo khách hàng vẫn được chăm sóc như thế nào?",
+        hint: "Kết hợp xin nghỉ phép (Ngày 18) và khách hàng (Ngày 19), dùng <b>hand over A to B</b>."
+      },
+      {
+        cues: "first conditional / client / offer",
+        question: "What would you offer a client who says your price is too high?",
+        vi: "Bạn sẽ đề xuất gì với một khách hàng nói rằng giá của bạn quá cao?",
+        hint: "Ôn điều kiện loại 1 <b>If you + V..., we will + V</b> (Ngày 19)."
+      },
+      {
+        cues: "this week / most useful / office skill",
+        question: "Which office skill from this week do you think will be the most useful for you, and why?",
+        vi: "Kỹ năng văn phòng nào trong tuần này bạn nghĩ sẽ hữu ích nhất với bạn, và vì sao?",
+        hint: "Dùng <b>I think... will be the most useful because...</b>"
+      }
+    ]
+  },
+  {
+    date: "2026-10-25",
+    topic: "Ôn tập tuần 3: Luyện nói tổng hợp (Weekly Review 6 — Speaking Synthesis)",
+    sentences: [
+      {
+        en: "Although our weekly meetings are useful, they sometimes run over time because everyone wants to share their ideas.",
+        ipa: "/ɔːlˈðoʊ ˈaʊər ˈwiːkli ˈmiːtɪŋz ɑːr ˈjusfəl, ðeɪ ˈsʌmtaɪmz rʌn ˈoʊvər taɪm bɪˈkɔːz ˈɛvriwʌn wɑːnts tu ʃɛr ðɛr aɪˈdiəz/",
+        vi: "Mặc dù các cuộc họp hàng tuần rất hữu ích, đôi khi chúng kéo dài quá giờ vì ai cũng muốn chia sẻ ý tưởng."
+      },
+      {
+        en: "After every meeting, I send a short follow-up email, so nobody forgets their action items.",
+        ipa: "/ˈæftər ˈɛvri ˈmiːtɪŋ, aɪ sɛnd ə ʃɔːrt ˈfɑːloʊ ʌp ˈiːmeɪl, soʊ ˈnoʊbɑːdi fərˈɡɛts ðɛr ˈækʃən ˈaɪtəmz/",
+        vi: "Sau mỗi cuộc họp, tôi gửi một email tóm tắt ngắn, nên không ai quên đầu việc của mình."
+      },
+      {
+        en: "My manager said my presentations were clear, but she suggested that I make more eye contact.",
+        ipa: "/maɪ ˈmænɪdʒər sɛd maɪ ˌprɛzənˈteɪʃənz wɜːr klɪr, bʌt ʃi səɡˈdʒɛstɪd ðæt aɪ meɪk mɔːr aɪ ˈkɑːntækt/",
+        vi: "Quản lý nói các bài thuyết trình của tôi rõ ràng, nhưng chị ấy gợi ý tôi nên giao tiếp bằng mắt nhiều hơn."
+      },
+      {
+        en: "In addition to rehearsing my slides, I now prepare answers to questions that clients might ask.",
+        ipa: "/ɪn əˈdɪʃən tu rɪˈhɜːrsɪŋ maɪ slaɪdz, aɪ naʊ prɪˈpɛr ˈænsərz tu ˈkwɛstʃənz ðæt ˈklaɪənts maɪt æsk/",
+        vi: "Ngoài việc tập dượt các trang chiếu, giờ tôi còn chuẩn bị sẵn câu trả lời cho những câu hỏi khách hàng có thể hỏi."
+      },
+      {
+        en: "However well I prepare, negotiating with a difficult client still makes me a little nervous.",
+        ipa: "/haʊˈɛvər wɛl aɪ prɪˈpɛr, nɪˈɡoʊʃieɪtɪŋ wɪð ə ˈdɪfɪkəlt ˈklaɪənt stɪl meɪks mi ə ˈlɪtəl ˈnɜːrvəs/",
+        vi: "Dù chuẩn bị kỹ đến đâu, việc đàm phán với một khách hàng khó tính vẫn khiến tôi hơi hồi hộp."
+      },
+      {
+        en: "Because I'm taking a few days off next month, I've started handing over my client emails to a teammate.",
+        ipa: "/bɪˈkɔːz aɪm ˈteɪkɪŋ ə fju deɪz ɔːf nɛkst mʌnθ, aɪv ˈstɑːrtɪd ˈhændɪŋ ˈoʊvər maɪ ˈklaɪənt ˈiːmeɪlz tu ə ˈtiːmmeɪt/",
+        vi: "Vì tháng sau tôi sẽ nghỉ vài ngày, tôi đã bắt đầu bàn giao việc trả lời email khách hàng cho một đồng đội."
+      },
+      {
+        en: "No matter what the client decides, I always write a polite summary email to confirm the next steps.",
+        ipa: "/noʊ ˈmætər wʌt ðə ˈklaɪənt dɪˈsaɪdz, aɪ ˈɔːlweɪz raɪt ə pəˈlaɪt ˈsʌməri ˈiːmeɪl tu kənˈfɜːrm ðə nɛkst stɛps/",
+        vi: "Dù khách hàng quyết định thế nào, tôi luôn viết một email tóm tắt lịch sự để xác nhận các bước tiếp theo."
+      },
+      {
+        en: "Presenting in meetings used to scare me; however, my manager's encouragement has made me much more confident.",
+        ipa: "/prɪˈzɛntɪŋ ɪn ˈmiːtɪŋz just tu skɛr mi; haʊˈɛvər, maɪ ˈmænɪdʒərz ɪnˈkɜːrɪdʒmənt hæz meɪd mi mʌtʃ mɔːr ˈkɑːnfɪdənt/",
+        vi: "Trước đây tôi rất sợ trình bày trong cuộc họp; tuy nhiên, sự động viên của quản lý đã giúp tôi tự tin hơn nhiều."
+      },
+      {
+        en: "If a negotiation goes well, I share the good news at our next team meeting, so everyone stays motivated.",
+        ipa: "/ɪf ə nɪˌɡoʊʃiˈeɪʃən ɡoʊz wɛl, aɪ ʃɛr ðə ɡʊd nuz æt ˈaʊər nɛkst tiːm ˈmiːtɪŋ, soʊ ˈɛvriwʌn steɪz ˈmoʊtɪveɪtɪd/",
+        vi: "Nếu một cuộc đàm phán diễn ra suôn sẻ, tôi chia sẻ tin vui trong buổi họp nhóm tiếp theo, để mọi người luôn có động lực."
+      },
+      {
+        en: "Overall, clear communication connects everything at work, whether I'm leading a meeting, writing an email, or talking to a client.",
+        ipa: "/ˌoʊvərˈɔːl, klɪr kəˌmjunɪˈkeɪʃən kəˈnɛkts ˈɛvriθɪŋ æt wɜːrk, ˈwɛðər aɪm ˈliːdɪŋ ə ˈmiːtɪŋ, ˈraɪtɪŋ ən ˈiːmeɪl, ɔːr ˈtɔːkɪŋ tu ə ˈklaɪənt/",
+        vi: "Nhìn chung, giao tiếp rõ ràng kết nối mọi thứ trong công việc, dù tôi đang chủ trì cuộc họp, viết email, hay nói chuyện với khách hàng."
+      }
+    ],
+    vocabulary: [
+      { word: "although", ipa: "/ɔːlˈðoʊ/", type: "conj", meaning: "mặc dù" },
+      { word: "because", ipa: "/bɪˈkɔːz/", type: "conj", meaning: "bởi vì" },
+      { word: "so", ipa: "/soʊ/", type: "conj", meaning: "vì vậy, nên" },
+      { word: "in addition to", ipa: "/ɪn əˈdɪʃən tu/", type: "phrase", meaning: "ngoài ... ra, bên cạnh" },
+      { word: "however + adj/adv", ipa: "/haʊˈɛvər/", type: "adv", meaning: "dù ... đến đâu" },
+      { word: "no matter what", ipa: "/noʊ ˈmætər wʌt/", type: "phrase", meaning: "dù thế nào, bất kể điều gì" },
+      { word: "used to", ipa: "/just tu/", type: "phrase", meaning: "đã từng (nay không còn)" },
+      { word: "encouragement", ipa: "/ɪnˈkɜːrɪdʒmənt/", type: "n", meaning: "sự động viên, khích lệ" },
+      { word: "confident", ipa: "/ˈkɑːnfɪdənt/", type: "adj", meaning: "tự tin" },
+      { word: "next steps", ipa: "/nɛkst stɛps/", type: "n", meaning: "các bước tiếp theo" },
+      { word: "motivated", ipa: "/ˈmoʊtɪveɪtɪd/", type: "adj", meaning: "có động lực" },
+      { word: "whether... or...", ipa: "/ˈwɛðər ɔːr/", type: "conj", meaning: "dù là ... hay ..." }
+    ],
+    grammar: [
+      {
+        sentence: "Although our weekly meetings are useful, they sometimes run over time because everyone wants to share their ideas.",
+        explain: "<b>Although + mệnh đề</b> (nhượng bộ) kết hợp <b>because + mệnh đề</b> (lý do) trong một câu. Nối ý Ngày 15 – Họp hành. <b>everyone</b> đi với động từ số ít <b>wants</b>."
+      },
+      {
+        sentence: "After every meeting, I send a short follow-up email, so nobody forgets their action items.",
+        explain: "Liên từ <b>so</b> (đứng sau dấu phẩy) chỉ kết quả. Nối họp hành (Ngày 15) với email (Ngày 16)."
+      },
+      {
+        sentence: "My manager said my presentations were clear, but she suggested that I make more eye contact.",
+        explain: "Câu tường thuật lùi thì <b>said (that)... were</b>. <b>but</b> nối hai ý tương phản. <b>suggest that + S + V nguyên mẫu</b>. Nối Ngày 17 và Ngày 18."
+      },
+      {
+        sentence: "In addition to rehearsing my slides, I now prepare answers to questions that clients might ask.",
+        explain: "<b>In addition to + V-ing/N</b> (lưu ý <b>to</b> ở đây là giới từ nên theo sau là V-ing). <b>might</b> chỉ khả năng. Nối Ngày 17 và Ngày 19."
+      },
+      {
+        sentence: "However well I prepare, negotiating with a difficult client still makes me a little nervous.",
+        explain: "<b>However + adj/adv + S + V</b> = dù ... đến đâu. Danh động từ <b>negotiating...</b> làm chủ ngữ (động từ số ít <b>makes</b>). <b>make + O + adj</b>."
+      },
+      {
+        sentence: "Because I'm taking a few days off next month, I've started handing over my client emails to a teammate.",
+        explain: "<b>Because</b> đứng đầu câu. Hiện tại tiếp diễn cho kế hoạch tương lai (<b>I'm taking</b>). Hiện tại hoàn thành <b>have started + V-ing</b>. Nối Ngày 18, 16 và 19."
+      },
+      {
+        sentence: "No matter what the client decides, I always write a polite summary email to confirm the next steps.",
+        explain: "<b>No matter what + S + V</b> = bất kể điều gì. <b>to confirm</b> chỉ mục đích. Nối đàm phán (Ngày 19) với email (Ngày 16)."
+      },
+      {
+        sentence: "Presenting in meetings used to scare me; however, my manager's encouragement has made me much more confident.",
+        explain: "<b>used to + V</b> = thói quen/trạng thái trong quá khứ nay đã khác. <b>; however,</b> nối hai mệnh đề độc lập tương phản. <b>much more + adj</b> nhấn mạnh so sánh."
+      },
+      {
+        sentence: "If a negotiation goes well, I share the good news at our next team meeting, so everyone stays motivated.",
+        explain: "Câu điều kiện loại 0 <b>If + hiện tại, hiện tại</b> cho thói quen. <b>so</b> chỉ kết quả. <b>stay + adj</b> = giữ trạng thái. Nối Ngày 19 và Ngày 15."
+      },
+      {
+        sentence: "Overall, clear communication connects everything at work, whether I'm leading a meeting, writing an email, or talking to a client.",
+        explain: "<b>whether A, B, or C</b> = dù là A, B hay C, với ba <b>V-ing</b> song song. Tổng kết cả năm chủ đề văn phòng."
+      }
+    ],
+    speaking: [
+      {
+        cues: "although / meetings / emails",
+        question: "Do you think some meetings could be replaced by emails? Why or why not?",
+        vi: "Bạn có nghĩ một số cuộc họp có thể thay bằng email không? Tại sao?",
+        hint: "Kết hợp họp hành (Ngày 15) và email (Ngày 16), dùng <b>Although..., ... because...</b>"
+      },
+      {
+        cues: "however + adj / presentation / manager feedback",
+        question: "However nervous you feel, how do you use your manager's feedback to improve your presentations?",
+        vi: "Dù hồi hộp đến đâu, bạn sử dụng góp ý của quản lý để cải thiện bài thuyết trình như thế nào?",
+        hint: "Kết hợp Ngày 17 và Ngày 18, dùng <b>However + adj + S + V, ...</b>"
+      },
+      {
+        cues: "in addition to / prepare / client meeting",
+        question: "Besides preparing slides, what else do you do to get ready for an important client meeting?",
+        vi: "Ngoài việc chuẩn bị trang chiếu, bạn còn làm gì để sẵn sàng cho một buổi gặp khách hàng quan trọng?",
+        hint: "Kết hợp thuyết trình (Ngày 17) và khách hàng (Ngày 19), dùng <b>In addition to + V-ing, I also...</b>"
+      },
+      {
+        cues: "because / time off / clients + emails",
+        question: "Because you'll be on leave soon, how will you make sure your clients' emails are still answered?",
+        vi: "Vì sắp nghỉ phép, bạn sẽ đảm bảo email của khách hàng vẫn được trả lời như thế nào?",
+        hint: "Kết hợp Ngày 18, 16 và 19, dùng <b>Because..., I will hand over... so...</b>"
+      },
+      {
+        cues: "no matter what / negotiation / follow-up",
+        question: "No matter what result a negotiation has, what do you always do afterward?",
+        vi: "Dù cuộc đàm phán có kết quả thế nào, sau đó bạn luôn làm gì?",
+        hint: "Kết hợp đàm phán (Ngày 19) và email (Ngày 16), dùng <b>No matter what + S + V, I always...</b>"
+      },
+      {
+        cues: "used to / however / confident at work",
+        question: "What used to be difficult for you at work, and what has helped you become more confident?",
+        vi: "Điều gì trong công việc từng khó khăn với bạn, và điều gì đã giúp bạn tự tin hơn?",
+        hint: "Dùng <b>... used to + V; however, ... has made me...</b> và nối ít nhất hai chủ đề trong tuần."
+      },
+      {
+        cues: "whether / communication / meetings + emails + clients",
+        question: "Why is clear communication important whether you are in a meeting, writing an email, or talking to a client?",
+        vi: "Tại sao giao tiếp rõ ràng lại quan trọng dù bạn đang họp, viết email hay nói chuyện với khách hàng?",
+        hint: "Dùng <b>whether A, B, or C</b> và <b>because/so</b> để nối các chủ đề (Ngày 15, 16, 19)."
       }
     ]
   }
