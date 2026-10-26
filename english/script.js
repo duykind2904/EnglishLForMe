@@ -2,7 +2,7 @@
 // Chỉ các ngày từ MIN_DATE (ngày bắt đầu học) trở đi mới được hiển thị/chọn.
 const LESSONS = [
   {
-    date: "2026-10-05",
+    date: "2026-10-19",
     topic: "Giới thiệu bản thân (Self-Introduction)",
     sentences: [
       {
@@ -167,7 +167,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-06",
+    date: "2026-10-20",
     topic: "Gia đình (Family)",
     sentences: [
       {
@@ -326,7 +326,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-07",
+    date: "2026-10-21",
     topic: "Đồ ăn & Nhà hàng (Food & Dining)",
     sentences: [
       {
@@ -485,7 +485,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-08",
+    date: "2026-10-22",
     topic: "Thời tiết & Các mùa (Weather & Seasons)",
     sentences: [
       {
@@ -644,7 +644,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-09",
+    date: "2026-10-23",
     topic: "Mua sắm (Shopping)",
     sentences: [
       {
@@ -803,7 +803,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-10",
+    date: "2026-10-24",
     topic: "Ôn tập tuần 1: Từ vựng & Ngữ pháp (Weekly Review 1 — Vocabulary & Grammar)",
     sentences: [
       {
@@ -960,7 +960,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-11",
+    date: "2026-10-25",
     topic: "Ôn tập tuần 1: Luyện nói tổng hợp (Weekly Review 2 — Speaking Synthesis)",
     sentences: [
       {
@@ -1116,7 +1116,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-12",
+    date: "2026-10-26",
     topic: "Du lịch & Phương tiện di chuyển (Travel & Transportation)",
     sentences: [
       {
@@ -1275,7 +1275,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-13",
+    date: "2026-10-27",
     topic: "Sức khỏe & Tập luyện (Health & Exercise)",
     sentences: [
       {
@@ -1433,7 +1433,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-14",
+    date: "2026-10-28",
     topic: "Sở thích & Thời gian rảnh (Hobbies & Free Time)",
     sentences: [
       {
@@ -1590,7 +1590,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-15",
+    date: "2026-10-29",
     topic: "Công việc & Cuộc sống văn phòng (Work & Office Life)",
     sentences: [
       {
@@ -1748,7 +1748,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-16",
+    date: "2026-10-30",
     topic: "Công nghệ & Mạng xã hội (Technology & Social Media)",
     sentences: [
       {
@@ -1906,7 +1906,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-17",
+    date: "2026-10-31",
     topic: "Ôn tập tuần 2: Từ vựng & Ngữ pháp (Weekly Review 3 — Vocabulary & Grammar)",
     sentences: [
       {
@@ -2063,7 +2063,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-18",
+    date: "2026-11-01",
     topic: "Ôn tập tuần 2: Luyện nói tổng hợp (Weekly Review 4 — Speaking Synthesis)",
     sentences: [
       {
@@ -2219,7 +2219,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-19",
+    date: "2026-11-02",
     topic: "Họp hành (Meetings)",
     sentences: [
       {
@@ -2377,7 +2377,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-20",
+    date: "2026-11-03",
     topic: "Email & Giao tiếp công sở (Emails & Workplace Communication)",
     sentences: [
       {
@@ -2536,7 +2536,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-21",
+    date: "2026-11-04",
     topic: "Thuyết trình (Giving Presentations)",
     sentences: [
       {
@@ -2701,7 +2701,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-22",
+    date: "2026-11-05",
     topic: "Làm việc với sếp: Phản hồi & Xin nghỉ phép (Working with Your Manager: Feedback & Time Off)",
     sentences: [
       {
@@ -2860,7 +2860,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-23",
+    date: "2026-11-06",
     topic: "Gặp khách hàng & Đàm phán (Meeting Clients & Negotiating)",
     sentences: [
       {
@@ -3019,7 +3019,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-24",
+    date: "2026-11-07",
     topic: "Ôn tập tuần 3: Từ vựng & Ngữ pháp (Weekly Review 5 — Vocabulary & Grammar)",
     sentences: [
       {
@@ -3178,7 +3178,7 @@ const LESSONS = [
     ]
   },
   {
-    date: "2026-10-25",
+    date: "2026-11-08",
     topic: "Ôn tập tuần 3: Luyện nói tổng hợp (Weekly Review 6 — Speaking Synthesis)",
     sentences: [
       {

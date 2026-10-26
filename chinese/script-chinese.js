@@ -2,7 +2,7 @@
 // Chỉ các ngày từ MIN_DATE (ngày bắt đầu học) trở đi mới được hiển thị/chọn.
 const CHINESE_LESSONS = [
   {
-    date: "2026-10-05",
+    date: "2026-10-19",
     topic: "Giới thiệu bản thân (自我介绍)",
     sentences: [
       {
@@ -168,7 +168,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-06",
+    date: "2026-10-20",
     topic: "Gia đình (家庭)",
     sentences: [
       {
@@ -334,7 +334,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-07",
+    date: "2026-10-21",
     topic: "Đồ ăn & Nhà hàng (饮食与餐厅)",
     sentences: [
       {
@@ -499,7 +499,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-08",
+    date: "2026-10-22",
     topic: "Thời tiết & Các mùa (天气与季节)",
     sentences: [
       {
@@ -665,7 +665,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-09",
+    date: "2026-10-23",
     topic: "Mua sắm (购物)",
     sentences: [
       {
@@ -830,7 +830,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-10",
+    date: "2026-10-24",
     topic: "Ôn tập tuần 1: Từ vựng & Ngữ pháp (Weekly Review 1 — 词语与语法)",
     sentences: [
       {
@@ -988,7 +988,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-11",
+    date: "2026-10-25",
     topic: "Ôn tập tuần 1: Luyện nói tổng hợp (Weekly Review 2 — 口语综合练习)",
     sentences: [
       {
@@ -1144,7 +1144,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-12",
+    date: "2026-10-26",
     topic: "Du lịch & Phương tiện di chuyển (旅行与交通)",
     sentences: [
       {
@@ -1303,7 +1303,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-13",
+    date: "2026-10-27",
     topic: "Sức khỏe & Tập luyện (健康与锻炼)",
     sentences: [
       {
@@ -1462,7 +1462,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-14",
+    date: "2026-10-28",
     topic: "Sở thích & Thời gian rảnh (爱好与空闲时间)",
     sentences: [
       {
@@ -1622,7 +1622,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-15",
+    date: "2026-10-29",
     topic: "Công việc & Cuộc sống văn phòng (工作与办公室生活)",
     sentences: [
       {
@@ -1782,7 +1782,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-16",
+    date: "2026-10-30",
     topic: "Công nghệ & Mạng xã hội (科技与社交媒体)",
     sentences: [
       {
@@ -1941,7 +1941,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-17",
+    date: "2026-10-31",
     topic: "Ôn tập tuần 2: Từ vựng & Ngữ pháp (Weekly Review 3 — 词语与语法)",
     sentences: [
       {
@@ -2098,7 +2098,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-18",
+    date: "2026-11-01",
     topic: "Ôn tập tuần 2: Luyện nói tổng hợp (Weekly Review 4 — 口语综合练习)",
     sentences: [
       {
@@ -2254,7 +2254,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-19",
+    date: "2026-11-02",
     topic: "Họp hành (开会)",
     sentences: [
       {
@@ -2414,7 +2414,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-20",
+    date: "2026-11-03",
     topic: "Email & Giao tiếp công sở (邮件与职场沟通)",
     sentences: [
       {
@@ -2574,7 +2574,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-21",
+    date: "2026-11-04",
     topic: "Thuyết trình (做报告)",
     sentences: [
       {
@@ -2734,7 +2734,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-22",
+    date: "2026-11-05",
     topic: "Làm việc với sếp: Phản hồi & Xin nghỉ phép (和领导沟通：反馈与请假)",
     sentences: [
       {
@@ -2894,7 +2894,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-23",
+    date: "2026-11-06",
     topic: "Gặp khách hàng & Đàm phán (见客户与谈判)",
     sentences: [
       {
@@ -3054,7 +3054,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-24",
+    date: "2026-11-07",
     topic: "Ôn tập tuần 3: Từ vựng & Ngữ pháp (Weekly Review 5 — 词语与语法)",
     sentences: [
       {
@@ -3213,7 +3213,7 @@ const CHINESE_LESSONS = [
     ]
   },
   {
-    date: "2026-10-25",
+    date: "2026-11-08",
     topic: "Ôn tập tuần 3: Luyện nói tổng hợp (Weekly Review 6 — 口语综合练习)",
     sentences: [
       {
