@@ -273,9 +273,12 @@ let flashWords = [];
 let flashPos = 0;
 let flashFlipped = false;
 let flashOnlyUnlearned = false;
+let flashMode = "en-vi"; // en-vi: mặt trước là từ tiếng Anh; vi-en: mặt trước là nghĩa tiếng Việt
 
 function startFlash(shuffled){
   flashWords = lessonWords();
+  // Việt → Anh cần có nghĩa để hiện ở mặt trước.
+  if(flashMode === "vi-en") flashWords = flashWords.filter(v => v.vi);
   if(flashOnlyUnlearned) flashWords = flashWords.filter(v => !learned.has(v.id));
   if(shuffled) flashWords = shuffle(flashWords);
   flashPos = 0;
@@ -287,21 +290,34 @@ function renderFlash(){
   const panel = document.getElementById("panel-flash");
   const v = flashWords[flashPos];
   const options = `<div class="card vc-toolbar">
+      <label><input type="radio" name="flashMode" value="en-vi" ${flashMode === "en-vi" ? "checked" : ""}> Anh → Việt</label>
+      <label><input type="radio" name="flashMode" value="vi-en" ${flashMode === "vi-en" ? "checked" : ""}> Việt → Anh</label>
       <label><input type="checkbox" id="flashOnlyUnlearned" ${flashOnlyUnlearned ? "checked" : ""}> Chỉ học từ chưa thuộc</label>
       <button class="vc-btn" id="flashShuffle">🔀 Trộn thẻ</button>
     </div>`;
 
   if(!v){
-    panel.innerHTML = options + `<div class="card empty">Bạn đã thuộc hết từ trong bài này! 🎉</div>`;
+    const msg = flashOnlyUnlearned
+      ? "Bạn đã thuộc hết từ trong bài này! 🎉"
+      : "Các từ trong bài này chưa có nghĩa tiếng Việt trong file Excel.";
+    panel.innerHTML = options + `<div class="card empty">${msg}</div>`;
   }else{
+    const wordHtml = `<div class="vc-big-word">${escapeHtml(v.w)} ${speakBtn(v.w)}</div>
+        ${v.ipa ? `<div class="phonetic">${escapeHtml(v.ipa)}</div>` : ""}`;
+    const front = flashMode === "en-vi"
+      ? wordHtml
+      : `<div class="vc-big-word vc-quiz-vi">${escapeHtml(v.vi)}</div>
+         ${v.type ? `<div class="phonetic">${escapeHtml(v.type)}</div>` : ""}`;
+    const back = flashMode === "en-vi"
+      ? `${meaningHtml(v)}${examplesHtml(v)}`
+      : `${wordHtml}${examplesHtml(v)}`;
     panel.innerHTML = options + `
       <div class="card vc-flashcard" id="flashCard">
         <div class="vc-count">${flashPos + 1} / ${flashWords.length}</div>
-        <div class="vc-big-word">${escapeHtml(v.w)} ${speakBtn(v.w)}</div>
-        ${v.ipa ? `<div class="phonetic">${escapeHtml(v.ipa)}</div>` : ""}
+        ${front}
         ${flashFlipped
-          ? `<div class="vc-flash-back">${meaningHtml(v)}${examplesHtml(v)}</div>`
-          : `<div class="vc-flash-hint">Bấm vào thẻ (hoặc phím cách) để xem nghĩa</div>`}
+          ? `<div class="vc-flash-back">${back}</div>`
+          : `<div class="vc-flash-hint">Bấm vào thẻ (hoặc phím cách) để xem ${flashMode === "en-vi" ? "nghĩa" : "từ tiếng Anh"}</div>`}
       </div>
       <div class="vc-nav">
         <button class="vc-btn" id="flashPrev" ${flashPos === 0 ? "disabled" : ""}>← Trước</button>
@@ -322,6 +338,10 @@ function renderFlash(){
     startFlash();
   });
   document.getElementById("flashShuffle").addEventListener("click", () => startFlash(true));
+  panel.querySelectorAll("input[name=flashMode]").forEach(r => r.addEventListener("change", () => {
+    flashMode = r.value;
+    startFlash();
+  }));
 }
 
 function flipFlash(){
