@@ -137,7 +137,7 @@ document.addEventListener("click", (e) => {
 // ---------------- Học 3000 từ vựng ----------------
 // Dữ liệu VOCAB nằm ở vocab-data.js (sinh từ file Excel bằng tools/build_vocab.py).
 
-const LESSON_SIZE = 20;
+const LESSON_SIZE = 100;
 const LEARNED_KEY = "vocab:learned";
 const LESSON_KEY = "vocab:lesson";
 const LESSON_COUNT = Math.ceil(VOCAB.length / LESSON_SIZE);
