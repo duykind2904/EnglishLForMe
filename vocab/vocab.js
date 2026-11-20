@@ -145,6 +145,15 @@ const LESSON_COUNT = Math.ceil(VOCAB.length / LESSON_SIZE);
 const learned = new Set(JSON.parse(localStorage.getItem(LEARNED_KEY) || "[]"));
 let lessonIndex = Math.min(Number(localStorage.getItem(LESSON_KEY)) || 0, LESSON_COUNT - 1);
 
+// Lưu các tùy chọn (ẩn từ đã thuộc, chế độ flashcard/quiz...) để mở lại trang vẫn giữ nguyên.
+function loadOpt(key, fallback){
+  const v = localStorage.getItem("vocab:opt:" + key);
+  return v === null ? fallback : JSON.parse(v);
+}
+function saveOpt(key, value){
+  localStorage.setItem("vocab:opt:" + key, JSON.stringify(value));
+}
+
 function escapeHtml(text){
   return String(text).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
@@ -220,7 +229,7 @@ lessonPicker.addEventListener("change", () => {
 // ---------- Tab Danh sách ----------
 const LIST_LIMIT = 200;
 let listSearch = "";
-let hideLearned = false;
+let hideLearned = loadOpt("hideLearned", false);
 
 function renderList(){
   const panel = document.getElementById("panel-list");
@@ -264,6 +273,7 @@ function renderList(){
   });
   document.getElementById("hideLearned").addEventListener("change", (e) => {
     hideLearned = e.target.checked;
+    saveOpt("hideLearned", hideLearned);
     renderList();
   });
 }
@@ -272,8 +282,8 @@ function renderList(){
 let flashWords = [];
 let flashPos = 0;
 let flashFlipped = false;
-let flashOnlyUnlearned = false;
-let flashMode = "en-vi"; // en-vi: mặt trước là từ tiếng Anh; vi-en: mặt trước là nghĩa tiếng Việt
+let flashOnlyUnlearned = loadOpt("flashOnlyUnlearned", false);
+let flashMode = loadOpt("flashMode", "en-vi"); // en-vi: mặt trước là từ tiếng Anh; vi-en: mặt trước là nghĩa tiếng Việt
 
 function startFlash(shuffled){
   flashWords = lessonWords();
@@ -335,11 +345,13 @@ function renderFlash(){
 
   document.getElementById("flashOnlyUnlearned").addEventListener("change", (e) => {
     flashOnlyUnlearned = e.target.checked;
+    saveOpt("flashOnlyUnlearned", flashOnlyUnlearned);
     startFlash();
   });
   document.getElementById("flashShuffle").addEventListener("click", () => startFlash(true));
   panel.querySelectorAll("input[name=flashMode]").forEach(r => r.addEventListener("change", () => {
     flashMode = r.value;
+    saveOpt("flashMode", flashMode);
     startFlash();
   }));
 }
@@ -371,7 +383,7 @@ document.addEventListener("keydown", (e) => {
 // ---------- Tab Kiểm tra ----------
 // Chỉ kiểm tra được những từ đã có nghĩa tiếng Việt.
 const WITH_MEANING = VOCAB.filter(v => v.vi);
-let quizMode = "en-vi"; // en-vi: nhìn từ chọn nghĩa; vi-en: nhìn nghĩa chọn từ
+let quizMode = loadOpt("quizMode", "en-vi"); // en-vi: nhìn từ chọn nghĩa; vi-en: nhìn nghĩa chọn từ
 let quiz = null;
 
 function startQuiz(){
@@ -443,6 +455,7 @@ function renderQuiz(){
 
   panel.querySelectorAll("input[name=quizMode]").forEach(r => r.addEventListener("change", () => {
     quizMode = r.value;
+    saveOpt("quizMode", quizMode);
     startQuiz();
   }));
   document.getElementById("quizRestart").addEventListener("click", startQuiz);
